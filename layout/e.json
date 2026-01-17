@@ -1,0 +1,1907 @@
+{
+  "menu": [
+    {
+      "menuDp": 1,
+      "menuId": "sapgntk1",
+      "menuNm": "About Us",
+      "gnbExpsrYn": "T",
+      "siteMapngExpsrYn": "T",
+      "oneDpMenuTy": "aboutUs",
+      "oneDpDc": "아모레퍼시픽은 ‘사람을 아름답게, 세상을 아름답게(We Make A MORE Beautiful World)’ 합니다. 80여 년간 아름다움과 건강을 이끌어온 소명을 바탕으로, 이제는 나이·성별·문화에 상관없이 전 세계 모든 이가 자신만의 아름다움을 실현할 수 있도록 ‘New Beauty’라는 아름다움의 미래를 만들어갑니다.",
+      "linkUrl": "/int/ko/about-us/about-us.html",
+
+      "reprsntLwprtMenuImage": "",
+      "reprsntLwprtMenuDc": "",
+
+      "reprsntLwprtMenuLinkUrl": "/int/ko/about-us/amorepacific/our-history/our-history.html",
+      "reprsntLwprtMenuLinkTitle": "Our History",
+      "reprsntLwprtMenuExtrlLinkUrl": "",
+
+      "children": [
+        {
+          "menuDp": 2,
+          "menuId": "sapgntk11",
+          "menuNm": "Amorepacific",
+          "gnbExpsrYn": "T",
+          "siteMapngExpsrYn": "T",
+          "linkUrl": "/int/ko/about-us/amorepacific/amorepacific.html",
+          "children": [
+            {
+              "menuDp": 3,
+              "menuId": "sapgntk111",
+              "menuNm": "Our Story",
+              "gnbExpsrYn": "T",
+              "siteMapngExpsrYn": "T",
+              "linkUrl": "/int/ko/about-us/amorepacific/our-story/our-story.html",
+              "children": []
+            },
+            {
+              "menuDp": 3,
+              "menuId": "sapgntk112",
+              "menuNm": "Our History",
+              "gnbExpsrYn": "T",
+              "siteMapngExpsrYn": "T",
+              "linkUrl": "/int/ko/about-us/amorepacific/our-history/our-history.html",
+              "children": []
+            },
+            {
+              "menuDp": 3,
+              "menuId": "sapgntk114",
+              "menuNm": "Our Values",
+              "gnbExpsrYn": "T",
+              "siteMapngExpsrYn": "T",
+              "linkUrl": "/int/ko/about-us/amorepacific/our-values/our-values.html",
+              "children": []
+            }
+          ]
+        },
+        {
+          "menuDp": 2,
+          "menuId": "sapgntk17",
+          "menuNm": "Research & Innovation",
+          "gnbExpsrYn": "T",
+          "siteMapngExpsrYn": "T",
+          "linkUrl": "/int/ko/about-us/research-innovation/research-innovation.html",
+          "children": [
+            {
+              "menuDp": 3,
+              "menuId": "sapgntk171",
+              "menuNm": "연구개발",
+              "gnbExpsrYn": "T",
+              "siteMapngExpsrYn": "T",
+              "linkUrl": "/int/ko/about-us/research-innovation/rni/rni.html",
+              "children": [
+                {
+                  "menuDp": 4,
+                  "menuId": "sapgntk1716",
+                  "menuNm": "혁신기술",
+                  "gnbExpsrYn": "T",
+                  "siteMapngExpsrYn": "T",
+                  "linkUrl": "/int/ko/about-us/research-innovation/rni/beauty-research-innovation/beauty-research-innovation.html",
+                  "children": []
+                },
+                {
+                  "menuDp": 4,
+                  "menuId": "sapgntk1712",
+                  "menuNm": "연구개발 히스토리",
+                  "gnbExpsrYn": "F",
+                  "siteMapngExpsrYn": "F",
+                  "linkUrl": "#",
+                  "children": []
+                },
+                {
+                  "menuDp": 4,
+                  "menuId": "sapgntk1713",
+                  "menuNm": "오픈 이노베이션",
+                  "gnbExpsrYn": "T",
+                  "siteMapngExpsrYn": "T",
+                  "linkUrl": "/int/ko/about-us/research-innovation/rni/open-innovation/open-innovation.html",
+                  "children": []
+                },
+                {
+                  "menuDp": 4,
+                  "menuId": "sapgntk1714",
+                  "menuNm": "고객연구센터",
+                  "gnbExpsrYn": "F",
+                  "siteMapngExpsrYn": "F",
+                  "linkUrl": "/int/ko/about-us/research-innovation/rni/consumer-research/consumer-research.html",
+                  "children": []
+                },
+                {
+                  "menuDp": 4,
+                  "menuId": "sapgntk1717",
+                  "menuNm": "아트 & 사이언스",
+                  "gnbExpsrYn": "T",
+                  "siteMapngExpsrYn": "T",
+                  "linkUrl": "/int/ko/about-us/research-innovation/rni/art-science/art-science.html",
+                  "children": []
+                },
+                {
+                  "menuDp": 4,
+                  "menuId": "sapgntk1715",
+                  "menuNm": "연구개발 뉴스",
+                  "gnbExpsrYn": "T",
+                  "siteMapngExpsrYn": "T",
+                  "linkUrl": "/int/ko/about-us/research-innovation/rni/rnd-news/rnd-news.html",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "menuDp": 3,
+              "menuId": "sapgntk172",
+              "menuNm": "생산물류(SCM)",
+              "gnbExpsrYn": "T",
+              "siteMapngExpsrYn": "T",
+              "linkUrl": "/int/ko/about-us/research-innovation/scm/scm.html",
+              "children": [
+                {
+                  "menuDp": 4,
+                  "menuId": "sapgntk1721",
+                  "menuNm": "생산",
+                  "gnbExpsrYn": "T",
+                  "siteMapngExpsrYn": "T",
+                  "linkUrl": "/int/ko/about-us/research-innovation/scm/manufacturing/manufacturing.html",
+                  "children": []
+                },
+                {
+                  "menuDp": 4,
+                  "menuId": "sapgntk1722",
+                  "menuNm": "물류",
+                  "gnbExpsrYn": "T",
+                  "siteMapngExpsrYn": "T",
+                  "linkUrl": "/int/ko/about-us/research-innovation/scm/logistics/logistics.html",
+                  "children": []
+                },
+                {
+                  "menuDp": 4,
+                  "menuId": "sapgntk1723",
+                  "menuNm": "SCM 히스토리",
+                  "gnbExpsrYn": "F",
+                  "siteMapngExpsrYn": "F",
+                  "linkUrl": "#",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "menuDp": 2,
+          "menuId": "sapgntk15",
+          "menuNm": "Visual Identity",
+          "gnbExpsrYn": "T",
+          "siteMapngExpsrYn": "T",
+          "linkUrl": "/int/ko/about-us/visual-identity/visual-identity.html",
+          "children": [
+            {
+              "menuDp": 3,
+              "menuId": "sapgntk151",
+              "menuNm": "CI",
+              "gnbExpsrYn": "T",
+              "siteMapngExpsrYn": "T",
+              "linkUrl": "/int/ko/about-us/visual-identity/corporate-identity/corporate-identity.html",
+              "children": []
+            },
+            {
+              "menuDp": 3,
+              "menuId": "sapgntk153",
+              "menuNm": "아리따 글꼴",
+              "gnbExpsrYn": "T",
+              "siteMapngExpsrYn": "T",
+              "linkUrl": "/int/ko/about-us/visual-identity/arita-typeface/arita-typeface.html",
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "menuDp": 1,
+      "menuId": "sapgntk3",
+      "menuNm": "Brands",
+      "gnbExpsrYn": "T",
+      "siteMapngExpsrYn": "T",
+      "oneDpMenuTy": "Brand",
+      "oneDpDc": "아모레퍼시픽은 기존의 뷰티 영역을 넘어, 스킨케어, 이너뷰티, 뷰티 테크를 아우르는 확장된 뷰티 경험을 제공합니다. 고객의 니즈와 시대의 변화를 읽는 통찰력과 도전 정신으로, 아모레퍼시픽의 브랜드는 혁신적인 제품을 통해 전 세계 고객을 위한 아름다움을 선사합니다.",
+      "linkUrl": "/int/ko/brands/brands.html",
+
+      "reprsntLwprtMenuImage": "",
+      "reprsntLwprtMenuDc": "",
+      "reprsntLwprtMenuLinkUrl": "",
+      "reprsntLwprtMenuExtrlLinkUrl": "",
+      "reprsntLwprtMenuLinkTitle": "",
+
+      "brandse": [
+        {
+          "menuDp": 2,
+          "menuId": "Beauty Care",
+          "menuNm": "화장품",
+          "gnbExpsrYn": "T",
+          "siteMapngExpsrYn": "T",
+          "children": []
+        },
+        {
+          "menuDp": 2,
+          "menuId": "Medical Beauty",
+          "menuNm": "메디컬뷰티",
+          "gnbExpsrYn": "T",
+          "siteMapngExpsrYn": "T",
+          "children": []
+        },
+        {
+          "menuDp": 2,
+          "menuId": "Beauty Device",
+          "menuNm": "뷰티 디바이스",
+          "gnbExpsrYn": "T",
+          "siteMapngExpsrYn": "T",
+          "children": []
+        },
+        {
+          "menuDp": 2,
+          "menuId": "Inner Beauty",
+          "menuNm": "이너뷰티",
+          "gnbExpsrYn": "T",
+          "siteMapngExpsrYn": "T",
+          "children": []
+        },
+        {
+          "menuDp": 2,
+          "menuId": "Hair",
+          "menuNm": "헤어케어",
+          "gnbExpsrYn": "T",
+          "siteMapngExpsrYn": "T",
+          "children": []
+        },
+        {
+          "menuDp": 2,
+          "menuId": "Body",
+          "menuNm": "바디케어",
+          "gnbExpsrYn": "T",
+          "siteMapngExpsrYn": "T",
+          "children": []
+        },
+        {
+          "menuDp": 2,
+          "menuId": "Oral Care",
+          "menuNm": "덴탈케어",
+          "gnbExpsrYn": "T",
+          "siteMapngExpsrYn": "T",
+          "children": []
+        },
+        {
+          "menuDp": 2,
+          "menuId": "Tea Culture",
+          "menuNm": "티컬처",
+          "gnbExpsrYn": "T",
+          "siteMapngExpsrYn": "T",
+          "children": []
+        }
+      ],
+      "children": [
+        {
+          "menuDp": 2,
+          "menuId": "1284118",
+          "menuNm": "설화수",
+          "markNm": "설화수",
+          "gnbExpsrYn": "T",
+          "siteMapngExpsrYn": "T",
+          "expsrYn": "T",
+          "linkUrl": "/int/ko/brands/sulwhasoo.html",
+          "brdSe": "Beauty Care",
+          "gnbImage": "/int/ko/brands/__icsFiles/afieldfile/2023/01/04/gnb.jpg",
+          "gnbImageNm": "gnb.jpg",
+          "brdCSS": "sulwhasoo",
+          "children": []
+        },
+        {
+          "menuDp": 2,
+          "menuId": "1284119",
+          "menuNm": "라네즈",
+          "markNm": "라네즈",
+          "gnbExpsrYn": "T",
+          "siteMapngExpsrYn": "T",
+          "expsrYn": "T",
+          "linkUrl": "/int/ko/brands/laneige.html",
+          "brdSe": "Beauty Care",
+          "gnbImage": "/int/ko/brands/__icsFiles/afieldfile/2024/12/17/gnbHover_241217.png",
+          "gnbImageNm": "gnbHover_241217.png",
+          "brdCSS": "laneige",
+          "children": []
+        },
+        {
+          "menuDp": 2,
+          "menuId": "1284121",
+          "menuNm": "이니스프리",
+          "markNm": "이니스프리",
+          "gnbExpsrYn": "T",
+          "siteMapngExpsrYn": "T",
+          "expsrYn": "T",
+          "linkUrl": "/int/ko/brands/innisfree.html",
+          "brdSe": "Beauty Care",
+          "gnbImage": "/int/ko/brands/__icsFiles/afieldfile/2023/03/08/gnb_108x14.png",
+          "gnbImageNm": "gnb_108x14.png",
+          "brdCSS": "innisfree",
+          "children": []
+        },
+        {
+          "menuDp": 2,
+          "menuId": "1284117",
+          "menuNm": "에이피 뷰티",
+          "markNm": "에이피 뷰티",
+          "gnbExpsrYn": "F",
+          "siteMapngExpsrYn": "T",
+          "expsrYn": "T",
+          "linkUrl": "/int/ko/brands/ap-beauty.html",
+          "brdSe": "Beauty Care",
+          "gnbImage": "/int/ko/brands/__icsFiles/afieldfile/",
+          "gnbImageNm": "",
+          "brdCSS": "",
+          "children": []
+        },
+        {
+          "menuDp": 2,
+          "menuId": "1284123",
+          "menuNm": "헤라",
+          "markNm": "헤라",
+          "gnbExpsrYn": "T",
+          "siteMapngExpsrYn": "T",
+          "expsrYn": "T",
+          "linkUrl": "/int/ko/brands/hera.html",
+          "brdSe": "Beauty Care",
+          "gnbImage": "/int/ko/brands/__icsFiles/afieldfile/2020/10/19/gnb_hera_minify_1_2.jpg",
+          "gnbImageNm": "gnb_hera_minify_1_2.jpg",
+          "brdCSS": "hera",
+          "children": []
+        },
+        {
+          "menuDp": 2,
+          "menuId": "1284125",
+          "menuNm": "프리메라",
+          "markNm": "프리메라",
+          "gnbExpsrYn": "T",
+          "siteMapngExpsrYn": "T",
+          "expsrYn": "T",
+          "linkUrl": "/int/ko/brands/primera.html",
+          "brdSe": "Beauty Care",
+          "gnbImage": "/int/ko/brands/__icsFiles/afieldfile/2022/12/09/bi_primera_2_2.jpg",
+          "gnbImageNm": "bi_primera_2_2.jpg",
+          "brdCSS": "primera",
+          "children": []
+        },
+        {
+          "menuDp": 2,
+          "menuId": "1284124",
+          "menuNm": "아이오페",
+          "markNm": "아이오페",
+          "gnbExpsrYn": "T",
+          "siteMapngExpsrYn": "T",
+          "expsrYn": "T",
+          "linkUrl": "/int/ko/brands/iope.html",
+          "brdSe": "Beauty Care",
+          "gnbImage": "/int/ko/brands/__icsFiles/afieldfile/2024/03/22/gnb_iope_2.jpg",
+          "gnbImageNm": "gnb_iope_2.jpg",
+          "brdCSS": "iope",
+          "children": []
+        },
+        {
+          "menuDp": 2,
+          "menuId": "1284120",
+          "menuNm": "마몽드",
+          "markNm": "마몽드",
+          "gnbExpsrYn": "T",
+          "siteMapngExpsrYn": "T",
+          "expsrYn": "T",
+          "linkUrl": "/int/ko/brands/mamonde.html",
+          "brdSe": "Beauty Care",
+          "gnbImage": "/int/ko/brands/__icsFiles/afieldfile/2024/03/22/gnb_mamonde.jpg",
+          "gnbImageNm": "gnb_mamonde.jpg",
+          "brdCSS": "mamonde",
+          "children": []
+        },
+        {
+          "menuDp": 2,
+          "menuId": "1284127",
+          "menuNm": "한율",
+          "markNm": "한율",
+          "gnbExpsrYn": "F",
+          "siteMapngExpsrYn": "T",
+          "expsrYn": "T",
+          "linkUrl": "/int/ko/brands/hanyul.html",
+          "brdSe": "Beauty Care",
+          "gnbImage": "/int/ko/brands/__icsFiles/afieldfile/",
+          "gnbImageNm": "",
+          "brdCSS": "",
+          "children": []
+        },
+        {
+          "menuDp": 2,
+          "menuId": "1284140",
+          "menuNm": "에스트라",
+          "markNm": "에스트라",
+          "gnbExpsrYn": "F",
+          "siteMapngExpsrYn": "T",
+          "expsrYn": "T",
+          "linkUrl": "/int/ko/brands/aestura.html",
+          "brdSe": "Medical Beauty",
+          "gnbImage": "/int/ko/brands/__icsFiles/afieldfile/",
+          "gnbImageNm": "",
+          "brdCSS": "",
+          "children": []
+        },
+        {
+          "menuDp": 2,
+          "menuId": "1284128",
+          "menuNm": "에스쁘아",
+          "markNm": "에스쁘아",
+          "gnbExpsrYn": "F",
+          "siteMapngExpsrYn": "T",
+          "expsrYn": "T",
+          "linkUrl": "/int/ko/brands/espoir.html",
+          "brdSe": "Beauty Care",
+          "gnbImage": "/int/ko/brands/__icsFiles/afieldfile/",
+          "gnbImageNm": "",
+          "brdCSS": "",
+          "children": []
+        },
+        {
+          "menuDp": 2,
+          "menuId": "1284122",
+          "menuNm": "에뛰드",
+          "markNm": "에뛰드",
+          "gnbExpsrYn": "T",
+          "siteMapngExpsrYn": "T",
+          "expsrYn": "T",
+          "linkUrl": "/int/ko/brands/etude-house.html",
+          "brdSe": "Beauty Care",
+          "gnbImage": "/int/ko/brands/__icsFiles/afieldfile/2024/03/26/gnb_etude.png",
+          "gnbImageNm": "gnb_etude.png",
+          "brdCSS": "etude-house",
+          "children": []
+        },
+        {
+          "menuDp": 2,
+          "menuId": "1284126",
+          "menuNm": "려",
+          "markNm": "려",
+          "gnbExpsrYn": "F",
+          "siteMapngExpsrYn": "T",
+          "expsrYn": "T",
+          "linkUrl": "/int/ko/brands/ryo.html",
+          "brdSe": "Hair",
+          "gnbImage": "/int/ko/brands/__icsFiles/afieldfile/2021/05/03/gnb_ryo_minify_20210503.jpg",
+          "gnbImageNm": "gnb_ryo_minify_20210503.jpg",
+          "brdCSS": "brand-a ryo",
+          "children": []
+        },
+        {
+          "menuDp": 2,
+          "menuId": "1284143",
+          "menuNm": "미쟝센",
+          "markNm": "미쟝센",
+          "gnbExpsrYn": "F",
+          "siteMapngExpsrYn": "T",
+          "expsrYn": "T",
+          "linkUrl": "/int/ko/brands/mise-en-scene.html",
+          "brdSe": "Hair",
+          "gnbImage": "/int/ko/brands/__icsFiles/afieldfile/",
+          "gnbImageNm": "",
+          "brdCSS": "",
+          "children": []
+        },
+        {
+          "menuDp": 2,
+          "menuId": "1284160",
+          "menuNm": "라보에이치",
+          "markNm": "라보에이치",
+          "gnbExpsrYn": "F",
+          "siteMapngExpsrYn": "T",
+          "expsrYn": "T",
+          "linkUrl": "/int/ko/brands/laboh.html",
+          "brdSe": "Hair",
+          "gnbImage": "/int/ko/brands/__icsFiles/afieldfile/",
+          "gnbImageNm": "",
+          "brdCSS": "",
+          "children": []
+        },
+        {
+          "menuDp": 2,
+          "menuId": "1284153",
+          "menuNm": "아윤채",
+          "markNm": "아윤채",
+          "gnbExpsrYn": "F",
+          "siteMapngExpsrYn": "T",
+          "expsrYn": "T",
+          "linkUrl": "/int/ko/brands/ayunche.html",
+          "brdSe": "Hair",
+          "gnbImage": "/int/ko/brands/__icsFiles/afieldfile/",
+          "gnbImageNm": "",
+          "brdCSS": "",
+          "children": []
+        },
+        {
+          "menuDp": 2,
+          "menuId": "1284145",
+          "menuNm": "아모스 프로페셔널",
+          "markNm": "아모스 프로페셔널",
+          "gnbExpsrYn": "F",
+          "siteMapngExpsrYn": "T",
+          "expsrYn": "T",
+          "linkUrl": "/int/ko/brands/amos-professional.html",
+          "brdSe": "Hair",
+          "gnbImage": "/int/ko/brands/__icsFiles/afieldfile/",
+          "gnbImageNm": "",
+          "brdCSS": "",
+          "children": []
+        },
+        {
+          "menuDp": 2,
+          "menuId": "1333969",
+          "menuNm": "롱테이크",
+          "markNm": "롱테이크",
+          "gnbExpsrYn": "F",
+          "siteMapngExpsrYn": "T",
+          "expsrYn": "T",
+          "linkUrl": "/int/ko/brands/longtake.html",
+          "brdSe": "Hair",
+          "gnbImage": "/int/ko/brands/__icsFiles/afieldfile/2023/03/13/gnb_108x14.png",
+          "gnbImageNm": "gnb_108x14.png",
+          "brdCSS": "",
+          "children": []
+        },
+        {
+          "menuDp": 2,
+          "menuId": "1284147",
+          "menuNm": "일리윤",
+          "markNm": "일리윤",
+          "gnbExpsrYn": "F",
+          "siteMapngExpsrYn": "T",
+          "expsrYn": "T",
+          "linkUrl": "/int/ko/brands/illiyoon.html",
+          "brdSe": "Body",
+          "gnbImage": "/int/ko/brands/__icsFiles/afieldfile/",
+          "gnbImageNm": "",
+          "brdCSS": "",
+          "children": []
+        },
+        {
+          "menuDp": 2,
+          "menuId": "1284146",
+          "menuNm": "해피바스",
+          "markNm": "해피바스",
+          "gnbExpsrYn": "F",
+          "siteMapngExpsrYn": "T",
+          "expsrYn": "T",
+          "linkUrl": "/int/ko/brands/happybath.html",
+          "brdSe": "Body",
+          "gnbImage": "/int/ko/brands/__icsFiles/afieldfile/2023/01/13/gnb_90x60.png",
+          "gnbImageNm": "gnb_90x60.png",
+          "brdCSS": "",
+          "children": []
+        },
+        {
+          "menuDp": 2,
+          "menuId": "1333018",
+          "menuNm": "스킨유",
+          "markNm": "스킨유",
+          "gnbExpsrYn": "F",
+          "siteMapngExpsrYn": "T",
+          "expsrYn": "T",
+          "linkUrl": "/int/ko/brands/skin-u.html",
+          "brdSe": "Body",
+          "gnbImage": "/int/ko/brands/__icsFiles/afieldfile/2023/01/13/gnb_87x19.png",
+          "gnbImageNm": "gnb_87x19.png",
+          "brdCSS": "",
+          "children": []
+        },
+        {
+          "menuDp": 2,
+          "menuId": "1284148",
+          "menuNm": "메디안",
+          "markNm": "메디안",
+          "gnbExpsrYn": "F",
+          "siteMapngExpsrYn": "T",
+          "expsrYn": "T",
+          "linkUrl": "/int/ko/brands/median.html",
+          "brdSe": "Oral Care",
+          "gnbImage": "/int/ko/brands/__icsFiles/afieldfile/",
+          "gnbImageNm": "",
+          "brdCSS": "",
+          "children": []
+        },
+        {
+          "menuDp": 2,
+          "menuId": "1333559",
+          "menuNm": "젠티스트",
+          "markNm": "젠티스트",
+          "gnbExpsrYn": "F",
+          "siteMapngExpsrYn": "T",
+          "expsrYn": "T",
+          "linkUrl": "/int/ko/brands/gentist.html",
+          "brdSe": "Oral Care",
+          "gnbImage": "/int/ko/brands/__icsFiles/afieldfile/2023/02/14/gnb_70x19.png",
+          "gnbImageNm": "gnb_70x19.png",
+          "brdCSS": "",
+          "children": []
+        },
+        {
+          "menuDp": 2,
+          "menuId": "1284138",
+          "menuNm": "바이탈뷰티",
+          "markNm": "바이탈뷰티",
+          "gnbExpsrYn": "F",
+          "siteMapngExpsrYn": "T",
+          "expsrYn": "T",
+          "linkUrl": "/int/ko/brands/vitalbeautie.html",
+          "brdSe": "Inner Beauty",
+          "gnbImage": "/int/ko/brands/__icsFiles/afieldfile/",
+          "gnbImageNm": "",
+          "brdCSS": "",
+          "children": []
+        },
+        {
+          "menuDp": 2,
+          "menuId": "1284142",
+          "menuNm": "오설록",
+          "markNm": "오설록",
+          "gnbExpsrYn": "F",
+          "siteMapngExpsrYn": "T",
+          "expsrYn": "T",
+          "linkUrl": "/int/ko/brands/osulloc.html",
+          "brdSe": "Tea Culture",
+          "gnbImage": "/int/ko/brands/__icsFiles/afieldfile/",
+          "gnbImageNm": "",
+          "brdCSS": "",
+          "children": []
+        },
+        {
+          "menuDp": 2,
+          "menuId": "1284133",
+          "menuNm": "메이크온",
+          "markNm": "메이크온",
+          "gnbExpsrYn": "F",
+          "siteMapngExpsrYn": "T",
+          "expsrYn": "T",
+          "linkUrl": "/int/ko/brands/makeon.html",
+          "brdSe": "Beauty Device",
+          "gnbImage": "/int/ko/brands/__icsFiles/afieldfile/",
+          "gnbImageNm": "",
+          "brdCSS": "",
+          "children": []
+        },
+        {
+          "menuDp": 2,
+          "menuId": "1284129",
+          "menuNm": "오딧세이",
+          "markNm": "오딧세이",
+          "gnbExpsrYn": "F",
+          "siteMapngExpsrYn": "T",
+          "expsrYn": "T",
+          "linkUrl": "/int/ko/brands/odyssey.html",
+          "brdSe": "Beauty Care",
+          "gnbImage": "/int/ko/brands/__icsFiles/afieldfile/",
+          "gnbImageNm": "",
+          "brdCSS": "",
+          "children": []
+        },
+        {
+          "menuDp": 2,
+          "menuId": "1284155",
+          "menuNm": "비레디",
+          "markNm": "비레디",
+          "gnbExpsrYn": "F",
+          "siteMapngExpsrYn": "T",
+          "expsrYn": "T",
+          "linkUrl": "/int/ko/brands/beready.html",
+          "brdSe": "Beauty Care",
+          "gnbImage": "/int/ko/brands/__icsFiles/afieldfile/2022/12/13/gnb.jpg",
+          "gnbImageNm": "gnb.jpg",
+          "brdCSS": "",
+          "children": []
+        },
+        {
+          "menuDp": 2,
+          "menuId": "1284154",
+          "menuNm": "홀리추얼",
+          "markNm": "홀리추얼",
+          "gnbExpsrYn": "F",
+          "siteMapngExpsrYn": "T",
+          "expsrYn": "T",
+          "linkUrl": "/int/ko/brands/holitual.html",
+          "brdSe": "Beauty Care",
+          "gnbImage": "/int/ko/brands/__icsFiles/afieldfile/",
+          "gnbImageNm": "",
+          "brdCSS": "",
+          "children": []
+        },
+        {
+          "menuDp": 2,
+          "menuId": "1355274",
+          "menuNm": "타타 하퍼",
+          "markNm": "타타 하퍼",
+          "gnbExpsrYn": "F",
+          "siteMapngExpsrYn": "T",
+          "expsrYn": "T",
+          "linkUrl": "/int/ko/brands/tataharper.html",
+          "brdSe": "Beauty Care",
+          "gnbImage": "/int/ko/brands/__icsFiles/afieldfile/",
+          "gnbImageNm": "",
+          "brdCSS": "",
+          "children": []
+        },
+        {
+          "menuDp": 2,
+          "menuId": "1355423",
+          "menuNm": "코스알엑스",
+          "markNm": "코스알엑스",
+          "gnbExpsrYn": "F",
+          "siteMapngExpsrYn": "T",
+          "expsrYn": "T",
+          "linkUrl": "/int/ko/brands/cosrx.html",
+          "brdSe": "Beauty Care",
+          "gnbImage": "/int/ko/brands/__icsFiles/afieldfile/",
+          "gnbImageNm": "",
+          "brdCSS": "",
+          "children": []
+        }
+      ]
+    },
+    {
+      "menuDp": 1,
+      "menuId": "sapgntk2",
+      "menuNm": "Our Culture",
+      "gnbExpsrYn": "T",
+      "siteMapngExpsrYn": "T",
+      "oneDpMenuTy": "OurCulture",
+      "oneDpDc": "아모레퍼시픽은 사람과 사회를 깊이 이해하고, 자연과의 조화를 바탕으로 인류의 삶에 새로운 변화를 선도해왔습니다. 사람과 세상을 더 아름답게 하고자 풍요로운 가치를 더하는 문화 활동을 다양한 분야에서 이어갑니다.",
+      "linkUrl": "/int/ko/our-culture/our-culture.html",
+
+      "reprsntLwprtMenuImage": "",
+      "reprsntLwprtMenuDc": "",
+
+      "reprsntLwprtMenuLinkUrl": "/int/ko/our-culture/amorepacific-architecture/amorepacific-architecture.html",
+      "reprsntLwprtMenuLinkTitle": "건축",
+      "reprsntLwprtMenuExtrlLinkUrl": "",
+
+      "children": [
+        {
+          "menuDp": 2,
+          "menuId": "sapgntk221",
+          "menuNm": "건축",
+          "gnbExpsrYn": "T",
+          "siteMapngExpsrYn": "T",
+          "linkUrl": "/int/ko/our-culture/amorepacific-architecture/amorepacific-architecture.html",
+          "children": [
+            {
+              "menuDp": 3,
+              "menuId": "sapgntk2211",
+              "menuNm": "본사",
+              "gnbExpsrYn": "T",
+              "siteMapngExpsrYn": "T",
+              "linkUrl": "/int/ko/our-culture/amorepacific-architecture/amorepacific-headquarters/amorepacific-headquarters.html",
+              "children": []
+            },
+            {
+              "menuDp": 3,
+              "menuId": "sapgntk2212",
+              "menuNm": "아모레 뷰티 파크",
+              "gnbExpsrYn": "T",
+              "siteMapngExpsrYn": "T",
+              "linkUrl": "/int/ko/our-culture/amorepacific-architecture/amore-beauty-park/amore-beauty-park.html",
+              "children": []
+            },
+            {
+              "menuDp": 3,
+              "menuId": "sapgntk2213",
+              "menuNm": "미지움",
+              "gnbExpsrYn": "T",
+              "siteMapngExpsrYn": "T",
+              "linkUrl": "/int/ko/our-culture/amorepacific-architecture/mizium/mizium.html",
+              "children": []
+            },
+            {
+              "menuDp": 3,
+              "menuId": "sapgntk2214",
+              "menuNm": "제주 오설록",
+              "gnbExpsrYn": "T",
+              "siteMapngExpsrYn": "T",
+              "linkUrl": "/int/ko/our-culture/amorepacific-architecture/jeju-osulloc/jeju-osulloc.html",
+              "children": []
+            }
+          ]
+        },
+        {
+          "menuDp": 2,
+          "menuId": "sapgntk26",
+          "menuNm": "공간",
+          "gnbExpsrYn": "T",
+          "siteMapngExpsrYn": "T",
+          "linkUrl": "/int/ko/our-culture/amorepacific-space/amorepacific-space.html",
+          "children": [
+            {
+              "menuDp": 3,
+              "menuId": "sapgntk261",
+              "menuNm": "본사",
+              "gnbExpsrYn": "T",
+              "siteMapngExpsrYn": "T",
+              "linkUrl": "/int/ko/our-culture/amorepacific-space/amorepacific-headquarters/amorepacific-headquarters.html",
+              "children": []
+            },
+            {
+              "menuDp": 3,
+              "menuId": "sapgntk263",
+              "menuNm": "플래그십 스토어",
+              "gnbExpsrYn": "T",
+              "siteMapngExpsrYn": "T",
+              "linkUrl": "/int/ko/our-culture/amorepacific-space/flagship-store/flagship-store.html",
+              "children": []
+            },
+            {
+              "menuDp": 3,
+              "menuId": "sapgntk262",
+              "menuNm": "아모레 뷰티 파크",
+              "gnbExpsrYn": "T",
+              "siteMapngExpsrYn": "T",
+              "linkUrl": "/int/ko/our-culture/amorepacific-space/osan-amore-beauty-park/osan-amore-beauty-park.html",
+              "children": []
+            }
+          ]
+        },
+        {
+          "menuDp": 2,
+          "menuId": "sapgntk22",
+          "menuNm": "문화경영",
+          "gnbExpsrYn": "T",
+          "siteMapngExpsrYn": "T",
+          "linkUrl": "/int/ko/our-culture/art-culture/art-culture.html",
+          "children": [
+            {
+              "menuDp": 3,
+              "menuId": "sapgntk222",
+              "menuNm": "메세나 활동",
+              "gnbExpsrYn": "T",
+              "siteMapngExpsrYn": "T",
+              "linkUrl": "/int/ko/our-culture/art-culture/culture-sharing/culture-sharing.html",
+              "children": []
+            },
+            {
+              "menuDp": 3,
+              "menuId": "sapgntk224",
+              "menuNm": "출간 도서",
+              "gnbExpsrYn": "T",
+              "siteMapngExpsrYn": "T",
+              "linkUrl": "/int/ko/our-culture/art-culture/publications/publications.html",
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "menuDp": 1,
+      "menuId": "sapgntk6",
+      "menuNm": "Commitments",
+      "gnbExpsrYn": "T",
+      "siteMapngExpsrYn": "T",
+      "oneDpMenuTy": "Commitments",
+      "oneDpDc": "아모레퍼시픽은 자연과 사람, 기업이 조화롭게 공존하는 아름다운 세상을 만들고자 합니다.  지속적인 성장의 튼튼한 기초를 쌓아 놓고자, 지속가능경영 체계를 정립하고 다양한 활동을 추진하고 있습니다. 또한 고객이 안심할 수 있는 품질을 최우선 가치로 여기며 고객의 만족을 위해 항상 노력하고 있습니다.",
+      "linkUrl": "/int/ko/commitments/commitments.html",
+
+      "reprsntLwprtMenuImage": "/int/ko/commitments/__icsFiles/metafile/2021/04/08/nav_feature_04_minify_20210408_KR.jpg",
+      "reprsntLwprtMenuDc": "",
+
+      "reprsntLwprtMenuLinkUrl": "",
+      "reprsntLwprtMenuLinkTitle": "Amorepacific Group CSR",
+      "reprsntLwprtMenuExtrlLinkUrl": "/int/ko/commitments/sustainability/sustainability-reports/sustainability-reports.html",
+
+      "children": [
+        {
+          "menuDp": 2,
+          "menuId": "sapgntk62",
+          "menuNm": "지속가능경영",
+          "gnbExpsrYn": "T",
+          "siteMapngExpsrYn": "T",
+          "linkUrl": "/int/ko/commitments/sustainability/sustainability.html",
+          "children": [
+            {
+              "menuDp": 3,
+              "menuId": "sapgntk621",
+              "menuNm": "고객∙사회와의 동행",
+              "gnbExpsrYn": "T",
+              "siteMapngExpsrYn": "T",
+              "linkUrl": "/int/ko/commitments/sustainability/sustainable-life/sustainable-life.html",
+              "children": [
+                {
+                  "menuDp": 4,
+                  "menuId": "sapgntk6211",
+                  "menuNm": "신제품",
+                  "gnbExpsrYn": "F",
+                  "siteMapngExpsrYn": "F",
+                  "linkUrl": "/int/ko/commitments/sustainability/sustainable-life/incorporating-sustainability-into-new-products/incorporating-sustainability-into-new-products.html",
+                  "children": []
+                },
+                {
+                  "menuDp": 4,
+                  "menuId": "sapgntk6221",
+                  "menuNm": "다양성과 포용의 가치 확산 및 조화로운 성장 구현",
+                  "gnbExpsrYn": "F",
+                  "siteMapngExpsrYn": "F",
+                  "linkUrl": "/int/ko/commitments/sustainability/sustainable-life/fostering-a-great-place-to-work/fostering-a-great-place-to-work.html",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "menuDp": 3,
+              "menuId": "sapgntk623",
+              "menuNm": "대자연과의 공존",
+              "gnbExpsrYn": "T",
+              "siteMapngExpsrYn": "T",
+              "linkUrl": "/int/ko/commitments/sustainability/circular-economy/circular-economy.html",
+              "children": [
+                {
+                  "menuDp": 4,
+                  "menuId": "sapgntk6231",
+                  "menuNm": "글로벌 생산 사업장의 탄소 중립 실현 및 폐기물 매립 제로 달성",
+                  "gnbExpsrYn": "F",
+                  "siteMapngExpsrYn": "F",
+                  "linkUrl": "/int/ko/commitments/sustainability/circular-economy/realizing-value-through-environmental-management/environmental-and-safety-management.html",
+                  "children": []
+                },
+                {
+                  "menuDp": 4,
+                  "menuId": "sapgntk6232",
+                  "menuNm": "제품 포장재 플라스틱 사용량 절감 및 플라스틱 포장재",
+                  "gnbExpsrYn": "F",
+                  "siteMapngExpsrYn": "F",
+                  "linkUrl": "/int/ko/commitments/sustainability/circular-economy/response-to-climate-change/response-to-climate-change.html",
+                  "children": []
+                },
+                {
+                  "menuDp": 4,
+                  "menuId": "sapgntk6234",
+                  "menuNm": "생물 다양성 보전 및 이용에 100억 원 투자 및 RSPO 인증 팜유 사용 확대",
+                  "gnbExpsrYn": "F",
+                  "siteMapngExpsrYn": "F",
+                  "linkUrl": "/int/ko/commitments/sustainability/circular-economy/RSPO_authentication/innovating-resource-efficiency.html",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "menuDp": 3,
+              "menuId": "sapgntk624",
+              "menuNm": "지속가능성 보고서",
+              "gnbExpsrYn": "T",
+              "siteMapngExpsrYn": "T",
+              "linkUrl": "/int/ko/commitments/sustainability/sustainability-reports/sustainability-reports.html",
+              "children": []
+            }
+          ]
+        },
+        {
+          "menuDp": 2,
+          "menuId": "sapgntk63",
+          "menuNm": "고객안심품질",
+          "gnbExpsrYn": "T",
+          "siteMapngExpsrYn": "T",
+          "linkUrl": "/int/ko/commitments/customer-safety/customer-safety.html",
+          "children": [
+            {
+              "menuDp": 3,
+              "menuId": "sapgntk636",
+              "menuNm": "투명한 성분",
+              "gnbExpsrYn": "T",
+              "siteMapngExpsrYn": "T",
+              "linkUrl": "/int/ko/commitments/customer-safety/ingredients/ingredients.html",
+              "children": []
+            },
+            {
+              "menuDp": 3,
+              "menuId": "sapgntk637",
+              "menuNm": "최상의 원료",
+              "gnbExpsrYn": "T",
+              "siteMapngExpsrYn": "T",
+              "linkUrl": "/int/ko/commitments/customer-safety/raw-materials/raw-materials.html",
+              "children": []
+            },
+            {
+              "menuDp": 3,
+              "menuId": "sapgntk638",
+              "menuNm": "안전한 제품",
+              "gnbExpsrYn": "T",
+              "siteMapngExpsrYn": "T",
+              "linkUrl": "/int/ko/commitments/customer-safety/products-development/products-development.html",
+              "children": []
+            },
+            {
+              "menuDp": 3,
+              "menuId": "sapgntk639",
+              "menuNm": "생산 품질",
+              "gnbExpsrYn": "T",
+              "siteMapngExpsrYn": "T",
+              "linkUrl": "/int/ko/commitments/customer-safety/manufacturing-quality/manufacturing-quality.html",
+              "children": []
+            },
+            {
+              "menuDp": 3,
+              "menuId": "sapgntk6390",
+              "menuNm": "Ingredients Glossary",
+              "gnbExpsrYn": "T",
+              "siteMapngExpsrYn": "T",
+              "linkUrl": "/int/ko/commitments/customer-safety/ingredientsglossary/glossary.html",
+              "children": []
+            }
+          ]
+        },
+        {
+          "menuDp": 2,
+          "menuId": "sapgntk64",
+          "menuNm": "생명 존중의 원칙",
+          "gnbExpsrYn": "T",
+          "siteMapngExpsrYn": "T",
+          "linkUrl": "/int/ko/commitments/respect-for-life/respect-for-life.html",
+          "children": [
+            {
+              "menuDp": 3,
+              "menuId": "sapgntk641",
+              "menuNm": "동물실험 금지 선언",
+              "gnbExpsrYn": "T",
+              "siteMapngExpsrYn": "T",
+              "linkUrl": "/int/ko/commitments/respect-for-life/declaration-of-prohibition/declaration-of-prohibition.html",
+              "children": []
+            },
+            {
+              "menuDp": 3,
+              "menuId": "sapgntk642",
+              "menuNm": "동물대체시험법 연구",
+              "gnbExpsrYn": "T",
+              "siteMapngExpsrYn": "T",
+              "linkUrl": "/int/ko/commitments/respect-for-life/alternative-methods/alternative-methods.html",
+              "children": [
+                {
+                  "menuDp": 4,
+                  "menuId": "sapgntk6421",
+                  "menuNm": "인터뷰",
+                  "gnbExpsrYn": "",
+                  "siteMapngExpsrYn": "",
+                  "linkUrl": "/int/ko/commitments/respect-for-life/alternative-methods/interview/interview.html",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "menuDp": 3,
+              "menuId": "sapgntk643",
+              "menuNm": "비건 소재 기술",
+              "gnbExpsrYn": "T",
+              "siteMapngExpsrYn": "T",
+              "linkUrl": "/int/ko/commitments/respect-for-life/vegan-material-technology/vegan-material-technology.html",
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "menuDp": 1,
+      "menuId": "sapgntk7",
+      "menuNm": "Investors",
+      "gnbExpsrYn": "T",
+      "siteMapngExpsrYn": "T",
+      "oneDpMenuTy": "Investors",
+      "oneDpDc": "아모레퍼시픽은 미와 건강 분야에 핵심 역량을 집중하고 투명한 지배구조를 만들기 위해, 지주회사 중심의 기업 지배구조와 사업별 책임 경영체제를 구축하여 운영하고 있습니다. 이를 통해 화장품·생활용품·건강제품 등 미와 건강 사업의 전문화를 실현하고 핵심 역량을 지속적으로 강화하고 있습니다.",
+      "linkUrl": "/int/ko/investors/investors.html",
+
+      "reprsntLwprtMenuImage": "",
+      "reprsntLwprtMenuDc": "",
+      "reprsntLwprtMenuLinkUrl": "",
+      "reprsntLwprtMenuExtrlLinkUrl": "",
+      "reprsntLwprtMenuLinkTitle": "",
+
+      "children": [
+        {
+          "menuDp": 2,
+          "menuId": "sapgntk71",
+          "menuNm": "아모레퍼시픽",
+          "gnbExpsrYn": "T",
+          "siteMapngExpsrYn": "T",
+          "linkUrl": "/int/ko/investors/amorepacific-corporation/amorepacific.html",
+          "children": [
+            {
+              "menuDp": 3,
+              "menuId": "sapgntk711",
+              "menuNm": "IR 자료",
+              "gnbExpsrYn": "T",
+              "siteMapngExpsrYn": "T",
+              "linkUrl": "/int/ko/investors/amorepacific-corporation/ir-reports/ir-reports.html",
+              "children": [
+                {
+                  "menuDp": 4,
+                  "menuId": "sapgntk7111",
+                  "menuNm": "실적발표",
+                  "gnbExpsrYn": "F",
+                  "siteMapngExpsrYn": "F",
+                  "linkUrl": "/int/ko/investors/amorepacific-corporation/ir-reports/quarterly-results/quarterly-results.html",
+                  "children": []
+                },
+                {
+                  "menuDp": 4,
+                  "menuId": "sapgntk7112",
+                  "menuNm": "사업보고서",
+                  "gnbExpsrYn": "F",
+                  "siteMapngExpsrYn": "F",
+                  "linkUrl": "/int/ko/investors/amorepacific-corporation/ir-reports/audit-reports/audit-reports.html",
+                  "children": []
+                },
+                {
+                  "menuDp": 4,
+                  "menuId": "sapgntk7113",
+                  "menuNm": "영업보고서",
+                  "gnbExpsrYn": "F",
+                  "siteMapngExpsrYn": "F",
+                  "linkUrl": "/int/ko/investors/amorepacific-corporation/ir-reports/business-reports/business-reports.html",
+                  "children": []
+                },
+                {
+                  "menuDp": 4,
+                  "menuId": "sapgntk7114",
+                  "menuNm": "기타 IR자료",
+                  "gnbExpsrYn": "F",
+                  "siteMapngExpsrYn": "F",
+                  "linkUrl": "/int/ko/investors/amorepacific-corporation/ir-reports/other-ir-reports/other-ir-reports.html",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "menuDp": 3,
+              "menuId": "sapgntk712",
+              "menuNm": "재무정보",
+              "gnbExpsrYn": "T",
+              "siteMapngExpsrYn": "T",
+              "linkUrl": "/int/ko/investors/amorepacific-corporation/financial-information/financial-information.html",
+              "children": [
+                {
+                  "menuDp": 4,
+                  "menuId": "sapgntk7121",
+                  "menuNm": "요약 재무제표",
+                  "gnbExpsrYn": "F",
+                  "siteMapngExpsrYn": "F",
+                  "linkUrl": "/int/ko/investors/amorepacific-corporation/financial-information/summary-financial-statements/summary-financial-statements.html",
+                  "children": []
+                },
+                {
+                  "menuDp": 4,
+                  "menuId": "sapgntk7122",
+                  "menuNm": "배당에 관한 사항",
+                  "gnbExpsrYn": "F",
+                  "siteMapngExpsrYn": "F",
+                  "linkUrl": "/int/ko/investors/amorepacific-corporation/financial-information/dividend-history/dividend-history.html",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "menuDp": 3,
+              "menuId": "sapgntk713",
+              "menuNm": "공시정보",
+              "gnbExpsrYn": "T",
+              "siteMapngExpsrYn": "T",
+              "linkUrl": "/int/ko/investors/amorepacific-corporation/public-disclosure/public-disclosure.html",
+              "children": [
+                {
+                  "menuDp": 4,
+                  "menuId": "sapgntk7131",
+                  "menuNm": "공시자료",
+                  "gnbExpsrYn": "F",
+                  "siteMapngExpsrYn": "F",
+                  "linkUrl": "/int/ko/investors/amorepacific-corporation/public-disclosure/disclosure-reports/disclosure-reports.html",
+                  "children": []
+                },
+                {
+                  "menuDp": 4,
+                  "menuId": "sapgntk7132",
+                  "menuNm": "전자공고",
+                  "gnbExpsrYn": "F",
+                  "siteMapngExpsrYn": "F",
+                  "linkUrl": "/int/ko/investors/amorepacific-corporation/public-disclosure/electronic-notice/electronic-notice.html",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "menuDp": 3,
+              "menuId": "sapgntk714",
+              "menuNm": "주식정보",
+              "gnbExpsrYn": "T",
+              "siteMapngExpsrYn": "T",
+              "linkUrl": "/int/ko/investors/amorepacific-corporation/stock-information/stock-information.html",
+              "children": [
+                {
+                  "menuDp": 4,
+                  "menuId": "sapgntk7141",
+                  "menuNm": "주가정보",
+                  "gnbExpsrYn": "F",
+                  "siteMapngExpsrYn": "F",
+                  "linkUrl": "/int/ko/investors/amorepacific-corporation/stock-information/stock-price-information/stock-price-information.html",
+                  "children": []
+                },
+                {
+                  "menuDp": 4,
+                  "menuId": "sapgntk7142",
+                  "menuNm": "주주현황",
+                  "gnbExpsrYn": "F",
+                  "siteMapngExpsrYn": "F",
+                  "linkUrl": "/int/ko/investors/amorepacific-corporation/stock-information/shareholder-structure/shareholder-structure.html",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "menuDp": 3,
+              "menuId": "sapgntk715",
+              "menuNm": "기업지배구조",
+              "gnbExpsrYn": "T",
+              "siteMapngExpsrYn": "T",
+              "linkUrl": "/int/ko/investors/amorepacific-corporation/corporate-governance/corporate-governance.html",
+              "children": [
+                {
+                  "menuDp": 4,
+                  "menuId": "sapgntk7151",
+                  "menuNm": "주주총회",
+                  "gnbExpsrYn": "F",
+                  "siteMapngExpsrYn": "F",
+                  "linkUrl": "/int/ko/investors/amorepacific-corporation/corporate-governance/general-meeting-of-stockholders/general-meeting-of-stockholders.html",
+                  "children": []
+                },
+                {
+                  "menuDp": 4,
+                  "menuId": "sapgntk7152",
+                  "menuNm": "이사회",
+                  "gnbExpsrYn": "F",
+                  "siteMapngExpsrYn": "F",
+                  "linkUrl": "/int/ko/investors/amorepacific-corporation/corporate-governance/board-of-directors/board-of-directors.html",
+                  "children": []
+                },
+                {
+                  "menuDp": 4,
+                  "menuId": "sapgntk7153",
+                  "menuNm": "이사회 내 위원회",
+                  "gnbExpsrYn": "F",
+                  "siteMapngExpsrYn": "F",
+                  "linkUrl": "/int/ko/investors/amorepacific-corporation/corporate-governance/board-committees/board-committees.html",
+                  "children": []
+                },
+                {
+                  "menuDp": 4,
+                  "menuId": "sapgntk7154",
+                  "menuNm": "정관 및 규정",
+                  "gnbExpsrYn": "F",
+                  "siteMapngExpsrYn": "F",
+                  "linkUrl": "/int/ko/investors/amorepacific-corporation/corporate-governance/articles-of-incorporation-and-regulations/articles-of-incorporation-and-regulations.html",
+                  "children": []
+                },
+                {
+                  "menuDp": 4,
+                  "menuId": "sapgntk7155",
+                  "menuNm": "기타사항",
+                  "gnbExpsrYn": "F",
+                  "siteMapngExpsrYn": "F",
+                  "linkUrl": "/int/ko/investors/amorepacific-corporation/corporate-governance/other-items/other-items.html",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "menuDp": 2,
+          "menuId": "sapgntk72",
+          "menuNm": "아모레퍼시픽홀딩스",
+          "gnbExpsrYn": "T",
+          "siteMapngExpsrYn": "T",
+          "linkUrl": "/int/ko/investors/amorepacific-holdings-corp/amorepacific-group.html",
+          "children": [
+            {
+              "menuDp": 3,
+              "menuId": "sapgntk721",
+              "menuNm": "IR 자료",
+              "gnbExpsrYn": "T",
+              "siteMapngExpsrYn": "T",
+              "linkUrl": "/int/ko/investors/amorepacific-holdings-corp/ir-reports/ir-reports.html",
+              "children": [
+                {
+                  "menuDp": 4,
+                  "menuId": "sapgntk7211",
+                  "menuNm": "실적발표",
+                  "gnbExpsrYn": "F",
+                  "siteMapngExpsrYn": "F",
+                  "linkUrl": "/int/ko/investors/amorepacific-holdings-corp/ir-reports/quarterly-results/quarterly-results.html",
+                  "children": []
+                },
+                {
+                  "menuDp": 4,
+                  "menuId": "sapgntk7212",
+                  "menuNm": "사업보고서",
+                  "gnbExpsrYn": "F",
+                  "siteMapngExpsrYn": "F",
+                  "linkUrl": "/int/ko/investors/amorepacific-holdings-corp/ir-reports/audit-reports/audit-reports.html",
+                  "children": []
+                },
+                {
+                  "menuDp": 4,
+                  "menuId": "sapgntk7213",
+                  "menuNm": "영업보고서",
+                  "gnbExpsrYn": "F",
+                  "siteMapngExpsrYn": "F",
+                  "linkUrl": "/int/ko/investors/amorepacific-holdings-corp/ir-reports/business-reports/business-reports.html",
+                  "children": []
+                },
+                {
+                  "menuDp": 4,
+                  "menuId": "sapgntk7214",
+                  "menuNm": "기타 IR자료",
+                  "gnbExpsrYn": "F",
+                  "siteMapngExpsrYn": "F",
+                  "linkUrl": "/int/ko/investors/amorepacific-holdings-corp/ir-reports/other-ir-reports/other-ir-reports.html",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "menuDp": 3,
+              "menuId": "sapgntk722",
+              "menuNm": "재무정보",
+              "gnbExpsrYn": "T",
+              "siteMapngExpsrYn": "T",
+              "linkUrl": "/int/ko/investors/amorepacific-holdings-corp/financial-information/financial-information.html",
+              "children": [
+                {
+                  "menuDp": 4,
+                  "menuId": "sapgntk7221",
+                  "menuNm": "요약 재무제표",
+                  "gnbExpsrYn": "F",
+                  "siteMapngExpsrYn": "F",
+                  "linkUrl": "/int/ko/investors/amorepacific-holdings-corp/financial-information/summary-financial-statements/summary-financial-statements.html",
+                  "children": []
+                },
+                {
+                  "menuDp": 4,
+                  "menuId": "sapgntk7222",
+                  "menuNm": "배당에 관한 사항",
+                  "gnbExpsrYn": "F",
+                  "siteMapngExpsrYn": "F",
+                  "linkUrl": "/int/ko/investors/amorepacific-holdings-corp/financial-information/dividend-history/dividend-history.html",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "menuDp": 3,
+              "menuId": "sapgntk723",
+              "menuNm": "공시정보",
+              "gnbExpsrYn": "T",
+              "siteMapngExpsrYn": "T",
+              "linkUrl": "/int/ko/investors/amorepacific-holdings-corp/public-disclosure/public-disclosure.html",
+              "children": [
+                {
+                  "menuDp": 4,
+                  "menuId": "sapgntk7231",
+                  "menuNm": "공시자료",
+                  "gnbExpsrYn": "T",
+                  "siteMapngExpsrYn": "F",
+                  "linkUrl": "/int/ko/investors/amorepacific-holdings-corp/public-disclosure/disclosure-reports/disclosure-reports.html",
+                  "children": []
+                },
+                {
+                  "menuDp": 4,
+                  "menuId": "sapgntk7232",
+                  "menuNm": "전자공고",
+                  "gnbExpsrYn": "F",
+                  "siteMapngExpsrYn": "F",
+                  "linkUrl": "/int/ko/investors/amorepacific-holdings-corp/public-disclosure/electronic-notice/electronic-notice.html",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "menuDp": 3,
+              "menuId": "sapgntk724",
+              "menuNm": "주식정보",
+              "gnbExpsrYn": "T",
+              "siteMapngExpsrYn": "T",
+              "linkUrl": "/int/ko/investors/amorepacific-holdings-corp/stock-information/stock-information.html",
+              "children": [
+                {
+                  "menuDp": 4,
+                  "menuId": "sapgntk7241",
+                  "menuNm": "주가정보",
+                  "gnbExpsrYn": "F",
+                  "siteMapngExpsrYn": "F",
+                  "linkUrl": "/int/ko/investors/amorepacific-holdings-corp/stock-information/stock-price-information/stock-price-information.html",
+                  "children": []
+                },
+                {
+                  "menuDp": 4,
+                  "menuId": "sapgntk7242",
+                  "menuNm": "주주현황",
+                  "gnbExpsrYn": "F",
+                  "siteMapngExpsrYn": "F",
+                  "linkUrl": "/int/ko/investors/amorepacific-holdings-corp/stock-information/shareholder-structure/shareholder-structure.html",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "menuDp": 3,
+              "menuId": "sapgntk725",
+              "menuNm": "기업지배구조",
+              "gnbExpsrYn": "T",
+              "siteMapngExpsrYn": "T",
+              "linkUrl": "/int/ko/investors/amorepacific-holdings-corp/corporate-governance/corporate-governance.html",
+              "children": [
+                {
+                  "menuDp": 4,
+                  "menuId": "sapgntk7251",
+                  "menuNm": "주주총회",
+                  "gnbExpsrYn": "F",
+                  "siteMapngExpsrYn": "F",
+                  "linkUrl": "/int/ko/investors/amorepacific-holdings-corp/corporate-governance/general-meeting-of-stockholders/general-meeting-of-stockholders.html",
+                  "children": []
+                },
+                {
+                  "menuDp": 4,
+                  "menuId": "sapgntk7252",
+                  "menuNm": "이사회",
+                  "gnbExpsrYn": "F",
+                  "siteMapngExpsrYn": "F",
+                  "linkUrl": "/int/ko/investors/amorepacific-holdings-corp/corporate-governance/board-of-directors/board-of-directors.html",
+                  "children": []
+                },
+                {
+                  "menuDp": 4,
+                  "menuId": "sapgntk7253",
+                  "menuNm": "이사회 내 위원회",
+                  "gnbExpsrYn": "F",
+                  "siteMapngExpsrYn": "F",
+                  "linkUrl": "/int/ko/investors/amorepacific-holdings-corp/corporate-governance/board-committees/board-committees.html",
+                  "children": []
+                },
+                {
+                  "menuDp": 4,
+                  "menuId": "sapgntk7254",
+                  "menuNm": "정관 및 규정",
+                  "gnbExpsrYn": "F",
+                  "siteMapngExpsrYn": "F",
+                  "linkUrl": "/int/ko/investors/amorepacific-holdings-corp/corporate-governance/articles-of-incorporation-and-regulations/articles-of-incorporation-and-regulations.html",
+                  "children": []
+                },
+                {
+                  "menuDp": 4,
+                  "menuId": "sapgntk7255",
+                  "menuNm": "기타사항",
+                  "gnbExpsrYn": "F",
+                  "siteMapngExpsrYn": "F",
+                  "linkUrl": "/int/ko/investors/amorepacific-holdings-corp/corporate-governance/other-items/other-items.html",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "menuDp": 1,
+      "menuId": "sapgntk10",
+      "menuNm": "Careers",
+      "gnbExpsrYn": "T",
+      "siteMapngExpsrYn": "T",
+      "oneDpMenuTy": "Careers",
+      "oneDpDc": "아모레퍼시픽은 뉴뷰티를 통해 모든 이들이 자신만의 아름다움을 발견하고 실현하는 더 아름다운 세상을 만들어가고 있습니다. 모든 구성원은 사람과 세상을 아름답게 만드는 데 기여한다는 신념과 자부심을 가지고 진취적인 자세로 끊임없이 노력합니다. 이를 통해 우리는 아모레퍼시픽만이 창조할 수 있는 아름다움으로 새로운 미의 역사를 써 내려가고 있습니다.",
+      "linkUrl": "/int/ko/careers/careers.html",
+
+      "reprsntLwprtMenuImage": "",
+      "reprsntLwprtMenuDc": "",
+      "reprsntLwprtMenuLinkUrl": "",
+      "reprsntLwprtMenuExtrlLinkUrl": "",
+      "reprsntLwprtMenuLinkTitle": "",
+
+      "children": [
+        {
+          "menuDp": 2,
+          "menuId": "sapgntk101",
+          "menuNm": "직무 커리어",
+          "gnbExpsrYn": "T",
+          "siteMapngExpsrYn": "T",
+          "linkUrl": "/int/ko/careers/careers-detail/careers-detail.html",
+          "children": [
+            {
+              "menuDp": 3,
+              "menuId": "sapgntk1011",
+              "menuNm": "Marketing",
+              "gnbExpsrYn": "T",
+              "siteMapngExpsrYn": "T",
+              "linkUrl": "/int/ko/careers/careers-detail/marketing/marketing.html",
+              "children": []
+            },
+            {
+              "menuDp": 3,
+              "menuId": "sapgntk1013",
+              "menuNm": "Creative",
+              "gnbExpsrYn": "T",
+              "siteMapngExpsrYn": "T",
+              "linkUrl": "/int/ko/careers/careers-detail/creative/creative.html",
+              "children": []
+            },
+            {
+              "menuDp": 3,
+              "menuId": "sapgntk1014",
+              "menuNm": "R&I",
+              "gnbExpsrYn": "T",
+              "siteMapngExpsrYn": "T",
+              "linkUrl": "/int/ko/careers/careers-detail/r&i/r&i.html",
+              "children": []
+            },
+            {
+              "menuDp": 3,
+              "menuId": "sapgntk1012",
+              "menuNm": "Sales",
+              "gnbExpsrYn": "T",
+              "siteMapngExpsrYn": "T",
+              "linkUrl": "/int/ko/careers/careers-detail/sales/sales.html",
+              "children": []
+            },
+            {
+              "menuDp": 3,
+              "menuId": "sapgntk1015",
+              "menuNm": "SCM",
+              "gnbExpsrYn": "T",
+              "siteMapngExpsrYn": "T",
+              "linkUrl": "/int/ko/careers/careers-detail/scm/scm.html",
+              "children": []
+            },
+            {
+              "menuDp": 3,
+              "menuId": "sapgntk1016",
+              "menuNm": "Digital",
+              "gnbExpsrYn": "T",
+              "siteMapngExpsrYn": "T",
+              "linkUrl": "/int/ko/careers/careers-detail/digital/digital.html",
+              "children": []
+            },
+            {
+              "menuDp": 3,
+              "menuId": "sapgntk1017",
+              "menuNm": "Support",
+              "gnbExpsrYn": "T",
+              "siteMapngExpsrYn": "T",
+              "linkUrl": "/int/ko/careers/careers-detail/support/support.html",
+              "children": []
+            }
+          ]
+        },
+        {
+          "menuDp": 2,
+          "menuId": "sapgntk102",
+          "menuNm": "라이프 & 컬처",
+          "gnbExpsrYn": "T",
+          "siteMapngExpsrYn": "T",
+          "linkUrl": "/int/ko/careers/life-and-culture/life-and-culture.html",
+          "children": []
+        },
+        {
+          "menuDp": 2,
+          "menuId": "sapgntk103",
+          "menuNm": "글로벌 네트워크",
+          "gnbExpsrYn": "T",
+          "siteMapngExpsrYn": "T",
+          "linkUrl": "/int/ko/careers/global-network/global-network.html",
+          "children": [
+            {
+              "menuDp": 3,
+              "menuId": "sapgntk1031",
+              "menuNm": "서울",
+              "gnbExpsrYn": "T",
+              "siteMapngExpsrYn": "T",
+              "linkUrl": "/int/ko/careers/global-network/hq/seoul.html",
+              "children": []
+            },
+            {
+              "menuDp": 3,
+              "menuId": "sapgntk1032",
+              "menuNm": "뉴욕",
+              "gnbExpsrYn": "T",
+              "siteMapngExpsrYn": "T",
+              "linkUrl": "/int/ko/careers/global-network/new-york/new-york.html",
+              "children": []
+            },
+            {
+              "menuDp": 3,
+              "menuId": "sapgntk1033",
+              "menuNm": "상하이",
+              "gnbExpsrYn": "T",
+              "siteMapngExpsrYn": "T",
+              "linkUrl": "/int/ko/careers/global-network/shanghai/shanghai.html",
+              "children": []
+            },
+            {
+              "menuDp": 3,
+              "menuId": "sapgntk1034",
+              "menuNm": "도쿄",
+              "gnbExpsrYn": "T",
+              "siteMapngExpsrYn": "T",
+              "linkUrl": "/int/ko/careers/global-network/tokyo/tokyo.html",
+              "children": []
+            },
+            {
+              "menuDp": 3,
+              "menuId": "sapgntk1035",
+              "menuNm": "런던",
+              "gnbExpsrYn": "T",
+              "siteMapngExpsrYn": "T",
+              "linkUrl": "/int/ko/careers/global-network/london/london.html",
+              "children": []
+            },
+            {
+              "menuDp": 3,
+              "menuId": "sapgntk1036",
+              "menuNm": "뉴델리",
+              "gnbExpsrYn": "T",
+              "siteMapngExpsrYn": "T",
+              "linkUrl": "/int/ko/careers/global-network/new-delhi/new-delhi.html",
+              "children": []
+            },
+            {
+              "menuDp": 3,
+              "menuId": "sapgntk1037",
+              "menuNm": "홍콩",
+              "gnbExpsrYn": "T",
+              "siteMapngExpsrYn": "T",
+              "linkUrl": "/int/ko/careers/global-network/hong-kong/hong-kong.html",
+              "children": []
+            },
+            {
+              "menuDp": 3,
+              "menuId": "sapgntk1038",
+              "menuNm": "타이베이",
+              "gnbExpsrYn": "T",
+              "siteMapngExpsrYn": "T",
+              "linkUrl": "/int/ko/careers/global-network/taipei/taipei.html",
+              "children": []
+            },
+            {
+              "menuDp": 3,
+              "menuId": "sapgntk1039",
+              "menuNm": "토론토",
+              "gnbExpsrYn": "T",
+              "siteMapngExpsrYn": "T",
+              "linkUrl": "/int/ko/careers/global-network/toronto/toronto.html",
+              "children": []
+            },
+            {
+              "menuDp": 3,
+              "menuId": "sapgntk10310",
+              "menuNm": "방콕",
+              "gnbExpsrYn": "T",
+              "siteMapngExpsrYn": "T",
+              "linkUrl": "/int/ko/careers/global-network/bangkok/bangkok.html",
+              "children": []
+            },
+            {
+              "menuDp": 3,
+              "menuId": "sapgntk10311",
+              "menuNm": "호찌민",
+              "gnbExpsrYn": "T",
+              "siteMapngExpsrYn": "T",
+              "linkUrl": "/int/ko/careers/global-network/ho-chi-minh/ho-chi-minh.html",
+              "children": []
+            },
+            {
+              "menuDp": 3,
+              "menuId": "sapgntk10312",
+              "menuNm": "자카르타",
+              "gnbExpsrYn": "T",
+              "siteMapngExpsrYn": "T",
+              "linkUrl": "/int/ko/careers/global-network/jakarta/jakarta.html",
+              "children": []
+            },
+            {
+              "menuDp": 3,
+              "menuId": "sapgntk10313",
+              "menuNm": "싱가포르",
+              "gnbExpsrYn": "T",
+              "siteMapngExpsrYn": "T",
+              "linkUrl": "/int/ko/careers/global-network/singapore/singapore.html",
+              "children": []
+            },
+            {
+              "menuDp": 3,
+              "menuId": "sapgntk10314",
+              "menuNm": "쿠알라룸푸르",
+              "gnbExpsrYn": "T",
+              "siteMapngExpsrYn": "T",
+              "linkUrl": "/int/ko/careers/global-network/kuala-lumpur/kuala-lumpur.html",
+              "children": []
+            },
+            {
+              "menuDp": 3,
+              "menuId": "sapgntk10315",
+              "menuNm": "멜버른",
+              "gnbExpsrYn": "T",
+              "siteMapngExpsrYn": "T",
+              "linkUrl": "/int/ko/careers/global-network/melbourne/melbourne.html",
+              "children": []
+            },
+            {
+              "menuDp": 3,
+              "menuId": "sapgntk10316",
+              "menuNm": "마닐라",
+              "gnbExpsrYn": "T",
+              "siteMapngExpsrYn": "T",
+              "linkUrl": "/int/ko/careers/global-network/manila/manila.html",
+              "children": []
+            },
+            {
+              "menuDp": 3,
+              "menuId": "sapgntk10317",
+              "menuNm": "파리",
+              "gnbExpsrYn": "T",
+              "siteMapngExpsrYn": "T",
+              "linkUrl": "/int/ko/careers/global-network/paris/paris.html",
+              "children": []
+            }
+          ]
+        },
+        {
+          "menuDp": 2,
+          "menuId": "sapgntk104",
+          "menuNm": "국내 채용 공고",
+          "gnbExpsrYn": "T",
+          "siteMapngExpsrYn": "T",
+          "linkUrl": "#",
+          "children": []
+        },
+        {
+          "menuDp": 2,
+          "menuId": "sapgntk105",
+          "menuNm": "글로벌 채용 공고",
+          "gnbExpsrYn": "T",
+          "siteMapngExpsrYn": "T",
+          "linkUrl": "#",
+          "children": []
+        }
+      ]
+    },
+    {
+      "menuDp": 1,
+      "menuId": "sapgntk8",
+      "menuNm": "NEWS",
+      "gnbExpsrYn": "T",
+      "siteMapngExpsrYn": "T",
+      "oneDpMenuTy": "NEWS",
+      "oneDpDc": "아모레퍼시픽의 최신 소식을 전합니다. 아모레퍼시픽은 고객을 위해 혁신적인 활동을 펼치고, 글로벌 시민으로서 사회적 책임을 다하기 위해 끊임없이 노력하고 있습니다.",
+      "linkUrl": "/int/ko/news/news.html",
+
+      "reprsntLwprtMenuImage": "/int/ko/news/__icsFiles/metafile/2020/07/27/nav_feature_05_minify_1.jpg",
+      "reprsntLwprtMenuDc": "",
+
+      "reprsntLwprtMenuLinkUrl": "/int/ko/news/news.html",
+      "reprsntLwprtMenuLinkTitle": "NEWS",
+      "reprsntLwprtMenuExtrlLinkUrl": "",
+
+      "children": []
+    },
+    {
+      "menuDp": 1,
+      "menuId": "sapgntku",
+      "menuNm": "util",
+      "gnbExpsrYn": "F",
+      "siteMapngExpsrYn": "T",
+      "oneDpMenuTy": "",
+      "oneDpDc": "",
+      "linkUrl": "/int/ko/misc/error.html",
+
+      "reprsntLwprtMenuImage": "",
+      "reprsntLwprtMenuDc": "",
+      "reprsntLwprtMenuLinkUrl": "",
+      "reprsntLwprtMenuExtrlLinkUrl": "",
+      "reprsntLwprtMenuLinkTitle": "",
+
+      "children": [
+        {
+          "menuDp": 2,
+          "menuId": "sapgntkuc",
+          "menuNm": "윤리경영",
+          "gnbExpsrYn": "F",
+          "siteMapngExpsrYn": "T",
+          "linkUrl": "/int/ko/misc/ethics-governance/ethics-governance.html",
+          "children": []
+        },
+        {
+          "menuDp": 2,
+          "menuId": "sapgntku7",
+          "menuNm": "고객서비스",
+          "gnbExpsrYn": "F",
+          "siteMapngExpsrYn": "T",
+          "linkUrl": "/int/ko/misc/customer-service/customer-service.html",
+          "children": [
+            {
+              "menuDp": 3,
+              "menuId": "sapgntku72",
+              "menuNm": "고객서비스센터",
+              "gnbExpsrYn": "F",
+              "siteMapngExpsrYn": "T",
+              "linkUrl": "/int/ko/misc/customer-service/customer-counsel/customer-counsel.html",
+              "children": []
+            },
+            {
+              "menuDp": 3,
+              "menuId": "sapgntku75",
+              "menuNm": "고객 응대 프로세스",
+              "gnbExpsrYn": "F",
+              "siteMapngExpsrYn": "T",
+              "linkUrl": "/int/ko/misc/customer-service/customer-process/customer-process.html",
+              "children": []
+            },
+            {
+              "menuDp": 3,
+              "menuId": "sapgntku76",
+              "menuNm": "정보 제공 콘텐츠",
+              "gnbExpsrYn": "F",
+              "siteMapngExpsrYn": "T",
+              "linkUrl": "/int/ko/misc/customer-service/infomation-content/infomation-content.html",
+              "children": []
+            }
+          ]
+        },
+        {
+          "menuDp": 2,
+          "menuId": "sapgntku11",
+          "menuNm": "비즈니스 제휴문의",
+          "gnbExpsrYn": "F",
+          "siteMapngExpsrYn": "T",
+          "linkUrl": "/int/ko/misc/partnership-inquiry/partnership-inquiry.html",
+          "children": []
+        },
+        {
+          "menuDp": 2,
+          "menuId": "sapgntkud",
+          "menuNm": "글로벌 네트워크",
+          "gnbExpsrYn": "",
+          "siteMapngExpsrYn": "T",
+          "linkUrl": "/int/ko/misc/global-network/global-network.html",
+          "children": []
+        },
+        {
+          "menuDp": 2,
+          "menuId": "sapgntku4",
+          "menuNm": "관련사이트",
+          "gnbExpsrYn": "",
+          "siteMapngExpsrYn": "T",
+          "linkUrl": "/int/ko/misc/related-sites/related-sites.html",
+          "children": []
+        },
+        {
+          "menuDp": 2,
+          "menuId": "sapgntku2",
+          "menuNm": "매거진",
+          "gnbExpsrYn": "F",
+          "siteMapngExpsrYn": "T",
+          "linkUrl": "/int/ko/misc/magazines/magazines.html",
+          "children": []
+        },
+        {
+          "menuDp": 2,
+          "menuId": "sapgntku3",
+          "menuNm": "법적 고지",
+          "gnbExpsrYn": "F",
+          "siteMapngExpsrYn": "T",
+          "linkUrl": "/int/ko/misc/legal-information/legal-information.html",
+          "children": []
+        }
+      ]
+    }
+  ]
+}
