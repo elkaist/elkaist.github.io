@@ -89,26 +89,7 @@
       "reprsntLwprtMenuExtrlLinkUrl": "",
       "reprsntLwprtMenuLinkTitle": "",
 
-      "children": [
-        // {
-        //   "menuDp": 2,
-        //   "menuId": "sapgntk71",
-        //   "menuNm": "아모레퍼시픽",
-        //   "gnbExpsrYn": "T",
-        //   "siteMapngExpsrYn": "T",
-        //   "linkUrl": "/int/ko/investors/amorepacific-corporation/amorepacific.html",
-        //   "children": []
-        // },
-        // {
-        //   "menuDp": 2,
-        //   "menuId": "sapgntk72",
-        //   "menuNm": "아모레퍼시픽홀딩스",
-        //   "gnbExpsrYn": "T",
-        //   "siteMapngExpsrYn": "T",
-        //   "linkUrl": "/int/ko/investors/amorepacific-holdings-corp/amorepacific-group.html",
-        //   "children": []
-        // }
-      ]
+      "children": []
     }
   ]
 }

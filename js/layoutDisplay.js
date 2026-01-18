@@ -143,7 +143,6 @@ define(["global", "jquery", "underscore"], function (IG, $, _) {
           value.linkUrl +
           '" class="brand-a ' +
           value.brdCSS +
-          '" ap-click-area="GNB" ap-click-name="Click GNB" ap-click-data="' +
           value.menuNm +
           '">';
         htmlBrandMenu += '      <span class="brand-a-pad">';
@@ -162,7 +161,7 @@ define(["global", "jquery", "underscore"], function (IG, $, _) {
         htmlBrandMenu +=
           '  <a href="' +
           urlBrand +
-          '" class="brand-a all" ap-click-area="GNB" ap-click-name="Click GNB" ap-click-data="All Brands">';
+          '" class="brand-a all">';
         htmlBrandMenu += '      <span class="brand-a-pad">';
         htmlBrandMenu += convertWord("All Brands");
         htmlBrandMenu += "      </span>";
@@ -194,7 +193,6 @@ define(["global", "jquery", "underscore"], function (IG, $, _) {
           value.linkUrl +
           '" class="brand-a ' +
           value.brdCSS +
-          '" ap-click-area="GNB" ap-click-name="Click GNB" ap-click-data="' +
           value.menuNm +
           '" tabindex="2">';
         htmlBrandMenu += '      <span class="brand-a-pad">';
@@ -213,7 +211,7 @@ define(["global", "jquery", "underscore"], function (IG, $, _) {
         htmlBrandMenu +=
           '  <a href="' +
           urlBrand +
-          '" class="brand-a all" ap-click-area="GNB" ap-click-name="Click GNB" ap-click-data="All Brands" tabindex="2">';
+          '" class="brand-a all" tabindex="2">';
         htmlBrandMenu += '      <span class="brand-a-pad">';
         htmlBrandMenu += convertWord("All Brands");
         htmlBrandMenu += "      </span>";
@@ -249,7 +247,7 @@ define(["global", "jquery", "underscore"], function (IG, $, _) {
             htmlBrandMenu += '     <dl class="nav-dl">\n';
             htmlBrandMenu += "         <dt>\n";
             htmlBrandMenu +=
-              '             <a href="#" class="nav-h" ap-click-area="GNB" ap-click-name="Click GNB" ap-click-data="' +
+              '             <a href="#" class="nav-h"' +
               value.menuNm +
               '">' +
               value.menuNm +
@@ -272,7 +270,7 @@ define(["global", "jquery", "underscore"], function (IG, $, _) {
               htmlBrandMenu +=
                 '  <a href="' +
                 value.linkUrl +
-                '" class="nav-a" ap-click-area="GNB" ap-click-name="Click GNB" ap-click-data="' +
+                '" class="nav-a"' +
                 value.menuNm +
                 '">' +
                 value.menuNm +
@@ -296,7 +294,7 @@ define(["global", "jquery", "underscore"], function (IG, $, _) {
             htmlMenu +=
               '   <a href="' +
               value.linkUrl +
-              '" class="d1-a" ap-click-area="GNB" ap-click-name="Click GNB" ap-click-data="' +
+              '" class="d1-a"' +
               value.menuNm +
               '">' +
               value.menuNm.toUpperCase() +
@@ -341,7 +339,7 @@ define(["global", "jquery", "underscore"], function (IG, $, _) {
             htmlMenu +=
               '                   <a href="' +
               value.linkUrl +
-              '" class="d1-more" ap-click-area="GNB" ap-click-name="Click GNB" ap-click-data="' +
+              '" class="d1-more"' +
               value.menuNm +
               '">' +
               convertWord("Learn More") +
@@ -353,7 +351,7 @@ define(["global", "jquery", "underscore"], function (IG, $, _) {
               htmlMenu +=
                 '       <li class="depth01"><a href="' +
                 value.children[0].linkUrl +
-                '" class="tit" ap-click-area="GNB" ap-click-name="Click GNB" ap-click-data="' +
+                '" class="tit"' +
                 value.children[0].menuNm +
                 '"><strong>' +
                 value.children[0].menuNm +
@@ -367,7 +365,6 @@ define(["global", "jquery", "underscore"], function (IG, $, _) {
                 htmlMenu +=
                   '<li><a href="' +
                   value.children[0].children[index].linkUrl +
-                  '" ap-click-area="GNB" ap-click-name="Click GNB" ap-click-data="' +
                   value.children[0].children[index].menuNm +
                   '">' +
                   value.children[0].children[index].menuNm +
@@ -378,7 +375,7 @@ define(["global", "jquery", "underscore"], function (IG, $, _) {
               htmlMenu +=
                 '       <li class="depth01"><a href="' +
                 value.children[1].linkUrl +
-                '" class="tit" ap-click-area="GNB" ap-click-name="Click GNB" ap-click-data="' +
+                '" class="tit"' +
                 value.children[1].menuNm +
                 '"><strong>' +
                 value.children[1].menuNm +
@@ -392,7 +389,6 @@ define(["global", "jquery", "underscore"], function (IG, $, _) {
                 htmlMenu +=
                   '<li><a href="' +
                   value.children[1].children[index].linkUrl +
-                  '" ap-click-area="GNB" ap-click-name="Click GNB" ap-click-data="' +
                   value.children[1].children[index].menuNm +
                   '">' +
                   value.children[1].children[index].menuNm +
@@ -403,7 +399,7 @@ define(["global", "jquery", "underscore"], function (IG, $, _) {
               htmlMenu +=
                 '       <li class="depth01"><a href="' +
                 value.children[2].linkUrl +
-                '" class="tit" ap-click-area="GNB" ap-click-name="Click GNB" ap-click-data="' +
+                '" class="tit"' +
                 value.children[2].menuNm +
                 '"><strong>' +
                 value.children[2].menuNm +
@@ -417,7 +413,6 @@ define(["global", "jquery", "underscore"], function (IG, $, _) {
                 htmlMenu +=
                   '<li><a href="' +
                   value.children[2].children[index].linkUrl +
-                  '" ap-click-area="GNB" ap-click-name="Click GNB" ap-click-data="' +
                   value.children[2].children[index].menuNm +
                   '">' +
                   value.children[2].children[index].menuNm +
@@ -448,7 +443,6 @@ define(["global", "jquery", "underscore"], function (IG, $, _) {
                   htmlMenu +=
                     '<li><a href="' +
                     value.children[index].linkUrl +
-                    '" ap-click-area="GNB" ap-click-name="Click GNB" ap-click-data="' +
                     value.children[index].markNm +
                     '">' +
                     value.children[index].markNm +
@@ -462,7 +456,6 @@ define(["global", "jquery", "underscore"], function (IG, $, _) {
                   htmlMenu +=
                     '<li><a href="' +
                     value.children[index].linkUrl +
-                    '" ap-click-area="GNB" ap-click-name="Click GNB" ap-click-data="' +
                     value.children[index].markNm +
                     '">' +
                     value.children[index].markNm +
@@ -484,7 +477,6 @@ define(["global", "jquery", "underscore"], function (IG, $, _) {
                   htmlMenu +=
                     '<li><a href="' +
                     value.children[index].linkUrl +
-                    '" ap-click-area="GNB" ap-click-name="Click GNB" ap-click-data="' +
                     value.children[index].markNm +
                     '">' +
                     value.children[index].markNm +
@@ -505,7 +497,6 @@ define(["global", "jquery", "underscore"], function (IG, $, _) {
                   htmlMenu +=
                     '<li><a href="' +
                     value.children[index].linkUrl +
-                    '" ap-click-area="GNB" ap-click-name="Click GNB" ap-click-data="' +
                     value.children[index].markNm +
                     '">' +
                     value.children[index].markNm +
@@ -526,7 +517,6 @@ define(["global", "jquery", "underscore"], function (IG, $, _) {
                   htmlMenu +=
                     '<li><a href="' +
                     value.children[index].linkUrl +
-                    '" ap-click-area="GNB" ap-click-name="Click GNB" ap-click-data="' +
                     value.children[index].markNm +
                     '">' +
                     value.children[index].markNm +
@@ -547,7 +537,6 @@ define(["global", "jquery", "underscore"], function (IG, $, _) {
                   htmlMenu +=
                     '<li><a href="' +
                     value.children[index].linkUrl +
-                    '" ap-click-area="GNB" ap-click-name="Click GNB" ap-click-data="' +
                     value.children[index].markNm +
                     '">' +
                     value.children[index].markNm +
@@ -568,7 +557,6 @@ define(["global", "jquery", "underscore"], function (IG, $, _) {
                   htmlMenu +=
                     '<li><a href="' +
                     value.children[index].linkUrl +
-                    '" ap-click-area="GNB" ap-click-name="Click GNB" ap-click-data="' +
                     value.children[index].markNm +
                     '">' +
                     value.children[index].markNm +
@@ -589,7 +577,6 @@ define(["global", "jquery", "underscore"], function (IG, $, _) {
                   htmlMenu +=
                     '<li><a href="' +
                     value.children[index].linkUrl +
-                    '" ap-click-area="GNB" ap-click-name="Click GNB" ap-click-data="' +
                     value.children[index].markNm +
                     '">' +
                     value.children[index].markNm +
@@ -610,7 +597,6 @@ define(["global", "jquery", "underscore"], function (IG, $, _) {
                   htmlMenu +=
                     '<li><a href="' +
                     value.children[index].linkUrl +
-                    '" ap-click-area="GNB" ap-click-name="Click GNB" ap-click-data="' +
                     value.children[index].markNm +
                     '">' +
                     value.children[index].markNm +
@@ -631,7 +617,7 @@ define(["global", "jquery", "underscore"], function (IG, $, _) {
               htmlMenu +=
                 '       <li class="depth01"><a href="' +
                 value.children[0].linkUrl +
-                '" class="tit" ap-click-area="GNB" ap-click-name="Click GNB" ap-click-data="' +
+                '" class="tit"' +
                 value.children[0].menuNm +
                 '"><strong>' +
                 value.children[0].menuNm +
@@ -645,7 +631,6 @@ define(["global", "jquery", "underscore"], function (IG, $, _) {
                 htmlMenu +=
                   '<li><a href="' +
                   value.children[0].children[index].linkUrl +
-                  '" ap-click-area="GNB" ap-click-name="Click GNB" ap-click-data="' +
                   value.children[0].children[index].menuNm +
                   '">' +
                   value.children[0].children[index].menuNm +
@@ -656,7 +641,7 @@ define(["global", "jquery", "underscore"], function (IG, $, _) {
               htmlMenu +=
                 '       <li class="depth01"><a href="' +
                 value.children[1].linkUrl +
-                '" class="tit" ap-click-area="GNB" ap-click-name="Click GNB" ap-click-data="' +
+                '" class="tit"' +
                 value.children[1].menuNm +
                 '"><strong>' +
                 value.children[1].menuNm +
@@ -670,7 +655,6 @@ define(["global", "jquery", "underscore"], function (IG, $, _) {
                 htmlMenu +=
                   '<li><a href="' +
                   value.children[1].children[index].linkUrl +
-                  '" ap-click-area="GNB" ap-click-name="Click GNB" ap-click-data="' +
                   value.children[1].children[index].menuNm +
                   '">' +
                   value.children[1].children[index].menuNm +
@@ -681,7 +665,7 @@ define(["global", "jquery", "underscore"], function (IG, $, _) {
               htmlMenu +=
                 '       <li class="depth01"><a href="' +
                 value.children[2].linkUrl +
-                '" class="tit" ap-click-area="GNB" ap-click-name="Click GNB" ap-click-data="' +
+                '" class="tit"' +
                 value.children[2].menuNm +
                 '"><strong>' +
                 value.children[2].menuNm +
@@ -695,7 +679,6 @@ define(["global", "jquery", "underscore"], function (IG, $, _) {
                 htmlMenu +=
                   '<li><a href="' +
                   value.children[2].children[index].linkUrl +
-                  '" ap-click-area="GNB" ap-click-name="Click GNB" ap-click-data="' +
                   value.children[2].children[index].menuNm +
                   '">' +
                   value.children[2].children[index].menuNm +
@@ -714,7 +697,7 @@ define(["global", "jquery", "underscore"], function (IG, $, _) {
               htmlMenu +=
                 '       <li class="depth01"><a href="' +
                 value.children[0].linkUrl +
-                '" class="tit" ap-click-area="GNB" ap-click-name="Click GNB" ap-click-data="' +
+                '" class="tit"' +
                 value.children[0].menuNm +
                 '"><strong>' +
                 value.children[0].menuNm +
@@ -728,7 +711,6 @@ define(["global", "jquery", "underscore"], function (IG, $, _) {
                 htmlMenu +=
                   '<li><a href="' +
                   value.children[0].children[index].linkUrl +
-                  '" ap-click-area="GNB" ap-click-name="Click GNB" ap-click-data="' +
                   value.children[0].children[index].menuNm +
                   '">' +
                   value.children[0].children[index].menuNm +
@@ -739,7 +721,7 @@ define(["global", "jquery", "underscore"], function (IG, $, _) {
               htmlMenu +=
                 '       <li class="depth01"><a href="' +
                 value.children[1].linkUrl +
-                '" class="tit" ap-click-area="GNB" ap-click-name="Click GNB" ap-click-data="' +
+                '" class="tit"' +
                 value.children[1].menuNm +
                 '"><strong>' +
                 value.children[1].menuNm +
@@ -753,7 +735,6 @@ define(["global", "jquery", "underscore"], function (IG, $, _) {
                 htmlMenu +=
                   '<li><a href="' +
                   value.children[1].children[index].linkUrl +
-                  '" ap-click-area="GNB" ap-click-name="Click GNB" ap-click-data="' +
                   value.children[1].children[index].menuNm +
                   '">' +
                   value.children[1].children[index].menuNm +
@@ -764,7 +745,7 @@ define(["global", "jquery", "underscore"], function (IG, $, _) {
               htmlMenu +=
                 '       <li class="depth01"><a href="' +
                 value.children[2].linkUrl +
-                '" class="tit" ap-click-area="GNB" ap-click-name="Click GNB" ap-click-data="' +
+                '" class="tit"' +
                 value.children[2].menuNm +
                 '"><strong>' +
                 value.children[2].menuNm +
@@ -778,7 +759,6 @@ define(["global", "jquery", "underscore"], function (IG, $, _) {
                 htmlMenu +=
                   '<li><a href="' +
                   value.children[2].children[index].linkUrl +
-                  '" ap-click-area="GNB" ap-click-name="Click GNB" ap-click-data="' +
                   value.children[2].children[index].menuNm +
                   '">' +
                   value.children[2].children[index].menuNm +
@@ -805,7 +785,6 @@ define(["global", "jquery", "underscore"], function (IG, $, _) {
                 linkUrl +
                 '" class="draw-feature" target="' +
                 strTarget +
-                '" ap-click-area="GNB" ap-click-name="Click GNB" ap-click-data="' +
                 value.reprsntLwprtMenuLinkTitle +
                 '">';
               htmlMenu +=
@@ -819,7 +798,7 @@ define(["global", "jquery", "underscore"], function (IG, $, _) {
               htmlMenu +=
                 '       <li class="depth01"><a href="' +
                 value.children[0].linkUrl +
-                '" class="tit" ap-click-area="GNB" ap-click-name="Click GNB" ap-click-data="' +
+                '" class="tit"' +
                 value.children[0].menuNm +
                 '"><strong>' +
                 value.children[0].menuNm +
@@ -833,7 +812,6 @@ define(["global", "jquery", "underscore"], function (IG, $, _) {
                 htmlMenu +=
                   '<li><a href="' +
                   value.children[0].children[index].linkUrl +
-                  '" ap-click-area="GNB" ap-click-name="Click GNB" ap-click-data="' +
                   value.children[0].children[index].menuNm +
                   '">' +
                   value.children[0].children[index].menuNm +
@@ -845,7 +823,7 @@ define(["global", "jquery", "underscore"], function (IG, $, _) {
               htmlMenu +=
                 '       <li class="depth01"><a href="' +
                 value.children[1].linkUrl +
-                '" class="tit" ap-click-area="GNB" ap-click-name="Click GNB" ap-click-data="' +
+                '" class="tit"' +
                 value.children[1].menuNm +
                 '"><strong>' +
                 value.children[1].menuNm +
@@ -859,7 +837,6 @@ define(["global", "jquery", "underscore"], function (IG, $, _) {
                 htmlMenu +=
                   '<li><a href="' +
                   value.children[1].children[index].linkUrl +
-                  '" ap-click-area="GNB" ap-click-name="Click GNB" ap-click-data="' +
                   value.children[1].children[index].menuNm +
                   '">' +
                   value.children[1].children[index].menuNm +
@@ -892,21 +869,21 @@ define(["global", "jquery", "underscore"], function (IG, $, _) {
                   htmlMenu +=
                     '      <li class="depth01"><a href="' +
                     value.children[i].linkUrl +
-                    '" class="tit" ap-click-area="GNB" ap-click-name="Click GNB" ap-click-data="' +
+                    '" class="tit"' +
                     value.children[i].menuNm +
                     '"><strong>' +
                     value.children[i].menuNm +
                     "</strong></a>";
                 } else if (i == 3) {
                   htmlMenu +=
-                    '      <li class="depth01"><a href="https://careers.apgroup.com/search/?createNewAlert=false&q=&optionsFacetsDD_customfield1=&optionsFacetsDD_customfield2=&optionsFacetsDD_shifttype=" class="tit outlink" ap-click-area="GNB" ap-click-name="Click GNB" ap-click-data="' +
+                    '      <li class="depth01"><a href="https://careers.apgroup.com/search/?createNewAlert=false&q=&optionsFacetsDD_customfield1=&optionsFacetsDD_customfield2=&optionsFacetsDD_shifttype=" class="tit outlink"' +
                     value.children[i].menuNm +
                     '" target="_blank"><strong>' +
                     value.children[i].menuNm +
                     "</strong></a>";
                 } else if (i == 4) {
                   htmlMenu +=
-                    '      <li class="depth01"><a href="https://www.linkedin.com/company/amorepacific/jobs/?viewAsMember=true" class="tit outlink" ap-click-area="GNB" ap-click-name="Click GNB" ap-click-data="' +
+                    '      <li class="depth01"><a href="https://www.linkedin.com/company/amorepacific/jobs/?viewAsMember=true" class="tit outlink"' +
                     value.children[i].menuNm +
                     '" target="_blank"><strong>' +
                     value.children[i].menuNm +
@@ -936,7 +913,6 @@ define(["global", "jquery", "underscore"], function (IG, $, _) {
                   htmlMenu +=
                     '<li><a href="' +
                     value.children[i].children[j].linkUrl +
-                    '" ap-click-area="GNB" ap-click-name="Click GNB" ap-click-data="' +
                     value.children[i].children[j].menuNm +
                     '">' +
                     value.children[i].children[j].menuNm +
@@ -971,7 +947,7 @@ define(["global", "jquery", "underscore"], function (IG, $, _) {
               htmlMenu +=
                 '   <a href="' +
                 value.children[0].linkUrl +
-                '" class="d2-a" ap-click-area="GNB" ap-click-name="Click GNB" ap-click-data="' +
+                '" class="d2-a"' +
                 value.children[0].menuNm +
                 '">' +
                 value.children[0].menuNm +
@@ -986,7 +962,7 @@ define(["global", "jquery", "underscore"], function (IG, $, _) {
               htmlMenu +=
                 '   <a href="' +
                 value.linkUrl +
-                '" class="d2-a" ap-click-area="GNB" ap-click-name="Click GNB" ap-click-data="' +
+                '" class="d2-a"' +
                 value.menuNm +
                 '">' +
                 value.menuNm +
@@ -1011,7 +987,7 @@ define(["global", "jquery", "underscore"], function (IG, $, _) {
             htmlMenu +=
               '   <a href="' +
               value.linkUrl +
-              '" class="d3-a" ap-click-area="GNB" ap-click-name="Click GNB" ap-click-data="' +
+              '" class="d3-a"' +
               value.menuNm +
               '">' +
               value.menuNm +
@@ -1036,7 +1012,7 @@ define(["global", "jquery", "underscore"], function (IG, $, _) {
               htmlMenu +=
                 '   <a href="' +
                 value.linkUrl +
-                '" class="nav-a" ap-click-area="GNB" ap-click-name="Click GNB" ap-click-data="' +
+                '" class="nav-a"' +
                 value.menuNm +
                 '">' +
                 value.menuNm +
@@ -1048,7 +1024,7 @@ define(["global", "jquery", "underscore"], function (IG, $, _) {
               htmlMenu +=
                 '               <a href="' +
                 value.linkUrl +
-                '" class="nav-h" ap-click-area="GNB" ap-click-name="Click GNB" ap-click-data="' +
+                '" class="nav-h"' +
                 value.menuNm +
                 '">' +
                 value.menuNm +
@@ -1082,7 +1058,7 @@ define(["global", "jquery", "underscore"], function (IG, $, _) {
                 htmlMenu +=
                   '<dd><a href="' +
                   value.children[0].linkUrl +
-                  '" class="nav-a" ap-click-area="GNB" ap-click-name="Click GNB" ap-click-data="' +
+                  '" class="nav-a"' +
                   value.children[0].menuNm +
                   '">' +
                   value.children[0].menuNm +
@@ -1091,7 +1067,7 @@ define(["global", "jquery", "underscore"], function (IG, $, _) {
                 htmlMenu +=
                   '<dd><a href="' +
                   value.linkUrl +
-                  '" class="nav-a" ap-click-area="GNB" ap-click-name="Click GNB" ap-click-data="' +
+                  '" class="nav-a"' +
                   value.menuNm +
                   '">' +
                   value.menuNm +
@@ -1105,7 +1081,7 @@ define(["global", "jquery", "underscore"], function (IG, $, _) {
               htmlMenu +=
                 '               <a href="' +
                 value.linkUrl +
-                '" class="nav-h" ap-click-area="GNB" ap-click-name="Click GNB" ap-click-data="' +
+                '" class="nav-h"' +
                 value.menuNm +
                 '">' +
                 value.menuNm +
@@ -1189,22 +1165,9 @@ define(["global", "jquery", "underscore"], function (IG, $, _) {
     return icon;
   }
 
-  function updateHrefForCareerLink() {
-    // #gnb-menu 하위에서 ap-click-data가 "직무 커리어"인 링크 요소를 선택합니다.
-    const careerLink = document.querySelector(
-      `#gnb-menu a[ap-click-data="직무 커리어"]`
-    );
-
-    // 해당 링크가 존재할 경우 href 값을 변경합니다.
-    if (careerLink) {
-      careerLink.setAttribute("href", "/int/ko/careers/careers.html");
-    }
-  }
 
   function displayLayout() {
     generateLayout();
-
-    updateHrefForCareerLink();
   }
   return {
     displayLayout: displayLayout,
