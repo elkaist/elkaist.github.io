@@ -1143,14 +1143,14 @@ define(["global", "jquery", "underscore"], function (IG, $, _) {
   //GNB, SideNav Menu 생성.
   function generateLayout() {
     //Header
-    $("#header > div.l-header > div.utils").load("/layout/header-util.html");
+    $("#header > div.l-header > div.utils").load("layout/header-util.html");
     //Footer
-    $("#footer > div.l-wrap > div.footer-links > div.footer-links-list").load(
-      "/int/ko/layout/footer/footer-links-list.html"
-    );
+    // $("#footer > div.l-wrap > div.footer-links > div.footer-links-list").load(
+    //   "layout/footer/footer-links-list.html"
+    // );
     //sideNav
     $.ajax({
-      url: "/layout/sidenav-misc.html",
+      url: "layout/sidenav-misc.html",
       dataType: "html",
       async: false,
       success: function (result) {
@@ -1162,7 +1162,7 @@ define(["global", "jquery", "underscore"], function (IG, $, _) {
     });
     //menu.json
     $.ajax({
-      url: "/layout/menu.json",
+      url: "layout/menu.json",
       dataType: "json",
       async: false,
       success: function (result) {
