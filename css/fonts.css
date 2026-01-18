@@ -2,53 +2,53 @@
 	font-family:AritaDotum;
 	font-style:normal;
 	font-weight:400;
-	src: url(..../assets/fonts/AritaDotumKR-Medium.woff2) format("woff2"),
-  	url(..../assets/fonts/AritaDotumKR-Medium.woff) format("woff"),
-	url(..../assets/fonts/AritaDotumKR-Medium.ttf) format("truetype");
+	src: url(./assets/fonts/AritaDotumKR-Medium.woff2) format("woff2"),
+  	url(./assets/fonts/AritaDotumKR-Medium.woff) format("woff"),
+	url(./assets/fonts/AritaDotumKR-Medium.ttf) format("truetype");
 	font-display:swap
 }
 @font-face{
 	font-family:AritaDotum;
 	font-style:normal;
 	font-weight:500;
-	src:url(../assets/fonts/AritaDotumKR-SemiBold.woff2) format("woff2"),
-  	url(../assets/fonts/AritaDotumKR-SemiBold.woff) format("woff"),
-	url(../assets/fonts/AritaDotumKR-SemiBold.ttf) format("truetype");
+	src:url(./assets/fonts/AritaDotumKR-SemiBold.woff2) format("woff2"),
+  	url(./assets/fonts/AritaDotumKR-SemiBold.woff) format("woff"),
+	url(./assets/fonts/AritaDotumKR-SemiBold.ttf) format("truetype");
 	font-display:swap
 }
 @font-face{
 	font-family:Buri;
 	font-style:normal;
 	font-weight:400;
-	src:url(../assets/fonts/AritaBuriKR-SemiBold.woff2) format("woff2"),
- 	url(../assets/fonts/AritaBuriKR-SemiBold.woff) format("woff"),
-	url(../assets/fonts/AritaBuriKR-SemiBold.ttf) format("truetype");
+	src:url(./assets/fonts/AritaBuriKR-SemiBold.woff2) format("woff2"),
+ 	url(./assets/fonts/AritaBuriKR-SemiBold.woff) format("woff"),
+	url(./assets/fonts/AritaBuriKR-SemiBold.ttf) format("truetype");
 	font-display:swap
 }
 @font-face{
 	font-family:aphq;
 	font-style:normal;
 	font-weight:400;
-	src:url(../assets/fonts/APHQ-REGULAR.OTF) format('opentype');
+	src:url(./assets/fonts/APHQ-REGULAR.OTF) format('opentype');
 	font-display:swap
 }
 @font-face{
 	font-family:aphq;
 	font-style:normal;
 	font-weight:700;
-	src:url(../assets/fonts/APHQ-BOLD.OTF) format('opentype');
+	src:url(./assets/fonts/APHQ-BOLD.OTF) format('opentype');
 	font-display:swap
 }
 @font-face{
 	font-family:aphq;
 	font-style:normal;
 	font-weight:400;
-	src:url(../assets/fonts/APHQHangeul.eot);
-	src:url(../assets/fonts/APHQHangeul.eot?#iefix) format("embedded-opentype"),
-	url(../assets/fonts/APHQHangeul.woff2) format("woff2"),
-	url(../assets/fonts/APHQHangeul.woff) format("woff"),
-	url(../assets/fonts/APHQHangeul.ttf) format("truetype"),
-	url(../assets/fonts/APHQHangeul.otf) format("opentype");
+	src:url(./assets/fonts/APHQHangeul.eot);
+	src:url(./assets/fonts/APHQHangeul.eot?#iefix) format("embedded-opentype"),
+	url(./assets/fonts/APHQHangeul.woff2) format("woff2"),
+	url(./assets/fonts/APHQHangeul.woff) format("woff"),
+	url(./assets/fonts/APHQHangeul.ttf) format("truetype"),
+	url(./assets/fonts/APHQHangeul.otf) format("opentype");
 	unicode-range:U+AC00-D7A3;
 	font-display:swap
 }
@@ -56,12 +56,12 @@
 	font-family:aphq;
 	font-style:normal;
 	font-weight:700;
-	src:url(../assets/fonts/APHQHangeul.eot);
-	src:url(../assets/fonts/APHQHangeul.eot?#iefix) format("embedded-opentype"),
-	url(../assets/fonts/APHQHangeul.woff2) format("woff2"),
-	url(../assets/fonts/APHQHangeul.woff) format("woff"),
-	url(../assets/fonts/APHQHangeul.ttf) format("truetype"),
-	url(../assets/fonts/APHQHangeul.otf) format("opentype");
+	src:url(./assets/fonts/APHQHangeul.eot);
+	src:url(./assets/fonts/APHQHangeul.eot?#iefix) format("embedded-opentype"),
+	url(./assets/fonts/APHQHangeul.woff2) format("woff2"),
+	url(./assets/fonts/APHQHangeul.woff) format("woff"),
+	url(./assets/fonts/APHQHangeul.ttf) format("truetype"),
+	url(./assets/fonts/APHQHangeul.otf) format("opentype");
 	unicode-range:U+AC00-D7A3;
 	font-display:swap
 }
@@ -69,16 +69,16 @@
 	font-family: NotoSans;
 	font-style:normal;
 	font-weight:600;
-	src:url(../assets/fonts/NotoSans-SemiBold.woff2) format("woff2"),
-		url(../assets/fonts/NotoSans-SemiBold.otf) format("opentype");
+	src:url(./assets/fonts/NotoSans-SemiBold.woff2) format("woff2"),
+		url(./assets/fonts/NotoSans-SemiBold.otf) format("opentype");
 	font-display:swap
 }
 @font-face{
 	font-family: NotoSans;
 	font-style:normal;
 	font-weight:600;
-	src: url(../assets/fonts/NotoSansSC-Bold.woff2) format("woff2"),
-		 url(../assets/fonts/NotoSansSC-Bold.otf) format("opentype");
+	src: url(./assets/fonts/NotoSansSC-Bold.woff2) format("woff2"),
+		 url(./assets/fonts/NotoSansSC-Bold.otf) format("opentype");
 	unicode-range:U+4E00-9FCC;
 	font-display:swap
 }
