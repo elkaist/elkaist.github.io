@@ -13,14 +13,6 @@
       content="width=device-width, user-scalable=no, initial-scale=1.0"
     />
     <meta name="format-detection" content="telephone=no" />
-    <meta
-      name="google-site-verification"
-      content="PeX6oe694P5ZKeQHe7uvjfsKUihJZbehjryhBTKy0M0"
-    />
-    <meta
-      name="naver-site-verification"
-      content="20206ed18146fde903349515e49a17d21aa9aad9"
-    />
 
     <title>카이스트 응원단 ELKA - Encouraging Leaders of KAIST</title>
     <meta
@@ -150,41 +142,13 @@
       }
 
       var dataLayer = dataLayer || [];
-
-      var AP_SEARCH_TERM = "";
-      var AP_SEARCH_NUM = "";
-      var AP_SEARCH_TYPE = "";
-      var AP_SEARCH_PRDRESULT = "";
-
-      var AP_DATA_GCID = undefined;
-      var AP_DATA_CID = undefined;
-      var AP_DATA_ISMEMBER = undefined;
-      var AP_DATA_ISLOGIN = "N";
-      var AP_DATA_LOGINTYPE = undefined;
-      var AP_DATA_CA = "";
-      var AP_DATA_CD = undefined;
-      var AP_DATA_CG = undefined;
-      var AP_DATA_CT = undefined;
-      var AP_DATA_SITENAME = "APGROUP";
-      var AP_DATA_CHANNEL = mobileChk; //PC,MOBILE,APP
-      var AP_DATA_PAGENAME = document.title; //
-      var AP_DATA_PAGETYPE = "MAIN";
-      var AP_DATA_COUNTRY = "int".toUpperCase();
-      var AP_DATA_LANG = "ko".toUpperCase();
-      var AP_DATA_BREAD = "HOME "; //Breadcrumb Trail값
-      var AP_DATA_ENV = location.hostname.indexOf("dev-") == -1 ? "PRD" : "DEV";
-      var AP_PROMO_ID = undefined;
-      var AP_PROMO_NAME = undefined;
-      var AP_DATA_BEAUTYCT = undefined;
-      var AP_DATA_ISEMPLOYEE = undefined;
     </script>
+
     <div id="wrap">
       <header id="header" class="header">
         <div class="l-header">
           <h1 class="logo">
-            <a
-              href="localhost:5500/index.html"
-            >
+            <a href="localhost:5500/index.html">
               <img
                 src="./assets/img/logo_elka_resize.png"
                 alt="ELKA"
@@ -1477,73 +1441,5 @@
         }
       }
     </style>
-
-   
-    <script type="text/javascript" id="gtm-check-scroll-duration" charset="">
-      try {
-        if (typeof durationArray == "undefined")
-          for (var durationArray = [], i = 0; i < 11; i++) durationArray[i] = 0;
-        setInterval(function () {
-          calDuration(durationArray);
-        }, 1e3);
-      } catch (a) {}
-      function calDuration(a) {
-        if (window.scrollY != void 0 && window.scrollY != null) {
-          var b =
-            Math.round(
-              ((window.scrollY /
-                (document.documentElement.scrollHeight - window.innerHeight)) *
-                100) /
-                10
-            ) * 10;
-          a[b / 10] += 1;
-        }
-      }
-      document.querySelectorAll("a").forEach(function (a) {
-        a.addEventListener("click", function (b) {
-          window.dataLayer.push({
-            event: "click_with_duration",
-            duration: {
-              depth_0: durationArray[0],
-              depth_10: durationArray[1],
-              depth_20: durationArray[2],
-              depth_30: durationArray[3],
-              depth_40: durationArray[4],
-              depth_50: durationArray[5],
-              depth_60: durationArray[6],
-              depth_70: durationArray[7],
-              depth_80: durationArray[8],
-              depth_90: durationArray[9],
-              depth_100: durationArray[10],
-            },
-          });
-          durationArray = Array.from({ length: 11 }, function () {
-            return 0;
-          });
-        });
-      });
-    </script>
-    <script type="text/javascript" id="" charset="">
-      try {
-        var reportItems = document.querySelectorAll("li.report-item, li.item");
-        reportItems.forEach(function (a) {
-          var b = a.querySelector("a[href]"),
-            c = "";
-          if (a.classList.contains("report-item")) {
-            var d = a.querySelector(".report-h");
-            d && (c = d.textContent);
-          } else a.classList.contains("item") && (d = a.querySelector(".item-title")) && (c = d.textContent);
-          b &&
-            (a.classList.contains("report-item")
-              ? (b.setAttribute("ap-click-area", "SUSTAINABILITY REPORTS"),
-                b.setAttribute("ap-click-name", "Click Sustainability Report"),
-                b.setAttribute("ap-click-data", c))
-              : a.classList.contains("item") &&
-                (b.setAttribute("ap-click-area", "IR REPORTS"),
-                b.setAttribute("ap-click-name", "Click IR Report"),
-                b.setAttribute("ap-click-data", c)));
-        });
-      } catch (a) {}
-    </script>
   </body>
 </html>

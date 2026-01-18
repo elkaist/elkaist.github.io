@@ -1,7 +1,3 @@
-/**
- * 메뉴 작동 모듈
- */
-//20231206 test
 define(['global', 'jquery', 'underscore', 'gsap', 'menuaim'], function(IG, $, _) {
 
 	var $body = $('body'),
@@ -51,9 +47,6 @@ define(['global', 'jquery', 'underscore', 'gsap', 'menuaim'], function(IG, $, _)
 			GNB.$cur_d3 = null;
 		}
 	}
-
-	 // <!-- console.log('[Navigation] current:', d1, d2, d3 ); -->
-
 
 	// header transform
 	// --------------------------------------------------
