@@ -1150,7 +1150,6 @@ define(["global", "jquery", "underscore"], function (IG, $, _) {
         htmlMenu = makeMenuSideNav(result.menu, 1);
         $("#nav").html(htmlMenu);
         IG.Nav = require(["nav"]);
-        IG.navstock = require(["navstock"]);
       },
       error: function (request, status, error) {
         console.log("code:" + request.status + "\n" + "error:" + error);

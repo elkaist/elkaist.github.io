@@ -18352,3 +18352,17 @@ pointer-events:all;
 :root {
   --swiper-theme-color: #000!important
 }
+
+
+
+.members .position, .members .name {
+  font-family: sans-serif, 'Buri';
+  font-weight: bold;
+}
+.members .major {
+  font-family: sans-serif, 'Buri';
+  font-weight: normal;
+}
+.members .info{
+  text-align: center;
+}
