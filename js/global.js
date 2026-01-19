@@ -222,8 +222,7 @@ define(['jquery', 'underscore', 'ua-parser-js', 'functions'], function($, _, UAP
         }
 
         IG.scrollTop = IG.$win.scrollTop();
-		
-		//앱스캔 취약점 보완 조치
+        
 		$("a[target=_blank]").attr("rel", "noopener noreferrer");
     });
 

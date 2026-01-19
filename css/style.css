@@ -2880,7 +2880,8 @@ opacity: 0.7
 }
 
 .sidenav-misc {
-  zoom:1;z-index: 1;
+  zoom:1;
+  z-index: 1;
   margin: 0 -5px;
   padding-bottom: 4em;
   font-size: 16px
@@ -17098,23 +17099,23 @@ select {
   padding: 67px 0 0 0
 }
 
-.overview-article.new .section-overview .section2, .overview-article.new .section-overview .section4 {
+.overview-article.new .section-overview .section2, .overview-article.new .section-overview .section4, .overview-article.new .section-overview .section6 {
   background: #fff
 }
 
-.overview-article.new .section-overview .title_area {
+.overview-article.new .section-overview .title-area {
   font-size: 15px;
   text-align: center;
   word-break: keep-all
 }
 
-.overview-article.new .section-overview .title_area h2 {
+.overview-article.new .section-overview .title-area h2 {
   font-size: 36px;
   font-weight: 500;
   color: #222222
 }
 
-.overview-article.new .section-overview .title_area h2+sub-section-desc {
+.overview-article.new .section-overview .title-area h2+sub-section-desc {
   font-size: 18px
 }
 
@@ -17139,7 +17140,7 @@ select {
   background-color: transparent
 }
 
-.overview-article.new .section-overview .title_area h2 {
+.overview-article.new .section-overview .title-area h2 {
   font-size: 28px
 }
 
@@ -17153,7 +17154,7 @@ select {
       padding-top:37px
   }
 
-  .overview-article.new .section-overview .title_area h2 {
+  .overview-article.new .section-overview .title-area h2 {
       font-size: 36px
   }
 }
@@ -17163,7 +17164,7 @@ select {
       padding:2.5em 2.3125em
   }
 
-  .overview-article.new .section-overview .title_area {
+  .overview-article.new .section-overview .title-area {
       font-size: 18px
   }
 
@@ -18227,4 +18228,21 @@ pointer-events:all;
 }
 .members .info{
   text-align: center;
+}
+
+.title-area > .contact {
+  text-align: center;
+  font-weight: bold;
+  font-size: 2.5em;
+}
+
+.subpage-banner{
+  position: relative;
+  display: block;
+}
+
+.subpage-banner .text-area{
+  position: absolute;
+  top: 50%;
+  left: 50%;
 }
