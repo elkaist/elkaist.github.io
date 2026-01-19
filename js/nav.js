@@ -107,11 +107,9 @@ define(['global', 'jquery', 'underscore', 'gsap', 'menuaim'], function(IG, $, _)
 			});
 		},
 		open: function() {
-			// $body.addClass('is-open-nav');
 			GNB.isopen = true;
 		},
 		close: function() {
-			$body.removeClass('is-open-nav');
 			GNB.isopen = false;
 		},
 		activate: function(row) {
@@ -182,7 +180,7 @@ define(['global', 'jquery', 'underscore', 'gsap', 'menuaim'], function(IG, $, _)
 			GNB.isopen = false;
 		}
 
-		return deactivateSubmenu;   // for reset activateSubmenu
+		return deactivateSubmenu;
 	}
 
 

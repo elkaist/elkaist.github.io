@@ -1120,10 +1120,6 @@ define(["global", "jquery", "underscore"], function (IG, $, _) {
   function generateLayout() {
     //Header
     $("#header > div.l-header > div.utils").load("layout/header-util.html");
-    //Footer
-    // $("#footer > div.l-wrap > div.footer-links > div.footer-links-list").load(
-    //   "layout/footer/footer-links-list.html"
-    // );
     //sideNav
     $.ajax({
       url: "layout/sidenav-misc.html",

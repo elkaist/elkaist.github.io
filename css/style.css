@@ -241,7 +241,7 @@ textarea {
        url(../assets/fonts/fontello.woff) format("woff"),
        url(../assets/fonts/fontello.ttf) format("truetype"),
        url(../assets/fonts/fontello.svg?#fontello) format("svg");
-  font-weight: 400;
+  font-weight: normal;
   font-style: normal;
 	font-display: swap
 }
@@ -275,151 +275,13 @@ textarea {
 .icon-left-open-big:before { content: '\e801'; } /* '' */
 .icon-right-open-big:before { content: '\e802'; } /* '' */
 .icon-up-open-big:before { content: '\e803'; } /* '' */
+.icon-search:before { content: '\e804'; } /* '' */
+.icon-cancel:before { content: '\e805'; } /* '' */
+.icon-menu:before { content: '\f0c9'; } /* '' */
+.icon-youtube-play:before { content: '\f16a'; } /* '' */
+.icon-instagram:before { content: '\f16d'; } /* '' */
+.icon-facebook:before { content: '\f300'; } /* '' */
 
-
-.icon-arrow-lower:before {
-  content: '\e800'
-}
-
-.icon-arrow-right:before {
-  content: '\e802'
-}
-
-.icon-arrow-start:before {
-  content: '\e801'
-}
-
-.icon-arrow-top:before {
-  content: '\e803'
-}
-
-.icon-arrow-upper:before {
-  content: '\e804'
-}
-
-.icon-blog:before {
-  content: '\e805'
-}
-
-.icon-check-checked:before {
-  content: '\e806'
-}
-
-.icon-check-unchecked:before {
-  content: '\e807'
-}
-
-.icon-close:before {
-  content: '\e808'
-}
-
-.icon-confirm:before {
-  content: '\e809'
-}
-
-.icon-download:before {
-  content: '\e80a'
-}
-
-.icon-facebook:before {
-  content: '\e80b'
-}
-
-.icon-light-alert:before {
-  content: '\e80d'
-}
-
-.icon-light-close:before {
-  content: '\e80e'
-}
-
-.icon-light-confirm:before {
-  content: '\e80f'
-}
-
-.icon-light-play:before {
-  content: '\e810'
-}
-
-.icon-menu:before {
-  content: '\e811'
-}
-
-.icon-minus:before {
-  content: '\e812'
-}
-
-.icon-onlineshop:before {
-  content: '\e813'
-}
-
-.icon-pause:before {
-  content: '\e814'
-}
-
-.icon-plus:before {
-  content: '\e815'
-}
-
-.icon-quote-left:before {
-  content: '\e816'
-}
-
-.icon-quote-right:before {
-  content: '\e817'
-}
-
-.icon-radio-checked:before {
-  content: '\e818'
-}
-
-.icon-radio-unchecked:before {
-  content: '\e819'
-}
-
-.icon-search:before {
-  content: '\e81a'
-}
-
-.icon-twitter:before {
-  content: '\e81b'
-}
-
-.icon-youtube:before {
-  content: '\e81c'
-}
-
-.icon-alert:before {
-  content: '\e81d'
-}
-
-.icon-arrow-bottom:before {
-  content: '\e81e'
-}
-
-.icon-arrow-end:before {
-  content: '\e81f'
-}
-
-.icon-arrow-left:before {
-  content: '\e801'
-}
-
-.icon-pointer:before {
-  content: '\e821'
-}
-
-.icon-pinterest:before {
-  content: '\e822'
-}
-
-.icon-instagram:before {
-  content: '\e823'
-}
-
-.icon-weibo:before {
-  content: '\e824'
-}
 
 .slick-slider {
   -moz-box-sizing: border-box;
@@ -5997,11 +5859,11 @@ select {
       color: #707070
   }
 
-  .switch-select .select-trigger .icon-arrow-top {
+  .switch-select .select-trigger .icon-up-open-big {
       display: none
   }
 
-  .on.switch-select .select-trigger .icon-arrow-top,.switch-select .select-trigger .icon-arrow-bottom {
+  .on.switch-select .select-trigger .icon-up-open-big,.switch-select .select-trigger .icon-arrow-bottom {
       display: inline-block
   }
 
@@ -6591,7 +6453,7 @@ select {
   padding: 30px 10px 40px
 }
 
-.carousel .slide-desc .icon-arrow-top,.carousel .slide-sub {
+.carousel .slide-desc .icon-up-open-big,.carousel .slide-sub {
   display: inline-block
 }
 
@@ -6639,7 +6501,7 @@ select {
   overflow: hidden
 }
 
-.carousel .slide-desc.is-folded .icon-arrow-top {
+.carousel .slide-desc.is-folded .icon-up-open-big {
   display: none
 }
 
@@ -9780,14 +9642,14 @@ select {
   font-size: 1.2em
 }
 
-.fair-trade-list .item-link .icon-arrow-bottom,.fair-trade-list .item-link .icon-arrow-top {
+.fair-trade-list .item-link .icon-arrow-bottom,.fair-trade-list .item-link .icon-up-open-big {
   position: absolute;
   right: 40px;
   top: 50%;
   margin-top: -12px
 }
 
-.fair-trade-list .item-link .icon-arrow-top {
+.fair-trade-list .item-link .icon-up-open-big {
   display: none
 }
 
@@ -9822,7 +9684,7 @@ select {
   margin-bottom: 0
 }
 
-.fair-trade-list .item.is-active .item-link .icon-arrow-top {
+.fair-trade-list .item.is-active .item-link .icon-up-open-big {
   display: inline-block
 }
 
@@ -10246,7 +10108,7 @@ select {
   margin: 0
 }
 
-.accordion-list .item-deco .icon-arrow-top,.accordion-list .item.is-active .icon-arrow-bottom {
+.accordion-list .item-deco .icon-up-open-big,.accordion-list .item.is-active .icon-arrow-bottom {
   display: none
 }
 
@@ -10262,7 +10124,7 @@ select {
   border-bottom: 2px solid #444
 }
 
-.accordion-list .item.is-active .icon-arrow-top {
+.accordion-list .item.is-active .icon-up-open-big {
   display: inline-block
 }
 
