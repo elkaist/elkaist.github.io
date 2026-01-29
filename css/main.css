@@ -4,7 +4,7 @@
 .home-intro .slide-h,
 .home-news-h {
   line-height: 1.2;
-  font-family: AritaDotum, Buri, serif;
+  font-family: NanumSquareAc, NotoSans, AritaDotum, Buri, serif;
 }
 .home-news .thumb-desc,
 .home-notice-cont {
@@ -19,7 +19,7 @@
 .home-intro .slide-h,
 .home-news-h,
 .home-notice-ceo b {
-  font-family: AritaDotum, serif, sans-serif;
+  font-family: NanumSquareAc, NotoSans, AritaDotum, serif, sans-serif;
 }
 .home-brands-h,
 .home-glance-h,
@@ -42,7 +42,7 @@
   .home-brands-h,
   .home-glance-h,
   .home-news-h {
-    font-size: 3.2em;
+    font-size: 3.0em;
   }
 }
 .home-intro {
@@ -832,7 +832,6 @@
     right: 40px;
   }
 }
-/*2019.02.28 kv 첫번째탭 수정*/
 .slide-h-red {
   display: none;
 }
@@ -853,7 +852,6 @@
     bottom: 172px;
   }
 }
-/*2019.04.30 kv 영상탭 수정*/
 @media (min-width: 100em) {
   .home-intro .slide-placer {
     width: 50%;
@@ -864,7 +862,6 @@
     width: 63%;
   }
 }
-/*20190620수정*/
 .home-news .thumb-desc {
   -webkit-line-clamp: 2;
   -ms-line-clamp: 2;
@@ -879,7 +876,6 @@
   }
 }
 
-/*20191213 수정*/
 .culture_slide {
   background: url(/int/ko/resource/images/main/culture_slider/content/culture_slide_bg.png)
     no-repeat center 0;
