@@ -615,7 +615,7 @@ table {
 }
 
 body,button,input,select,textarea {
-  font-family: AritaDotum,NotoSans,"Malgun Gothic","맑은 고딕","Nanum Gothic","나눔 고딕","돋움",dotum,sans-serif
+  font-family: NanumSquareAc,AritaDotum,NotoSans,"Malgun Gothic","맑은 고딕","Nanum Gothic","나눔 고딕","돋움",dotum,sans-serif
 }
 
 h1,h2,h3,h4,h5,h6 {
@@ -5446,6 +5446,10 @@ select {
       border-left: 0;
       border-right: 0
   }
+  
+  .event-item{
+    text-align: center;
+  }
 }
 
 .list-table {
@@ -8762,7 +8766,7 @@ select {
 .content-header-cell {
   position: relative;
   text-align: center;
-  padding-top: 37px
+  padding-top: 37px;
 }
 
 .is-merged .content-header-cell {
@@ -8794,7 +8798,7 @@ select {
 }
 
 .content-header.is-merged .h {
-  font-weight: 400;
+  font-weight: 700;
   font-size: 3.8em;
   -webkit-text-shadow: 0 0 50px rgba(0,0,0,.5);
   -moz-text-shadow: 0 0 50px rgba(0,0,0,.5);
@@ -15241,30 +15245,6 @@ select {
   margin-top: 4.5em
 }
 
-/*200310수정*/
-@font-face {
-  font-family: fontello_linkedin;
-  src: url(/int/ko/resource/fonts/fontello_linkedin.eot);
-  src: url(/int/ko/resource/fonts/fontello_linkedin.eot?#iefix) format("embedded-opentype"),url(/int/ko/resource/fonts/fontello_linkedin.woff2) format("woff2"),url(/int/ko/resource/fonts/fontello_linkedin.woff) format("woff"),url(/int/ko/resource/fonts/fontello_linkedin.ttf) format("truetype"),url(/int/ko/resource/fonts/fontello_linkedin.svg?#fontello_linkedin) format("svg");
-  font-weight: 400;
-  font-style: normal
-}
-
-.sns .icon-linkedin-circled {
-  font-size: 32px;
-  position: relative;
-  bottom: 1px
-}
-
-.icon-linkedin-circled:before {
-  content: '\f319';
-  font-family: fontello_linkedin!important
-}
-
-.sns a:focus .icon-linkedin-circled, .sns a:hover .icon-linkedin-circled {
-  color: #0073b0
-}
-
 /*레이어팝업*/
 .layer_popup {
   position: fixed;
@@ -15448,9 +15428,6 @@ select {
   width: 17px;
 }
 
-.header-sns li div.header_linkedin {
-  width: 15px;
-}
 
 .header-sns li div.header_youtube {
   width: 17px;
@@ -15489,10 +15466,6 @@ select {
 }
 
 .sidenav-sns ul li div.sidenav_facebook {
-  width: 16px;
-}
-
-.sidenav-sns ul li div.sidenav_linkedin {
   width: 16px;
 }
 
