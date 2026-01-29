@@ -143,6 +143,20 @@
         border-bottom: 1px solid #eee;
       }
     </style>
+    <style>
+    /* 모든 인물 리스트를 중앙 정렬 */
+    .overview-list.row {
+      justify-content: center;
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    /* 각 항목(li) 사이의 간격이 일정하게 유지되도록 설정 */
+    .overview-list.row > li {
+      float: none; /* 기존 float 방식 해제 */
+      display: inline-block;
+    }
+  </style>
   </head>
 
   <body>
@@ -241,7 +255,7 @@
                   <div class="title-area">
                     <h2>단장단</h2>
                   </div>
-                  <ul class="overview-list row">
+                  <ul class="overview-list row" style="justify-content: center;">
                     <li class="col-s-6 col-l-3">
                       <div class="overview-thumb">
                         <div class="thumb-block">

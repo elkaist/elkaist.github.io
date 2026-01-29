@@ -3,6 +3,10 @@
   word-wrap: break-word
 }
 
+:root {
+  --elka-color: #0f31ab;
+}
+
 button,hr,input {
   overflow: visible
 }
@@ -1683,8 +1687,8 @@ body.has-cover,body.home {
 }
 
 .gnb .d1-a,.gnb-h {
-  font-family: 'NanumSqaureAc', Buri, serif;
-  font-weight: 500
+  font-family: NanumSquare, Buri, serif;
+  font-weight: 550
 }
 
 #bp {
@@ -15370,33 +15374,6 @@ select {
   width: 22px
 }
 
-.sns_icon_wrap .sns_icon.pinterest {
- width: 10px
-}
-
-.sns_icon_wrap .sns_icon.twitter {
-  width: 25px
-}
-
-.sns_icon_wrap .sns_icon.blog {
-  width: 17px
-}
-
-.sns_icon_wrap .sns_icon.weibo {
-}
-
-.sns_icon_wrap .sns_icon.naver_post {
-  width: 14px
-}
-
-.sns_icon_wrap .sns_icon.kakaotalk {
-  width: 26px
-}
-
-.sns_icon_wrap .sns_icon.linked_in {
-  width: 23px
-}
-
 .sns_icon_wrap:hover .over_img {
   opacity: 1
 }
@@ -15413,17 +15390,6 @@ select {
   width: 26px
 }
 
-.sns_icon_wrap .facebook .contact img {
-  width: 44px
-}
-
-.sns_icon_wrap .insta .contact img {
-  width: 88px
-}
-
-.sns_icon_wrap .youtube .contact img {
-  width: 104px
-}
 
 .sns_icon_wrap img {
   position: absolute;
@@ -18246,11 +18212,27 @@ pointer-events:all;
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.5); /* 50% 불투명 회색 */
-    z-index: 1; /* 배경 이미지보다 위로 */
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1; 
 }
 
-/* 기존 .bg는 충돌 방지를 위해 숨김 처리 */
 .content-header-cover .bg {
     display: none !important;
+}
+
+.header-sns{
+  font-family: NanumSquare, NotoSans, AritaDotum, "Malgun Gothic", "맑은 고딕", "Nanum Gothic", "나눔 고딕", "돋움", dotum, sans-serif;
+  font-weight: 300;
+}
+  
+.title-area.connect-with-elka {
+  font-family: NanumSquare, sans-serif;
+  font-size: xx-large;
+  font-weight: 600;
+  text-align: center;
+}
+
+.title-area.events-list{
+  color: var(--elka-color);
+  
 }
