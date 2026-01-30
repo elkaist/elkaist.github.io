@@ -552,6 +552,29 @@
       .section-overview{
         font-family: NanumSquareAc,AritaDotum,NotoSans,"Malgun Gothic","맑은 고딕","Nanum Gothic","나눔 고딕","돋움",dotum,sans-serif;
       }
+
+      @media screen and (max-width: 60em) {
+          /* 모바일에서 사진과 글의 순서를 사진-글 순으로 고정 */
+          .event-item.row {
+              flex-direction: column !important; 
+          }
+          
+          .event-item .thumb {
+              width: 100%;
+              margin-bottom: 20px;
+          }
+          
+          .event-item .info {
+              width: 100%;
+              padding: 0 20px !important; /* 좌우 여백 확보 */
+          }
+
+          .event-item .thumb-img img {
+              height: auto !important; /* 사진 비율 유지 */
+              max-height: 40vh; /* 너무 길어지지 않게 제한 */
+          }
+      }
+      
       .event-item.row p{
         font-size:1.3em;
       }

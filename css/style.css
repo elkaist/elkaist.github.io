@@ -2662,26 +2662,6 @@ opacity: 0.7
   height: 100%
 }
 
-.gnb .brand-a.sulwhasoo .brand-a-pad {
-  background-image: url(/int/ko/resource/images/a/bi-sulwhasoo.png)
-}
-
-.gnb .brand-a.laneige .brand-a-pad {
-  background-image: url(/int/ko/resource/images/a/bi-laneige-new.png)
-}
-
-.gnb .brand-a.mamonde .brand-a-pad {
-  background-image: url(/int/ko/resource/images/a/bi-mamonde-new.png)
-}
-
-.gnb .brand-a.etude-house .brand-a-pad {
-  background-image: url(/int/ko/resource/images/a/bi-etude-house.png)
-}
-
-.gnb .brand-a.innisfree .brand-a-pad {
-  background-image: url(/int/ko/resource/images/a/bi-innisfree2.jpg)
-}
-
 .gnb .brand-a.all .brand-a-pad:after {
   content: "";
   speak: none;

@@ -22,7 +22,7 @@
     <link
       rel="canonical"
       id="canonical"
-      href="https://elkaist.github.io/index.html"
+      href="https://elkaist.github.io/about.html"
     />
     <meta property="og:type" content="website" />
     <meta property="og:title" content="응원단 소개 - 카이스트 응원단 ELKA" />
@@ -37,7 +37,7 @@
     <meta
       property="og:url"
       id="og:url"
-      content="https://elkaist.github.io/index.html"
+      content="https://elkaist.github.io/about.html"
     />
 
     <script>
@@ -177,7 +177,7 @@
               </li>
             </ul>
             <a
-              href="./index.html#sidenav"
+              href="./about.html#sidenav"
             >
               <i class="icon-menu"></i><span class="blind">Menu</span>
             </a>
@@ -208,18 +208,40 @@
           <section class="section-overview">
             <h1 class="blind">응원단 소개 ABOUT</h1>
 
-            <div id="section1"></div>
-            <div class="section section1">
+            <div class="section section2" style="padding: 80px 0 10px;">
               <div class="l-wrap">
-                <div class="l-wide">
+                <div class="l-wide" style="text-align: center;">
+                  <p style="font-size: 2.5rem; color: #222; font-weight: 700; line-height: 1.8; word-break: keep-all;">
+                    ELKA는 <span style="color: var(--elka-color);">Encouraging Leaders of KAIST</span>의 약자로,<br>
+                    카이스트 사천 학우를 학교에 대한 사랑과 자부심으로 단결시키는<br>
+                    카이스트의 공식 응원단입니다.
+                  </p>
+                  <hr style="width: 100%; border: 0; border-top: 1px solid #ddd; margin: 40px 0;">
                 </div>
               </div>
             </div>
 
-            <div id="section2"></div>
             <div class="section section2">
               <div class="l-wrap">
                 <div class="l-wide">
+                  <div class="professor-card row" style="display: flex; align-items: center; justify-content: center; gap: 30px;">
+                    
+                    <div class="col-s-12 col-l-3" style="max-width: 240px;">
+                      <div class="thumb-block">
+                        <div class="thumb-img">
+                          <img src="./assets/img/members/professor.jpg" alt="이도헌 교수님" style="width: 100%; border-radius: 4px;">
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-s-12 col-l-5">
+                      <span style="font-size: 2.5rem; font-weight: 700;">지도교수님</span>
+                      <h2 style="font-size: 4.0rem; color: var(--elka-color); font-weight: 800; margin-top: 15px; line-height: 1.3;">
+                        Doheon Lee (이도헌)
+                      </h2>
+                    </div>
+
+                  </div>
                 </div>
               </div>
             </div>
@@ -227,11 +249,11 @@
         </article>
       </main>
 
-      <footer id="footer" class="footer">
+      <footer id="footer" class="footer" style="margin-top: 1vh;">
         <div class="l-wrap">
           <a
             id="go-to-top"
-            href="./index.html#main"
+            href="./about.html#main"
             class="btn-r btn-r-gotop"
           >
             <i class="icon icon-up-open-big"></i>
@@ -329,19 +351,33 @@
     ></script>
 
     <style>
-      .content-header-cover + .l-wrap .h--en {
-        padding-bottom: 0;
-      }
-      .content-header .sub-deco {
-        font-family:
-          AritaDotum, NotoSans, "Malgun Gothic", "맑은 고딕", "Nanum Gothic",
-          "나눔 고딕", "돋움", dotum, sans-serif;
-      }
       @media (min-width: 80em) {
         .l-narrow {
           margin-left: 0;
           margin-right: 0;
         }
+      }
+      @media screen and (max-width: 37.5em) {
+        .section-intro p {
+          font-size: 16px !important;
+          padding: 0 20px;
+        }
+        
+        .professor-card {
+          flex-direction: column !important;
+          text-align: center;
+        }
+        
+        .professor-card .col-l-3 {
+          margin: 0 auto 20px;
+        }
+        
+        .professor-card h2 {
+          font-size: 24px !important;
+        }
+      }
+      .overview-article.new .section-overview .section{
+        padding-top: 0;
       }
     </style>
   </body>
