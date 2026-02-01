@@ -256,37 +256,7 @@ define(['global', 'jquery', 'underscore', 'gsap', 'menuaim'], function(IG, $, _)
 				$d1.prepend($link.clone().removeClass('nav-h').addClass('nav-a'));
 			});
 
-			// setting back button
-			this.$el.find('.d2-box')
-				.prepend(btn_close)
-				.prepend($(btn_back).text('HOME'));
-
-			this.$el.find('.d3-box').each(function(){
-				var $box = $(this),
-					$head = $box.find('.nav-h'),
-					text_back = $box.parents('.d2-box').find('dt').eq(0).text();
-
-				$box.prepend(btn_close)
-					.prepend($(btn_back).text(text_back))
-					.parent().prepend($head.clone().removeClass('nav-h').addClass('nav-a'));
-			});
-
-			// setting no link add
-			this.$el.find('.d3-box a').each(function(){
-				var $box = $(this);
-
-				if ( $box.attr('href') == '#') {
-					$box.parent('dt').addClass('is-nolink');
-				}
-			});
-
-			// add event 
-			this.$el.on('click', '.nav-a', function(event) {
-				if ( $(this).siblings().length ) {
-					ND.activate(this);
-					cancel(event);
-				}
-			});
+			// add event
 			this.$el.on('click', '.btn-back, .close-box', function(event) {
 				ND.back(this);
 				cancel(event);
@@ -353,7 +323,6 @@ define(['global', 'jquery', 'underscore', 'gsap', 'menuaim'], function(IG, $, _)
 				ND.$misc.insertAfter(ND.$el);
 			}
 
-			// 부모요소릐 스크롤 기능을 막음 해제 (huawei bug fix)
 			$btn.parents('.is-active').removeClass('is-noscroll');
 			if ($btn.parent().is('.d2-box')) {
 				$sn.find('.sidenav-pad').removeClass('is-noscroll');

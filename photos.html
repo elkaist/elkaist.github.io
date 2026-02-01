@@ -208,18 +208,55 @@
           <section class="section-overview">
             <h1 class="blind">응원의 순간 PHOTOS</h1>
 
-            <div id="section1"></div>
-            <div class="section section1">
-              <div class="l-wrap">
-                <div class="l-wide">
-                </div>
-              </div>
-            </div>
+            <div class="section2">
+              <div class="section portfolio-section">
+                <div class="l-wrap">
+                  <div class="l-wide">
 
-            <div id="section2"></div>
-            <div class="section section2">
-              <div class="l-wrap">
-                <div class="l-wide">
+                    <div class="masonry-container">
+                      <div class="masonry-item">
+                        <div class="thumb-block">
+                          <img src="./assets/img/photos/photo1.png">
+                          <!-- <div class="hover-info"><span>2025 입학식</span></div> -->
+                        </div>
+                      </div>
+                      
+                      <div class="masonry-item">
+                        <div class="thumb-block">
+                          <img src="./assets/img/photos/photo2.png">
+                          <!-- <div class="hover-info"><span>새내기 응원대제전</span></div> -->
+                        </div>
+                      </div>
+
+                      <div class="masonry-item">
+                        <div class="thumb-block">
+                          <img src="./assets/img/photos/photo3.png">
+                          <!-- <div class="hover-info"><span>축제 공연</span></div> -->
+                        </div>
+                      </div>
+
+                      <div class="masonry-item">
+                        <div class="thumb-block">
+                          <img src="./assets/img/photos/photo4.png">
+                          <!-- <div class="hover-info"><span>축제 공연</span></div> -->
+                        </div>
+                      </div>
+
+                      <div class="masonry-item">
+                        <div class="thumb-block">
+                          <img src="./assets/img/photos/photo5.png">
+                          <!-- <div class="hover-info"><span>축제 공연</span></div> -->
+                        </div>
+                      </div>
+
+                      <div class="masonry-item">
+                        <div class="thumb-block">
+                          <img src="./assets/img/photos/photo6.png">
+                          <!-- <div class="hover-info"><span>축제 공연</span></div> -->
+                        </div>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
@@ -342,6 +379,70 @@
           margin-left: 0;
           margin-right: 0;
         }
+      }
+      .masonry-container {
+        column-count: 2; /* PC에서 3줄로 출력 */
+        column-gap: 24px; /* 사진 사이 가로 간격 */
+        width: 100%;
+      }
+
+      .masonry-item {
+        display: inline-block; /* 요소가 잘리지 않게 설정 */
+        width: 100%;
+        margin-bottom: 20px; /* 사진 사이 세로 간격 */
+        break-inside: avoid; /* 사진이 다음 열로 넘어갈 때 잘리는 것 방지 */
+      }
+
+      .masonry-item img {
+        width: 100%;
+        height: auto; /* 비율 유지하며 전체 노출 */
+        display: block;
+        border-radius: 8px; /* 부드러운 모서리 */
+        transition: transform 0.3s ease;
+      }
+
+      .masonry-item .thumb-block {
+        position: relative;
+        overflow: hidden;
+        border-radius: 8px;
+      }
+
+      .masonry-item:hover img {
+        transform: scale(1.05); /* 사진 살짝 확대 */
+      }
+
+      .hover-info {
+        position: absolute;
+        top: 0; left: 0; width: 100%; height: 100%;
+        background: rgba(0, 0, 0, 0.4);
+        color: #fff;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        opacity: 0;
+        transition: 0.3s;
+      }
+
+      .masonry-item:hover .hover-info {
+        opacity: 1;
+      }
+
+      /* 모바일 대응 (반응형) */
+      @media screen and (max-width: 37.5em) { /* 600px 이하 */
+        /* .masonry-container {
+          column-count: 2; 
+          column-gap: 10px;
+        }
+        .masonry-item {
+          margin-bottom: 10px;
+        } */
+         .masonry-container {
+            column-count: 1; 
+            column-gap: 0;
+          }
+          .masonry-item {
+            margin-bottom: 20px;
+          }
       }
     </style>
   </body>

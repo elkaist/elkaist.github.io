@@ -17022,7 +17022,7 @@ select {
 
 .overview-article.new .section-overview .title-area h2 {
   font-size: 36px;
-  font-weight: 500;
+  font-weight: bold;
   color: #222222
 }
 
@@ -18129,13 +18129,20 @@ pointer-events:all;
 
 
 
-.members .position, .members .name {
-  font-family: sans-serif, 'Buri';
+.members .position {
+  font-family: NanumSquareAc, sans-serif, 'Buri';
   font-weight: bold;
+  font-size: 2.6rem
+}
+.members .name {
+  font-family: NanumSquareAc, sans-serif, 'Buri';
+  font-weight: bold;
+  font-size: 2.4rem
 }
 .members .major {
-  font-family: sans-serif, 'Buri';
+  font-family: NanumSquareAc, sans-serif, 'Buri';
   font-weight: normal;
+  font-size: 2.0rem
 }
 .members .info{
   text-align: center;

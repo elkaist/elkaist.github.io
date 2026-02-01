@@ -1,49 +1,19 @@
-<div class="sidenav-sns">
-  <ul>
-    <li>
-      <a
-        href="https://www.facebook.com/ELKAIST/"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        <div class="sidenav_sns_icon sidenav_facebook">
-          <img
-            src="./assets/img/facebook.png"
-            alt="Facebook"
-          />
-        </div>
-        <span class="blind">Facebook</span>
-      </a>
-    </li>
-    <li>
-      <a
-        href="https://www.instagram.com/kaist_elka"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        <div class="sidenav_sns_icon sidenav_instagram">
-          <img src="./assets/img/insta.png" alt="Instagram" />
-        </div>
-        <span class="blind">Instagram</span>
-      </a>
-    </li>
-    <li>
-      <a
-        href="https://www.youtube.com/@ELKAvideo11"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        <div class="sidenav_sns_icon sidenav_youtube">
-          <img src="./assets/img/youtube.png" alt="Youtube" />
-        </div>
-        <span class="blind">Youtube</span>
-      </a>
-    </li>
-    </li>
-  </ul>
+
+<div class="sidenav-footer" style="margin-top: 60px; padding-top: 30px; border-top: 1px solid #eee;">
+  <div class="sidenav-sns" style="display: flex; gap: 25px; justify-content: center;">
+    <a href="https://www.facebook.com/ELKAIST/" target="_blank" title="Facebook" rel="noopener noreferrer">
+      <i class="icon-facebook" style="font-size: 30px; color: #4267B2;"></i>
+    </a>
+    <a href="https://www.instagram.com/kaist_elka" target="_blank" title="Instagram" rel="noopener noreferrer">
+      <i class="icon-instagram" style="font-size: 30px; color: #E1306C;"></i>
+    </a>
+    <a href="https://www.youtube.com/@ELKAvideo11" target="_blank" title="Youtube" rel="noopener noreferrer">
+      <i class="icon-youtube-play" style="font-size: 30px; color: #FF0000;"></i>
+    </a>
+  </div>
 </div>
 <button class="close-sidenav" type="button">
-  <i class="icon-close"></i>
+  <i class="icon-cancel"></i>
   <span class="blind">닫기</span>
 </button>
 
@@ -66,4 +36,21 @@
     right: -18px;
     left: inherit;
   }
+  .sidenav-sns a {
+    text-decoration: none;
+    transition: transform 0.2s ease;
+  }
+
+  .sidenav-sns i {
+    opacity: 0.7;
+    transition: all 0.3s ease;
+  }
+
+  .sidenav-sns a:hover i {
+    opacity: 1;
+  }
+
+  .sidenav-sns a:hover .fa-facebook-f { color: #3b5998 !important; }
+  .sidenav-sns a:hover .fa-instagram { color: #c32aa3 !important; }
+  .sidenav-sns a:hover .fa-youtube { color: #ff0000 !important; }
 </style>
