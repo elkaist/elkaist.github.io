@@ -1762,8 +1762,8 @@ body.home .header {
   top: 0;
   left: 0;
   z-index: 101;
-  width: 90%;
-  padding: 0 5%;
+  width: 95%;
+  padding: 0 2.5%;
   -webkit-transition: all .4s cubic-bezier(.215,.61,.355,1);
   -o-transition: all .4s cubic-bezier(.215,.61,.355,1);
   transition: all .4s cubic-bezier(.215,.61,.355,1)
@@ -18195,4 +18195,19 @@ pointer-events:all;
 .title-area.events-list{
   color: var(--elka-color);
   
+}
+
+.material-symbols-outlined {
+  font-variation-settings: 'wght' 200, 'opsz' 48; 
+  transition: opacity 0.3s ease;
+  font-size: 48px;
+}
+
+.open-sidenav:hover .material-symbols-outlined,
+.close-sidenav:hover .material-symbols-outlined {
+  opacity: 0.6;
+}
+
+.open-sidenav .material-symbols-outlined {
+  color: #ffffff;
 }
