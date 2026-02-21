@@ -35,7 +35,7 @@ fieldset,img {
   visibility: hidden
 }
 
-.btn-disabled,.cover-video>iframe,.disable-hover,.slick-slide.dragging img {
+.btn-disabled,.disable-hover,.slick-slide.dragging img {
   pointer-events: none
 }
 
@@ -8045,12 +8045,8 @@ select {
   white-space: nowrap
 }
 
-.cover-spacer,.cover-video {
+.cover-spacer {
   position: absolute
-}
-
-.cover-video video {
-  width: 100%
 }
 
 .cover:after {
@@ -8062,14 +8058,6 @@ select {
 .cover-spacer {
   width: 100%;
   height: 100%
-}
-
-.cover-video>iframe {
-  position: absolute;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  top: 0
 }
 
 .cover-bg {

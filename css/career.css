@@ -43,7 +43,6 @@ body.split-ready .kv-career .title-area-line {
   z-index: 2;
   width: 100%;
   padding-top: 34px;
-  font-family: aphq;
   color: #fff;
   text-align: center;
   text-transform: uppercase;
@@ -324,7 +323,6 @@ body.split-ready .kv-career .title-area-line {
 
 .growth-vision-title {
   padding: 96px 0 64px;
-  font-family: aphq;
   color: #fff;
   text-align: center;
   text-transform: uppercase;
@@ -1429,7 +1427,6 @@ body.split-ready .kv-career .title-area-line {
 
 .careers-num {
   display: block;
-  font-family: aphq;
   font-size: 22px;
   font-weight: 700;
   line-height: 1;
@@ -1452,7 +1449,6 @@ body.split-ready .kv-career .title-area-line {
 .careers-title {
   display: block;
   margin-top: 16px;
-  font-family: aphq;
   text-transform: uppercase;
   font-size: 48px;
   font-weight: 700;
@@ -1633,7 +1629,6 @@ body.split-ready .kv-career .title-area-line {
 }
 
 .culture:lang(en) .section-title {
-  font-family: aphq;
   font-weight: 700;
 }
 
