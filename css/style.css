@@ -8312,6 +8312,22 @@ select {
   transition: all .5s cubic-bezier(0,.5,.5,1)
 }
 
+.overview-thumb.leaders {
+    padding-bottom: 0.5em;
+}
+
+.overview-thumb.leaders img {
+    padding-bottom: 0.5em;
+    width: 100% !important; 
+    max-width: none !important;
+    height: auto;
+    display: block;
+}
+
+.overview-thumb.sophomore {
+  padding-bottom: 0.5em;
+}
+
 .overview-info {
   padding: 2.66667em 1.66667em
 }
