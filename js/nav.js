@@ -17,34 +17,16 @@ define(['global', 'jquery', 'underscore', 'gsap', 'menuaim'], function(IG, $, _)
 	// set current 
 	if ( activation == undefined ) {
 		GNB.$cur_d1 = $gnb.find('.d1.is-current');
-		GNB.$cur_d2 = $gnb.find('.d2.is-current');
-		GNB.$cur_d3 = $gnb.find('.d3.is-current');
 
 		d1 = GNB.$cur_d1.index() + 1;
-		d2 = GNB.$cur_d2.index() + 1;
-		d3 = GNB.$cur_d3.index() + 1;
-
 	} else {
 		activation = String(activation).split(',');
 		d1 = parseInt(activation[0]) || 0;
-		d2 = parseInt(activation[1]) || 0;
-		d3 = parseInt(activation[2]) || 0;
 
 		if ( d1 > 0 ) {
 			GNB.$cur_d1 = $gnb.find('.d1').eq(d1-1).addClass('is-current');
-			
-			if ( d2 > 0 ) {
-				GNB.$cur_d2 = GNB.$cur_d1.find('.d2').eq(d2-1).addClass('is-current');
-			
-				if ( d3 > 0 ) {
-					GNB.$cur_d3 = GNB.$cur_d2.find('.d3').eq(d3-1).addClass('is-current');
-				}
-			}
-
 		} else {
 			GNB.$cur_d1 = null;
-			GNB.$cur_d2 = null;
-			GNB.$cur_d3 = null;
 		}
 	}
 
@@ -63,13 +45,10 @@ define(['global', 'jquery', 'underscore', 'gsap', 'menuaim'], function(IG, $, _)
 	// GNB (menu for large device)
 	// --------------------------------------------------
 	$.extend(GNB, {
-		t: 0.4,
 		timer: {},
 		$menu: $('#gnb-menu'),
 		$d1: $gnb.find('.d1'),
-		$sub: $gnb.find('.d2-list'),
 		$draw: $gnb.find('.gnb-draw'),
-		$d3_box: $gnb.find('.d3-box'),
 
 		curRow: null,
 		curSub: null,
@@ -77,34 +56,11 @@ define(['global', 'jquery', 'underscore', 'gsap', 'menuaim'], function(IG, $, _)
 		isopen: false,
 		setup: function() {
 			TweenMax.set(GNB.$draw, { display: 'block', autoAlpha: 0 });
-			TweenMax.set(GNB.$d3_box, { autoAlpha: 0 });
 
 			if ( d1 > 0 ) {
 				GNB.curRow = GNB.$cur_d1[0];
 				GNB.$cur_d1.addClass('is-active');
-
-				if ( d2 > 0 ) {
-					GNB.$cur_d2 = GNB.$cur_d1.find('.d2').eq(d2-1).addClass('is-current');
-
-					if ( d3 > 0 ) {
-						GNB.$cur_d3 = GNB.$cur_d1.find('.d2').eq(d2-1).addClass('is-current');
-					}
-				}
 			}
-
-			GNB.$d3_box.each(function(i, el){
-				var $box = $(el),
-					$link = $box.parent().find('.d2-a');
-
-				$box.prepend($link.clone().removeClass('d2-a').addClass('d3-h-a'));
-			});
-
-			GNB.$sub.find('.d3-a:last').keydown(function(event){
-				if ( event.keyCode == 9 && !event.shiftKey ) {
-					TweenMax.set($(this).parents('.d3-box'), { autoAlpha: 0 });
-					TweenMax.set($(this).parents('.gnb-draw').find('.draw-feature'), { autoAlpha: 1 });
-				}
-			});
 		},
 		open: function() {
 			GNB.isopen = true;
@@ -115,7 +71,7 @@ define(['global', 'jquery', 'underscore', 'gsap', 'menuaim'], function(IG, $, _)
 		activate: function(row) {
 			if ( !GNB.isopen ) {
 				GNB.open();
-				GNB.timer = setTimeout(active, (GNB.t /2)*1000);
+				GNB.timer = setTimeout(active, 150);
 			} else {
 				clearTimeout(GNB.timer);
 				active();
@@ -123,14 +79,7 @@ define(['global', 'jquery', 'underscore', 'gsap', 'menuaim'], function(IG, $, _)
 			
 			function active() {
 				GNB.$d1.not($(row)).removeClass('is-active');
-				TweenMax.to(GNB.$d1.find('.gnb-draw'), tweenTime/2, {
-					autoAlpha: 0
-				});
-
 				$(row).addClass('is-active');
-				TweenMax.to( $(row).find('.gnb-draw'), tweenTime/2, {
-					autoAlpha: 1
-				});
 			}
 
 			GNB.activeRow = row;
@@ -156,12 +105,6 @@ define(['global', 'jquery', 'underscore', 'gsap', 'menuaim'], function(IG, $, _)
 				exitMenu: resetGNB,
 				submenuDirection: 'below'
 			});
-			GNB.$sub.menuAim({
-				activate: subActivate,
-				deactivate: subDeactivate,
-				exitMenu: resetSub,
-				submenuDirection: 'right'
-			});
 
 			$('.renew_gnb').first().css('visibility', 'visible');
 		}
@@ -182,53 +125,6 @@ define(['global', 'jquery', 'underscore', 'gsap', 'menuaim'], function(IG, $, _)
 
 		return deactivateSubmenu;
 	}
-
-
-	// menuAim - d2
-	function subActivate(row) {
-		var $row = $(row),
-			$subMenu = $row.find('.d3-box'),
-			$siblings = $row.siblings('.d2'),
-			$feature = $row.parent().siblings('.draw-feature');
-
-		$row.removeClass('is-dimmed').addClass('is-active');
-		$siblings.addClass('is-dimmed');
-
-		if ( $subMenu.length ) {
-			TweenMax.set($feature, { autoAlpha: 0 });
-			TweenMax.to($subMenu, tweenTime/2, { autoAlpha: 1 });
-		}
-	}
-
-	function subDeactivate(row) {
-		var $row = $(row),
-			$subMenu = $row.children('.d3-box'),
-			$siblings = $row.siblings('.d2'),
-			$feature = $row.parent().siblings('.draw-feature');
-
-		$row.removeClass('is-active');
-		$siblings.removeClass('is-dimmed');
-
-		if ( !!$subMenu ) {
-			TweenMax.set($feature, { autoAlpha: 1 });
-			TweenMax.to($subMenu, tweenTime/2, { autoAlpha: 0 });
-		}
-	}
-
-	function resetSub() {
-		var deactivateSubmenu = true;
-
-		GNB.$sub.find('li').removeClass('is-active');
-		TweenMax.set(GNB.$sub.siblings('.draw-feature'), {
-			autoAlpha: 1
-		});
-		TweenMax.to(GNB.$sub.find('.d3-box'), tweenTime/2, {
-			autoAlpha: 0
-		});
-
-		return deactivateSubmenu;   // for reset activateSubmenu
-	}
-
 
 	//  Navigation drawer (menu for small device)
 	// --------------------------------------------------
@@ -396,12 +292,6 @@ define(['global', 'jquery', 'underscore', 'gsap', 'menuaim'], function(IG, $, _)
 			if ( ND.is_open ) {
 				ND.close();
 				cancel(event);
-			}
-		});
-
-		$('[data-rel="toggle"]').toggleLayer({
-			onOpen: function($link, $target) {
-				$body.trigger('click');
 			}
 		});
 	}

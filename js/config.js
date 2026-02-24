@@ -15,13 +15,7 @@ var require = {
     bezier: "BezierEase", // GSAP Bezier easing
     cssrule: "CSSRulePlugin.min", // GSAP CSS Rule plugin
 
-    // library
-    d3: "d3.v3.min",
-    // 'c3': 'c3',
-    c3: "c3.min",
     "ua-parser-js": "ua-parser.pack",
-    googlemaps:
-      "http://maps.google.com/maps/api/js?v=3&sensor=false&region=KR&ver=4.1.1&language=en&key=AIzaSyCqATZxgQ_bPWzc5SF43-1w31S0MZPaUqI",
 
     swiper: "swiper-bundle.min",
     splitType: "split-type.min",
@@ -38,16 +32,9 @@ var require = {
     transit: "jquery.transit.min",
     IScroll: "scrolloverflow.min",
     fullpage: "jquery.fullpage.min",
-    ScrollMagic: "ScrollMagic.min",
-    "ScrollMagic.debug": "jquery.scrollmagic.debug",
-
-    //2021-06-04 추가
-    waypoints: "jquery.waypoints.min",
-    counterUp: "jquery.counterup.min",
+    ScrollMagic: "ScrollMagic.min", "ScrollMagic.debug": "jquery.scrollmagic.debug",
 
     // custom
-    smoothscroll: "smoothscroll",
-    fakescroll: "fakescroll",
     scroller: "jquery.scroller",
 
     ytiframe: "jquery.ytiframe",
@@ -117,9 +104,6 @@ var require = {
     },
     spritely: {
       deps: ["jquery"],
-    },
-    googlemaps: {
-      exports: "google",
     },
     transit: {
       deps: ["jquery"],
