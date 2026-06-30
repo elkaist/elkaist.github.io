@@ -1,7 +1,7 @@
 {
-  "about": "assets/img/mainslick/photo1.webp",
-  "events": "assets/img/mainslick/photo2.webp",
+  "about": "assets/img/photos/photo1.webp",
+  "events": "assets/img/photos/photo2.webp",
   "members": "assets/img/members/family1.webp",
-  "contact": "assets/img/mainslick/photo3.webp",
-  "photos": "assets/img/mainslick/photo4.webp"
+  "contact": "assets/img/photos/photo3.webp",
+  "photos": "assets/img/photos/photo4.webp"
 }
