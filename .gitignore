@@ -1,10 +1,10 @@
 .venv/
-
-tmp.py
-secu.pdf
+*.py
+*.md
+*.pdf
+*.doc
+*.docx
 
 layout.html
 
 .gitmessage.txt
-
-*.md
