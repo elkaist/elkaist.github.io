@@ -2,26 +2,26 @@
   {
     "name": "김민지",
     "major": "항공우주공학과 25",
-    "image": "assets/img/members/memberMJ.webp"
+    "image": "assets/img/members/21regularMJ.webp"
   },
   {
     "name": "김조아",
     "major": "건설및환경공학과 25",
-    "image": "assets/img/members/memberJA.webp"
+    "image": "assets/img/members/21regularJA.webp"
   },
   {
     "name": "남혜린",
     "major": "전산학부 25",
-    "image": "assets/img/members/memberHR.webp"
+    "image": "assets/img/members/21regularHR.webp"
   },
   {
     "name": "류은성",
     "major": "물리학과 25",
-    "image": "assets/img/members/memberES.webp"
+    "image": "assets/img/members/21regularES.webp"
   },
   {
     "name": "이관희",
     "major": "반도체및시스템공학과 25",
-    "image": "assets/img/members/memberGH.webp"
+    "image": "assets/img/members/21regularGH.webp"
   }
 ]
