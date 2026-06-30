@@ -102,7 +102,7 @@
     <script src="./js/split-type"></script>
   </head>
 
-  <body>
+  <body data-page="photos">
     <div id="bp"></div>
 
     <div id="wrap">
@@ -169,49 +169,7 @@
                 <div class="l-wrap">
                   <div class="l-wide">
 
-                    <div class="masonry-container">
-                      <div class="masonry-item">
-                        <div class="thumb-block">
-                          <img src="./assets/img/photos/photo1.webp">
-                          <!-- <div class="hover-info"><span>2025 입학식</span></div> -->
-                        </div>
-                      </div>
-                      
-                      <div class="masonry-item">
-                        <div class="thumb-block">
-                          <img src="./assets/img/photos/photo2.webp">
-                          <!-- <div class="hover-info"><span>새내기 응원대제전</span></div> -->
-                        </div>
-                      </div>
-
-                      <div class="masonry-item">
-                        <div class="thumb-block">
-                          <img src="./assets/img/photos/photo3.webp">
-                          <!-- <div class="hover-info"><span>축제 공연</span></div> -->
-                        </div>
-                      </div>
-
-                      <div class="masonry-item">
-                        <div class="thumb-block">
-                          <img src="./assets/img/photos/photo4.webp">
-                          <!-- <div class="hover-info"><span>축제 공연</span></div> -->
-                        </div>
-                      </div>
-
-                      <div class="masonry-item">
-                        <div class="thumb-block">
-                          <img src="./assets/img/photos/photo5.webp">
-                          <!-- <div class="hover-info"><span>축제 공연</span></div> -->
-                        </div>
-                      </div>
-
-                      <div class="masonry-item">
-                        <div class="thumb-block">
-                          <img src="./assets/img/photos/photo6.webp">
-                          <!-- <div class="hover-info"><span>축제 공연</span></div> -->
-                        </div>
-                      </div>
-                    </div>
+                    <div id="photo-list" class="masonry-container"></div>
                   </div>
                 </div>
               </div>
@@ -320,6 +278,8 @@
       src="./js/require.min.js"
       data-main="./main"
     ></script>
+    <script type="text/javascript" src="./js/render-photos.js" defer></script>
+    <script type="text/javascript" src="./js/render-banner.js" defer></script>
 
     <style>
       .content-header-cover + .l-wrap .h--en {
@@ -383,15 +343,7 @@
         opacity: 1;
       }
 
-      /* 모바일 대응 (반응형) */
       @media screen and (max-width: 37.5em) { /* 600px 이하 */
-        /* .masonry-container {
-          column-count: 2; 
-          column-gap: 10px;
-        }
-        .masonry-item {
-          margin-bottom: 10px;
-        } */
          .masonry-container {
             column-count: 1; 
             column-gap: 0;

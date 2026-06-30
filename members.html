@@ -146,7 +146,7 @@
     </style>
   </head>
 
-  <body>
+  <body data-page="members">
     <div id="bp"></div>
 
     <div id="wrap">
@@ -205,272 +205,44 @@
           <section class="section-overview">
             <h1 class="blind">단원 MEMBERS</h1>
 
-            <div id="section1"></div>
-            <div class="section section1 members">
+            <div class="section members">
               <div class="l-wrap">
                 <div class="l-wide">
                   <div class="title-area">
                     <h2>단장단</h2>
                   </div>
-                  <ul class="overview-list row" style="justify-content: center">
-                    <li class="col-s-6 col-l-6 thumb">
-                      <div class="thumb-block">
-                        <!-- <span class="bg"></span> -->
-                        <div class="thumb-img">
-                          <div class="overview-thumb leaders">
-                            <img
-                              src="./assets/img/members/memberLYB.webp"
-                              alt="이유빈"
-                            />
-                          </div>
-                        </div>
-                      </div>
-                      <div class="info">
-                        <h2 class="position">단장</h2>
-                        <h3 class="name">이유빈</h3>
-                        <h3 class="major">신소재공학과 24</h3>
-                      </div>
-                    </li>
-                    <li class="col-s-6 col-l-3 thumb">
-                      <div class="thumb-block">
-                        <!-- <span class="bg"></span> -->
-                        <div class="thumb-img">
-                          <div class="overview-thumb leaders">
-                            <img
-                              src="./assets/img/members/memberLJM.webp"
-                              alt="이지민"
-                            />
-                          </div>
-                        </div>
-                      </div>
-                      <div class="info">
-                        <h2 class="position">부단장</h2>
-                        <h3 class="name">이지민</h3>
-                        <h3 class="major">전기및전자공학부 24</h3>
-                      </div>
-                    </li>
-                  </ul>
+                  <ul
+                    id="leaders-list"
+                    class="overview-list row"
+                    style="justify-content: center"
+                  ></ul>
                 </div>
               </div>
             </div>
 
-            <div id="section2"></div>
-            <div class="section section2 members">
+            <div class="section section-alt members">
               <div class="l-wrap">
                 <div class="l-wide">
                   <div class="title-area">
                     <h2>정단원</h2>
                   </div>
-                  <ul class="overview-list row">
-                    <li class="col-s-6 col-l-3 thumb">
-                      <div class="thumb-block">
-                        <!-- <span class="bg"></span> -->
-                        <div class="thumb-img">
-                          <div class="overview-thumb sophomore">
-                            <img
-                              src="./assets/img/members/memberMJ.webp"
-                              alt="김민지"
-                            />
-                          </div>
-                        </div>
-                      </div>
-                      <div class="info">
-                        <h3 class="name">김민지</h3>
-                        <h3 class="major">항공우주공학과 25</h3>
-                      </div>
-                    </li>
-                    <li class="col-s-6 col-l-3 thumb">
-                      <div class="thumb-block">
-                        <!-- <span class="bg"></span> -->
-                        <div class="thumb-img">
-                          <div class="overview-thumb sophomore">
-                            <img
-                              src="./assets/img/members/memberJA.webp"
-                              alt="김조아"
-                            />
-                          </div>
-                        </div>
-                      </div>
-                      <div class="info">
-                        <h3 class="name">김조아</h3>
-                        <h3 class="major">건설및환경공학과 25</h3>
-                      </div>
-                    </li>
-                    <li class="col-s-6 col-l-3 thumb">
-                      <div class="thumb-block">
-                        <!-- <span class="bg"></span> -->
-                        <div class="thumb-img">
-                          <div class="overview-thumb sophomore">
-                            <img
-                              src="./assets/img/members/memberHR.webp"
-                              alt="남혜린"
-                            />
-                          </div>
-                        </div>
-                      </div>
-                      <div class="info">
-                        <h3 class="name">남혜린</h3>
-                        <h3 class="major">전산학부 25</h3>
-                      </div>
-                    </li>
-                    <li class="col-s-6 col-l-3 thumb">
-                      <div class="thumb-block">
-                        <!-- <span class="bg"></span> -->
-                        <div class="thumb-img">
-                          <div class="overview-thumb sophomore">
-                            <img
-                              src="./assets/img/members/memberES.webp"
-                              alt="류은성"
-                            />
-                          </div>
-                        </div>
-                      </div>
-                      <div class="info">
-                        <h3 class="name">류은성</h3>
-                        <h3 class="major">물리학과 25</h3>
-                      </div>
-                    </li>
-                    <li class="col-s-6 col-l-3 thumb sophomore">
-                      <div class="thumb-block">
-                        <!-- <span class="bg"></span> -->
-                        <div class="thumb-img">
-                          <div class="overview-thumb">
-                            <img
-                              src="./assets/img/members/memberGH.webp"
-                              alt="이관희"
-                            />
-                          </div>
-                        </div>
-                      </div>
-                      <div class="info">
-                        <h3 class="name">이관희</h3>
-                        <h3 class="major">반도체및시스템공학과 25</h3>
-                      </div>
-                    </li>
-                  </ul>
+                  <ul id="regular-list" class="overview-list row"></ul>
                 </div>
               </div>
             </div>
 
-            <div id="section3"></div>
-            <div class="section section3 members">
+            <div class="section members">
               <div class="l-wrap">
                 <div class="l-wide">
                   <div class="title-area">
                     <h2>준단원</h2>
                   </div>
-                  <ul class="overview-list row">
-                    <li class="col-s-6 col-l-3 thumb">
-                      <div class="thumb-block">
-                        <div class="thumb-img">
-                          <div class="overview-thumb sophomore">
-                            <img src="./assets/img/members/juniorKNW.webp" alt="김남우"/>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="info">
-                        <h3 class="name">김남우</h3>
-                        <h3 class="major">새내기과정학부 26</h3>
-                      </div>
-                    </li>
-                    <li class="col-s-6 col-l-3 thumb">
-                      <div class="thumb-block">
-                        <div class="thumb-img">
-                          <div class="overview-thumb sophomore">
-                            <img src="./assets/img/members/juniorKBJ.webp" alt="김범준"/>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="info">
-                        <h3 class="name">김범준</h3>
-                        <h3 class="major">새내기과정학부 26</h3>
-                      </div>
-                    </li>
-                    <li class="col-s-6 col-l-3 thumb">
-                      <div class="thumb-block">
-                        <div class="thumb-img">
-                          <div class="overview-thumb sophomore">
-                            <img src="./assets/img/members/juniorKTM.webp" alt="김태민"/>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="info">
-                        <h3 class="name">김태민</h3>
-                        <h3 class="major">새내기과정학부 26</h3>
-                      </div>
-                    </li>
-                    <li class="col-s-6 col-l-3 thumb">
-                      <div class="thumb-block">
-                        <div class="thumb-img">
-                          <div class="overview-thumb sophomore">
-                            <img src="./assets/img/members/juniorKHH.webp" alt="김호현"/>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="info">
-                        <h3 class="name">김호현</h3>
-                        <h3 class="major">반도체및시스템공학과 26</h3>
-                      </div>
-                    </li>
-                    <li class="col-s-6 col-l-3 thumb">
-                      <div class="thumb-block">
-                        <div class="thumb-img">
-                          <div class="overview-thumb sophomore">
-                            <img src="./assets/img/members/juniorNWE.webp" alt="남원의"/>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="info">
-                        <h3 class="name">남원의</h3>
-                        <h3 class="major">반도체및시스템공학과 26</h3>
-                      </div>
-                    </li>
-                    <li class="col-s-6 col-l-3 thumb">
-                      <div class="thumb-block">
-                        <div class="thumb-img">
-                          <div class="overview-thumb sophomore">
-                            <img src="./assets/img/members/juniorPCW.webp" alt="박채원"/>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="info">
-                        <h3 class="name">박채원</h3>
-                        <h3 class="major">새내기과정학부 26</h3>
-                      </div>
-                    </li>
-                    <li class="col-s-6 col-l-3 thumb">
-                      <div class="thumb-block">
-                        <div class="thumb-img">
-                          <div class="overview-thumb sophomore">
-                            <img src="./assets/img/members/juniorOHH.webp" alt="오환희"/>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="info">
-                        <h3 class="name">오환희</h3>
-                        <h3 class="major">새내기과정학부 26</h3>
-                      </div>
-                    </li>
-                    <li class="col-s-6 col-l-3 thumb">
-                      <div class="thumb-block">
-                        <div class="thumb-img">
-                          <div class="overview-thumb sophomore">
-                            <img src="./assets/img/members/juniorJBK.webp" alt="주보경"/>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="info">
-                        <h3 class="name">주보경</h3>
-                        <h3 class="major">새내기과정학부 26</h3>
-                      </div>
-                    </li>
-                  </ul>
+                  <ul id="junior-list" class="overview-list row"></ul>
                 </div>
               </div>
             </div>
 
-            <div id="section4"></div>
-            <div class="section section4">
+            <div class="section section-alt">
               <div class="l-wrap">
                 <div class="l-wide">
                   <div class="title-area">
@@ -504,118 +276,7 @@
                           </th>
                         </tr>
                       </thead>
-                      <tbody>
-                        <tr>
-                          <td>2005</td>
-                          <td>박근량</td>
-                          <td></td>
-                        </tr>
-                        <tr>
-                          <td>2006</td>
-                          <td>맹룡</td>
-                          <td>전소연</td>
-                        </tr>
-                        <tr>
-                          <td>2007</td>
-                          <td>박성희</td>
-                          <td>박재홍</td>
-                        </tr>
-                        <tr>
-                          <td>2008</td>
-                          <td>유영혁</td>
-                          <td>김효영</td>
-                        </tr>
-                        <tr>
-                          <td>2009</td>
-                          <td>한동식</td>
-                          <td>박수정</td>
-                        </tr>
-                        <tr>
-                          <td>2010</td>
-                          <td>손석현</td>
-                          <td></td>
-                        </tr>
-                        <tr>
-                          <td>2011</td>
-                          <td>황병웅</td>
-                          <td>이정규</td>
-                        </tr>
-                        <tr>
-                          <td>2012</td>
-                          <td>안가람</td>
-                          <td>김태근 주지은 최우성</td>
-                        </tr>
-                        <tr>
-                          <td>2013</td>
-                          <td>민동영</td>
-                          <td>박진휘</td>
-                        </tr>
-                        <tr>
-                          <td>2014</td>
-                          <td>나예은</td>
-                          <td>이희승</td>
-                        </tr>
-                        <tr>
-                          <td>2015</td>
-                          <td>김찬빈</td>
-                          <td>김태현</td>
-                        </tr>
-                        <tr>
-                          <td>2016</td>
-                          <td>안하람</td>
-                          <td>김태홍</td>
-                        </tr>
-                        <tr>
-                          <td>2017</td>
-                          <td>하태현</td>
-                          <td>박종민 박회원 윤지영</td>
-                        </tr>
-                        <tr>
-                          <td>2018</td>
-                          <td>박회원</td>
-                          <td></td>
-                        </tr>
-                        <tr>
-                          <td>2019</td>
-                          <td>도현</td>
-                          <td></td>
-                        </tr>
-                        <tr>
-                          <td>2020</td>
-                          <td>이상훈</td>
-                          <td>옥승원</td>
-                        </tr>
-                        <tr>
-                          <td>2021</td>
-                          <td>황선영</td>
-                          <td>심유현 표승화</td>
-                        </tr>
-                        <tr>
-                          <td>2022</td>
-                          <td>정민</td>
-                          <td>박윤서 오정우</td>
-                        </tr>
-                        <tr>
-                          <td>2023</td>
-                          <td>배채운</td>
-                          <td>이현민</td>
-                        </tr>
-                        <tr>
-                          <td>2024</td>
-                          <td>송예원</td>
-                          <td></td>
-                        </tr>
-                        <tr>
-                          <td>2025</td>
-                          <td>김지우</td>
-                          <td>권경민 정유나</td>
-                        </tr>
-                        <tr>
-                          <td>2026</td>
-                          <td>이유빈</td>
-                          <td>이지민</td>
-                        </tr>
-                      </tbody>
+                      <tbody id="history-body"></tbody>
                     </table>
                   </div>
                 </div>
@@ -726,6 +387,8 @@
       src="./js/require.min.js"
       data-main="./main"
     ></script>
+    <script type="text/javascript" src="./js/render-members.js" defer></script>
+    <script type="text/javascript" src="./js/render-banner.js" defer></script>
 
     <style>
       .content-header-cover + .l-wrap .h--en {

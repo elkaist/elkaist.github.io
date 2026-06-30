@@ -1,0 +1,42 @@
+[
+  {
+    "name": "김남우",
+    "major": "새내기과정학부 26",
+    "image": "assets/img/members/juniorKNW.webp"
+  },
+  {
+    "name": "김범준",
+    "major": "새내기과정학부 26",
+    "image": "assets/img/members/juniorKBJ.webp"
+  },
+  {
+    "name": "김태민",
+    "major": "새내기과정학부 26",
+    "image": "assets/img/members/juniorKTM.webp"
+  },
+  {
+    "name": "김호현",
+    "major": "반도체및시스템공학과 26",
+    "image": "assets/img/members/juniorKHH.webp"
+  },
+  {
+    "name": "남원의",
+    "major": "반도체및시스템공학과 26",
+    "image": "assets/img/members/juniorNWE.webp"
+  },
+  {
+    "name": "박채원",
+    "major": "새내기과정학부 26",
+    "image": "assets/img/members/juniorPCW.webp"
+  },
+  {
+    "name": "오환희",
+    "major": "새내기과정학부 26",
+    "image": "assets/img/members/juniorOHH.webp"
+  },
+  {
+    "name": "주보경",
+    "major": "새내기과정학부 26",
+    "image": "assets/img/members/juniorJBK.webp"
+  }
+]

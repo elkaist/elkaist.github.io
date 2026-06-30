@@ -10485,7 +10485,7 @@ select {
   padding: 67px 0 0 0
 }
 
-.overview-article.new .section-overview .section2, .overview-article.new .section-overview .section4, .overview-article.new .section-overview .section6 {
+.overview-article.new .section-overview .section.section-alt {
   background: #fff
 }
 

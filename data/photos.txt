@@ -1,0 +1,6 @@
+assets/img/photos/photo1.webp
+assets/img/photos/photo2.webp
+assets/img/photos/photo3.webp
+assets/img/photos/photo4.webp
+assets/img/photos/photo5.webp
+assets/img/photos/photo6.webp
