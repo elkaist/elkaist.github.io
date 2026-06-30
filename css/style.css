@@ -5,6 +5,91 @@
 
 :root {
   --elka-color: #0f31ab;
+
+  /* Font sizes - unified scale */
+  --fs-0: 0;
+  --fs-100pct: 100%;
+  --fs-10px: 0.625rem;
+  --fs-11px: 0.6875rem;
+  --fs-12px: 0.75rem;
+  --fs-13px: 0.8125rem;
+  --fs-14px: 0.875rem;
+  --fs-15px: 0.9375rem;
+  --fs-16px: 1rem;
+  --fs-18px: 1.125rem;
+  --fs-19px: 1.188rem;
+  --fs-1_05882em: 1.05882em;
+  --fs-1_0625em: 1.0625em;
+  --fs-1_063em: 1.063em;
+  --fs-1_06667em: 1.06667em;
+  --fs-1_071em: 1.071em;
+  --fs-1_125em: 1.125em;
+  --fs-1_18182em: 1.18182em;
+  --fs-1_25em: 1.25em;
+  --fs-1_28571em: 1.28571em;
+  --fs-1_2em: 1.2em;
+  --fs-1_33333em: 1.33333em;
+  --fs-1_375em: 1.375em;
+  --fs-1_3em: 1.3em;
+  --fs-1_4em: 1.4em;
+  --fs-1_5em: 1.5em;
+  --fs-1_625em: 1.625em;
+  --fs-1_6em: 1.6em;
+  --fs-1_73333em: 1.73333em;
+  --fs-1_75em: 1.75em;
+  --fs-1_84615em: 1.84615em;
+  --fs-1_8em: 1.8em;
+  --fs-1em: 1em;
+  --fs-20px: 1.25rem;
+  --fs-21px: 1.312rem;
+  --fs-22px: 1.375rem;
+  --fs-23px: 1.438rem;
+  --fs-24px: 1.5rem;
+  --fs-25px: 1.562rem;
+  --fs-28px: 1.75rem;
+  --fs-2_0rem: 2.0rem;
+  --fs-2_13333em: 2.13333em;
+  --fs-2_2em: 2.2em;
+  --fs-2_46154em: 2.46154em;
+  --fs-2_4rem: 2.4rem;
+  --fs-2_5em: 2.5em;
+  --fs-2_625em: 2.625em;
+  --fs-2_66667em: 2.66667em;
+  --fs-2_6em: 2.6em;
+  --fs-2_6rem: 2.6rem;
+  --fs-2em: 2em;
+  --fs-30px: 1.875rem;
+  --fs-36px: 2.25rem;
+  --fs-3_69231em: 3.69231em;
+  --fs-3_6em: 3.6em;
+  --fs-3_8em: 3.8em;
+  --fs-48px: 3rem;
+  --fs-4_2em: 4.2em;
+  --fs-4_6em: 4.6em;
+  --fs-4em: 4em;
+  --fs-50px: 3.125rem;
+  --fs-5_2em: 5.2em;
+  --fs-60px: 3.75rem;
+  --fs-62_5pct: 62.5%;
+  --fs-6_4em: 6.4em;
+  --fs-6_8em: 6.8em;
+  --fs-75pct: 75%;
+  --fs-75px: 4.688rem;
+  --fs-80pct: 80%;
+  --fs-90px: 5.625rem;
+  --fs-_5em: .5em;
+  --fs-_66667em: .66667em;
+  --fs-_75em: .75em;
+  --fs-_77778em: .77778em;
+  --fs-_85em: .85em;
+  --fs-_86667em: .86667em;
+  --fs-_875em: .875em;
+  --fs-_8em: .8em;
+  --fs-_93333em: .93333em;
+  --fs-_95em: .95em;
+  --fs-_9em: .9em;
+  --fs-inherit: inherit;
+  --fs-xx_large: xx-large;
 }
 
 button,hr,input {
@@ -126,8 +211,7 @@ dfn {
 }
 
 h1 {
-  font-size: 2em
-}
+  font-size: var(--fs-2em)}
 
 mark {
   background-color: #ff0;
@@ -135,11 +219,10 @@ mark {
 }
 
 small {
-  font-size: 80%
-}
+  font-size: var(--fs-80pct)}
 
 sub,sup {
-  font-size: 75%;
+  font-size: var(--fs-75pct);
   line-height: 0;
   position: relative
 }
@@ -158,8 +241,7 @@ svg:not(:root) {
 
 code,kbd,pre,samp {
   font-family: monospace,monospace;
-  font-size: 1em
-}
+  font-size: var(--fs-1em)}
 
 hr {
   box-sizing: content-box;
@@ -502,12 +584,11 @@ body,html {
 }
 
 html {
-  font-size: 62.5%
-}
+  font-size: var(--fs-62_5pct)}
 
 body {
   padding: 0;
-  font-size: 1em;
+  font-size: var(--fs-1em);
   line-height: 1.6;
   color: #444
 }
@@ -562,7 +643,7 @@ label {
 }
 
 button,input,select,textarea {
-  font-size: 100%;
+  font-size: var(--fs-100pct);
   margin: 0;
   vertical-align: baseline
 }
@@ -643,8 +724,7 @@ sup {
   left: -100%;
   background: #555;
   color: #fff;
-  font-size: 1.6em
-}
+  font-size: var(--fs-1_6em)}
 
 #skipnav:focus {
   display: block;
@@ -1779,7 +1859,7 @@ body.home .header {
   position: relative;
   z-index: 12;
   max-width: 170px;
-  font-size: 0;
+  font-size: var(--fs-0);
   top: 11px
 }
 
@@ -1793,7 +1873,7 @@ body.home .header {
   top: 15px;
   right: 0;
   z-index: 15;
-  font-size: 1.4em;
+  font-size: var(--fs-1_4em);
   text-align: right;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -1903,7 +1983,7 @@ body.home .header {
   display: inline-block;
   vertical-align: top;
   padding: 5px 12px;
-  font-size: 1.6em;
+  font-size: var(--fs-1_6em);
   line-height: 22px;
   color: #fff
 }
@@ -1930,7 +2010,7 @@ body.home .header {
   top: 5px;
   z-index: 1;
   padding: 0 10px 5px 5px;
-  font-size: 14px;
+  font-size: var(--fs-14px);
   letter-spacing: .05em
 }
 
@@ -1952,7 +2032,7 @@ body.home .header {
   top: 9px;
   right: 5%;
   z-index: 2;
-  font-size: 2em;
+  font-size: var(--fs-2em);
   color: #444
 }
 
@@ -1971,7 +2051,7 @@ body.home .header {
   vertical-align: middle;
   margin-top: -4px;
   color: #fff;
-  font-size: 2em;
+  font-size: var(--fs-2em);
   padding-left: 6px
 }
 
@@ -2049,8 +2129,7 @@ body.home .header {
       padding: 0 8px;
       margin-right: 45px;
       color: #444;
-      font-size: 1.8em
-  }
+      font-size: var(--fs-1_8em)}
 
   .header-ly {
       position: fixed;
@@ -2113,8 +2192,7 @@ body.home .header {
   }
 
   .header .search-a {
-      font-size: 1em
-  }
+      font-size: var(--fs-1em)}
 
   .header .search-a:before {
       top: 10px;
@@ -2188,7 +2266,7 @@ body.home .header {
   display: inline-block;
   vertical-align: middle;
   color: #444;
-  font-size: 1.4em;
+  font-size: var(--fs-1_4em);
   line-height: 1.2;
   margin-left: 10px;
   margin-bottom: 15px
@@ -2227,7 +2305,7 @@ body.home .header {
 
 .footer-share-h {
   color: #707070;
-  font-size: 1.18182em;
+  font-size: var(--fs-1_18182em);
   letter-spacing: .5px;
   margin-bottom: 5px
 }
@@ -2235,13 +2313,13 @@ body.home .header {
 .footer-share-a {
   display: inline-block;
   vertical-align: middle;
-  font-size: 3.69231em;
+  font-size: var(--fs-3_69231em);
   line-height: 1
 }
 
 .footer .copyright {
   color: #707070;
-  font-size: 1.3em;
+  font-size: var(--fs-1_3em);
   line-height: 1.2;
   letter-spacing: .4px;
   margin: 0
@@ -2282,8 +2360,7 @@ body.home .header {
 }
 
 .gnb-menu {
-  font-size: 1.5em
-}
+  font-size: var(--fs-1_5em)}
 
 .is-compact .gnb-menu {
   text-align: right;
@@ -2374,7 +2451,7 @@ body.home .header {
 }
 
 .gnb-h {
-  font-size: 2.13333em;
+  font-size: var(--fs-2_13333em);
   color: #222
 }
 
@@ -2407,8 +2484,7 @@ body.home .header {
 
 @media (min-width: 80em) {
   .gnb-menu {
-      font-size:1.5em
-  }
+      font-size: var(--fs-1_5em)}
 
   .is-compact .gnb-menu:after {
       padding-right: 192px
@@ -2426,8 +2502,7 @@ body.home .header {
   .gnb-info {
       margin-top: .5em;
       color: #666;
-      font-size: 1em
-  }
+      font-size: var(--fs-1em)}
 }
 
 .gnb .d1 {
@@ -2440,7 +2515,7 @@ body.home .header {
   display: block;
   padding: 16px 20px;
   color: #fff;
-  font-size: 1.2em;
+  font-size: var(--fs-1_2em);
   transition: color .2s cubic-bezier(.215,.61,.355,1)
 }
 
@@ -2451,8 +2526,7 @@ body.home .header {
 
 .is-compact .gnb .d1-a {
   padding: 20px 10px 15px;
-  font-size: 1.06667em
-}
+  font-size: var(--fs-1_06667em)}
 
 .gnb .d1-a:focus,.gnb .d1-a:hover {
   color: #ADA8A4;
@@ -2481,7 +2555,7 @@ opacity: 0.7
 .gnb .d1-more {
   display: inline-block;
   position: relative;
-  font-size: .93333em;
+  font-size: var(--fs-_93333em);
   color: #444;
   transition: color .2s cubic-bezier(.215,.61,.355,1)
 }
@@ -2497,8 +2571,7 @@ opacity: 0.7
   position: absolute;
   top: -1px;
   right: -1.2em;
-  font-size: inherit
-}
+  font-size: var(--fs-inherit)}
 
 .gnb .d1-more:focus:before,.gnb .d1-more:hover:before {
   content: '';
@@ -2533,7 +2606,7 @@ opacity: 0.7
 
 .gnb .d2-a {
   position: relative;
-  font-size: 1.06667em;
+  font-size: var(--fs-1_06667em);
   transition: color .2s cubic-bezier(.215,.61,.355,1)
 }
 
@@ -2564,8 +2637,7 @@ opacity: 0.7
   right: -10px;
   margin-top: -11px;
   color: inherit;
-  font-size: .8em
-}
+  font-size: var(--fs-_8em)}
 
 .gnb .d3-box {
   position: absolute;
@@ -2582,7 +2654,7 @@ opacity: 0.7
   margin-left: 18%;
   margin-top: -8px;
   color: #222;
-  font-size: 1.2em;
+  font-size: var(--fs-1_2em);
   font-weight: 500
 }
 
@@ -2592,7 +2664,7 @@ opacity: 0.7
   right: -15px;
   margin-top: -10px;
   color: #ccc;
-  font-size: .66667em;
+  font-size: var(--fs-_66667em);
   line-height: 1.8
 }
 
@@ -2604,7 +2676,7 @@ opacity: 0.7
 .gnb .d3-a {
   display: inline-block;
   padding: 8px 10px;
-  font-size: 1.06667em;
+  font-size: var(--fs-1_06667em);
   -webkit-transition: color .2s cubic-bezier(.215,.61,.355,1);
   -o-transition: color .2s cubic-bezier(.215,.61,.355,1);
   transition: color .2s cubic-bezier(.215,.61,.355,1)
@@ -2647,8 +2719,7 @@ opacity: 0.7
   display: block;
   height: 100%;
   color: #444;
-  font-size: .93333em
-}
+  font-size: var(--fs-_93333em)}
 
 .gnb .brand-a-cell,.gnb .brand-a-pad,.gnb .brand-a:after {
   display: inline-block;
@@ -2719,7 +2790,7 @@ opacity: 0.7
   font-family: AritaDotum,NotoSans,"Malgun Gothic","맑은 고딕","Nanum Gothic","나눔 고딕","돋움",dotum,sans-serif;
   margin: -10px 0 15px 10px;
   color: #222;
-  font-size: 1.2em;
+  font-size: var(--fs-1_2em);
   font-weight: 500
 }
 
@@ -2742,14 +2813,13 @@ opacity: 0.7
 .gnb .stock .date {
   color: #707070;
   font-style: italic;
-  font-size: .8em
-}
+  font-size: var(--fs-_8em)}
 
 .gnb .stock .price {
   display: block;
   font-family: Buri,serif;
   font-weight: 500;
-  font-size: 2em;
+  font-size: var(--fs-2em);
   text-align: right;
   font-style: normal
 }
@@ -2757,7 +2827,7 @@ opacity: 0.7
 .gnb .stock .state {
   display: block;
   margin-top: -5px;
-  font-size: .93333em;
+  font-size: var(--fs-_93333em);
   text-align: right
 }
 
@@ -2794,7 +2864,7 @@ opacity: 0.7
 }
 
 .gnb .stock .state:before {
-  font-size: 22px;
+  font-size: var(--fs-22px);
   line-height: 1;
   margin-top: -3px;
   display: inline-block;
@@ -2802,14 +2872,14 @@ opacity: 0.7
 }
 
 .gnb .stock .icon {
-  font-size: 25px;
+  font-size: var(--fs-25px);
   vertical-align: middle
 }
 
 .gnb .stock-unit {
   margin-top: 1em;
   padding-right: 1em;
-  font-size: 13px;
+  font-size: var(--fs-13px);
   font-style: italic;
   text-align: right
 }
@@ -2858,8 +2928,7 @@ opacity: 0.7
 }
 
 .sidenav .logo {
-  font-size: 0
-}
+  font-size: var(--fs-0)}
 
 .sidenav .logo-a {
   display: inline-block;
@@ -2875,8 +2944,7 @@ opacity: 0.7
   z-index: 1;
   margin: 0 -5px;
   padding-bottom: 4em;
-  font-size: 16px
-}
+  font-size: var(--fs-16px)}
 
 .sidenav-misc:before {
   display: block
@@ -2961,8 +3029,7 @@ opacity: 0.7
 .sidenav .nav {
   padding-top: 5.9375em;
   padding-bottom: 7.8125em;
-  font-size: 1.6em
-}
+  font-size: var(--fs-1_6em)}
 
 .sidenav .nav-dl {
   padding-bottom: 7.8125em;
@@ -2971,7 +3038,7 @@ opacity: 0.7
 
 .sidenav .nav-dl dt {
   padding: 1.66667em 2px 1.16667em 0;
-  font-size: 1.25em;
+  font-size: var(--fs-1_25em);
   line-height: 1.3;
   font-weight: 500
 }
@@ -2985,8 +3052,7 @@ opacity: 0.7
   top: -2px;
   margin-left: -4px;
   color: #ccc;
-  font-size: 14px
-}
+  font-size: var(--fs-14px)}
 
 .massage-title,.title {
   color: #222;
@@ -3013,8 +3079,7 @@ opacity: 0.7
   position: absolute;
   right: 0;
   margin-top: 2px;
-  font-size: .85em
-}
+  font-size: var(--fs-_85em)}
 
 .sidenav .nav-a:hover {
   text-decoration: none
@@ -3051,7 +3116,7 @@ opacity: 0.7
   left: 22px;
   z-index: 1;
   padding: 4px 20px;
-  font-size: 14px;
+  font-size: var(--fs-14px);
   text-align: left
 }
 
@@ -3116,8 +3181,7 @@ opacity: 0.7
   content: "";
   speak: none;
   font-family: fontello;
-  font-size: 25px
-}
+  font-size: var(--fs-25px)}
 
 .count-num,.h--en,.h1--en,.h2--en,.title--en {
   font-family: Buri,serif
@@ -3126,8 +3190,7 @@ opacity: 0.7
 .close-sidenav {
   right: 24px;
   padding: 0;
-  font-size: 30px
-}
+  font-size: var(--fs-30px)}
 
 .map-canvas:after,.title:after {
   content: '';
@@ -3181,7 +3244,7 @@ opacity: 0.7
 /*.mediaqueries .map-canvas div{-webkit-filter:grayscale(50%);-moz-filter:grayscale(50%);-o-filter:grayscale(50%);filter:grayscale(50%)}*/
 .title {
   line-height: 1.2;
-  font-size: 21px;
+  font-size: var(--fs-21px);
   position: relative;
   padding-top: 20px;
   margin: 60px 0 30px
@@ -3199,7 +3262,7 @@ opacity: 0.7
 
 @media (min-width: 48em) {
   .title {
-      font-size:28px;
+      font-size: var(--fs-28px);
       margin: 120px 0 60px
   }
 }
@@ -3207,7 +3270,7 @@ opacity: 0.7
 .massage-title {
   display: block;
   position: relative;
-  font-size: 1.06667em;
+  font-size: var(--fs-1_06667em);
   margin-bottom: 2em
 }
 
@@ -3241,8 +3304,7 @@ opacity: 0.7
 @media (min-width: 48em) {
   .massage-title {
       margin:30px 0 40px;
-      font-size: 1.125em
-  }
+      font-size: var(--fs-1_125em)}
 }
 
 .ceo-sign p {
@@ -3256,7 +3318,7 @@ opacity: 0.7
 }
 
 .ceo-sign span {
-  font-size: 14px;
+  font-size: var(--fs-14px);
   line-height: 1.2;
   color: #707070
 }
@@ -3292,7 +3354,7 @@ opacity: 0.7
   border: 0;
   border-bottom: 2px solid #444;
   background-color: transparent;
-  font-size: 16px;
+  font-size: var(--fs-16px);
   font-weight: 400;
   line-height: 22px;
   text-align: left;
@@ -3425,8 +3487,7 @@ select {
 }
 
 .checkbox label {
-  font-size: 16px
-}
+  font-size: var(--fs-16px)}
 
 @media (min-width: 37.5em) {
   .checkbox {
@@ -3470,7 +3531,7 @@ select {
       z-index: 1;
       width: 32px;
       margin-top: -3px;
-      font-size: 24px;
+      font-size: var(--fs-24px);
       color: inherit;
       line-height: 1;
       vertical-align: middle
@@ -3541,7 +3602,7 @@ select {
   position: absolute;
   top: 25px;
   left: 10px;
-  font-size: 16px;
+  font-size: var(--fs-16px);
   line-height: 1;
   color: #687687;
   -webkit-transition: all .3s ease-out;
@@ -3586,7 +3647,7 @@ select {
 
 .input-wrap.is-fixed label {
   top: 0;
-  font-size: 13px;
+  font-size: var(--fs-13px);
   color: #687687
 }
 
@@ -3635,7 +3696,7 @@ select {
 }
 
 .btn {
-  font-size: 14px;
+  font-size: var(--fs-14px);
   line-height: 20px;
   padding: 9px 24px;
   border: 1px solid #999;
@@ -3654,7 +3715,7 @@ select {
 
 .btn .icon {
   display: inline-block;
-  font-size: 12px;
+  font-size: var(--fs-12px);
   margin-right: -10px;
   margin-left: 5px;
   vertical-align: 1px;
@@ -3666,8 +3727,7 @@ select {
 }
 
 .btn-l,.btn-m {
-  font-size: 16px
-}
+  font-size: var(--fs-16px)}
 
 .btn-light {
   color: #fff;
@@ -3793,7 +3853,7 @@ select {
   border-color: rgba(153,153,153,.5);
   background-color: #fff;
   background-color: rgba(255,255,255,.6); 
-  font-size: 14px;
+  font-size: var(--fs-14px);
   font-style: normal;
   line-height: 38px;
   -webkit-border-radius: 40px;
@@ -3894,12 +3954,11 @@ select {
 }
 
 .btn-r-gotop .icon {
-  font-size: 12px
-}
+  font-size: var(--fs-18px)}
 
 .btn-r-gotop span {
   display: inline-block;
-  font-size: 11px;
+  font-size: var(--fs-18px);
   color: #707070
 }
 
@@ -3942,7 +4001,7 @@ select {
 }
 
 .sns .icon {
-  font-size: 36px;
+  font-size: var(--fs-36px);
   vertical-align: middle;
   margin: 0 6px;
   -webkit-transition: all .2s ease-out;
@@ -3994,7 +4053,7 @@ select {
 }
 
 .gray-box .h {
-  font-size: 16px;
+  font-size: var(--fs-16px);
   line-height: 1.2;
   color: #222;
   font-weight: 500
@@ -4019,12 +4078,10 @@ select {
 .gray-box strong {
   display: block;
   color: #222;
-  font-size: 16px
-}
+  font-size: var(--fs-16px)}
 
 .gray-box a,.gray-box span {
-  font-size: 15px
-}
+  font-size: var(--fs-15px)}
 
 .gray-box span {
   color: #666
@@ -4041,8 +4098,7 @@ select {
 
 .gray-box .writed {
   display: block;
-  font-size: .93333em
-}
+  font-size: var(--fs-_93333em)}
 
 .gray-box .writed strong {
   display: block
@@ -4060,12 +4116,10 @@ select {
   }
 
   .gray-box .h {
-      font-size: 18px
-  }
+      font-size: var(--fs-18px)}
 
   .gray-box a,.gray-box span {
-      font-size: 16px
-  }
+      font-size: var(--fs-16px)}
 
   .gray-box .btn+.btn {
       margin: 0 5px
@@ -4076,12 +4130,10 @@ select {
   .gray-box .writed {
       display:block;
       text-align: center;
-      font-size: .77778em
-  }
+      font-size: var(--fs-_77778em)}
 
   .gray-box .writed strong {
-      font-size: 1.28571em
-  }
+      font-size: var(--fs-1_28571em)}
 }
 
 .line-box .item {
@@ -4094,7 +4146,7 @@ select {
 }
 
 .line-box .item-note {
-  font-size: 14px;
+  font-size: var(--fs-14px);
   font-style: italic;
   color: #707070;
   margin-top: 1em;
@@ -4104,7 +4156,7 @@ select {
 
 .line-box .h {
   color: #222;
-  font-size: 16px;
+  font-size: var(--fs-16px);
   margin-bottom: 10px;
   font-weight: 500
 }
@@ -4119,7 +4171,7 @@ select {
 
 .line-box p {
   display: inline-block;
-  font-size: 15px;
+  font-size: var(--fs-15px);
   margin: 10px 0!important
 }
 
@@ -4140,8 +4192,7 @@ select {
 
 @media (min-width: 48em) {
   .line-box .h {
-      font-size:18px
-  }
+      font-size: var(--fs-18px)}
 }
 
 @media (min-width: 70em) {
@@ -4189,7 +4240,7 @@ select {
 
 .history-list .sub {
   font-weight: 500;
-  font-size: 1em;
+  font-size: var(--fs-1em);
   margin-top: 20px
 }
 
@@ -4362,7 +4413,7 @@ select {
 }
 
 .imgbox-note {
-  font-size: 14px;
+  font-size: var(--fs-14px);
   margin: 20px 5px;
   color: #707070;
   text-align: left
@@ -4499,7 +4550,7 @@ select {
 }
 
 .foot-note li {
-  font-size: 13px;
+  font-size: var(--fs-13px);
   color: #707070
 }
 
@@ -4517,14 +4568,13 @@ select {
 .foot-note ol .num {
   position: absolute;
   left: 0;
-  font-size: 12px;
+  font-size: var(--fs-12px);
   color: #707070
 }
 
 @media (min-width: 48em) {
   .foot-note li {
-      font-size:16px
-  }
+      font-size: var(--fs-16px)}
 }
 
 @media (min-width: 70em) {
@@ -4536,13 +4586,13 @@ select {
 
 .table-caption {
   text-align: center;
-  font-size: 2.6em;
+  font-size: var(--fs-2_6em);
   margin-bottom: 15px;
   color: #222
 }
 
 .table-note {
-  font-size: 14px;
+  font-size: var(--fs-14px);
   color: #707070;
   margin-left: 5px;
   margin-right: 5px
@@ -4567,7 +4617,7 @@ select {
 
 @media (min-width: 48em) {
   .table-caption {
-      font-size:3.6em;
+      font-size: var(--fs-3_6em);
       margin-bottom: 40px
   }
 }
@@ -4582,7 +4632,7 @@ select {
 }
 
 .base-table td,.base-table th {
-  font-size: 16px;
+  font-size: var(--fs-16px);
   padding: 12px 20px;
   vertical-align: top;
   border-left: 1px solid #ccc
@@ -4594,7 +4644,7 @@ select {
 }
 
 .base-table thead th {
-  font-size: 14px;
+  font-size: var(--fs-14px);
   text-align: center;
   vertical-align: middle;
   border-top: 1px solid grey;
@@ -4618,7 +4668,7 @@ select {
 }
 
 .side-table td,.side-table th {
-  font-size: 16px;
+  font-size: var(--fs-16px);
   text-align: left
 }
 
@@ -4648,7 +4698,7 @@ select {
 }
 
 .line-table td,.line-table th {
-  font-size: 16px;
+  font-size: var(--fs-16px);
   padding: 20px;
   border-left: 1px solid #ccc
 }
@@ -4659,7 +4709,7 @@ select {
 }
 
 .line-table thead th {
-  font-size: 14px;
+  font-size: var(--fs-14px);
   text-align: center;
   background: #666;
   padding: 9px 20px;
@@ -4681,21 +4731,19 @@ select {
 
 .line-table--small td,.line-table--small th,.line-table--small thead th {
   padding: 10px;
-  font-size: 13px
-}
+  font-size: var(--fs-13px)}
 
 .line-table--small li {
-  font-size: 13px;
+  font-size: var(--fs-13px);
   padding-left: 12px
 }
 
 .line-table--xsmall td,.line-table--xsmall th,.line-table--xsmall thead th {
   padding: 5px;
-  font-size: 12px
-}
+  font-size: var(--fs-12px)}
 
 .line-table--xsmall li {
-  font-size: 12px;
+  font-size: var(--fs-12px);
   padding-left: 12px
 }
 
@@ -4715,7 +4763,7 @@ select {
 .number-table td,.number-table th {
   text-align: right;
   font-weight: 400;
-  font-size: 14px;
+  font-size: var(--fs-14px);
   color: #222;
   padding: 9px 20px
 }
@@ -4725,7 +4773,7 @@ select {
 }
 
 .number-table td.lower span:before,.number-table td.upper span:before {
-  font-size: 23px;
+  font-size: var(--fs-23px);
   line-height: 1;
   vertical-align: middle
 }
@@ -4786,7 +4834,7 @@ select {
 .multi-table-h {
   float: left;
   padding-left: 20px;
-  font-size: 14px;
+  font-size: var(--fs-14px);
   font-weight: 400;
   box-sizing: border-box
 }
@@ -4824,7 +4872,7 @@ select {
 }
 
 .multi-table td,.multi-table th {
-  font-size: 14px;
+  font-size: var(--fs-14px);
   text-align: right;
   font-weight: 400;
   border-top: 1px solid #ccc;
@@ -4857,8 +4905,7 @@ select {
 
 .multi-table-wrap {
   border-bottom: 1px solid #ccc;
-  font-size: 14px
-}
+  font-size: var(--fs-14px)}
 
 .multi-table-body,.multi-table-header {
   border-left: 1px solid #ccc;
@@ -4914,7 +4961,7 @@ select {
 }
 
 .list-table thead th {
-  font-size: 14px;
+  font-size: var(--fs-14px);
   text-align: center
 }
 
@@ -4934,13 +4981,11 @@ select {
       padding: 9px 20px;
       color: #fff;
       background: #666;
-      font-size: 14px
-  }
+      font-size: var(--fs-14px)}
 
   .list-table td {
       padding: 20px;
-      font-size: 16px
-  }
+      font-size: var(--fs-16px)}
 
   .list-table td .label {
       display: none
@@ -4999,7 +5044,7 @@ select {
 .notification {
   text-align: center;
   color: #fff;
-  font-size: 16px;
+  font-size: var(--fs-16px);
   line-height: 1.8
 }
 
@@ -5037,14 +5082,13 @@ select {
 .notification-inner .icon {
   width: 50px;
   height: 50px;
-  font-size: 75px;
+  font-size: var(--fs-75px);
   line-height: 1;
   vertical-align: middle
 }
 
 .notification-inner .icon-close {
-  font-size: 20px
-}
+  font-size: var(--fs-20px)}
 
 .notification-inner .btn-close {
   position: absolute;
@@ -5092,7 +5136,7 @@ select {
   position: relative;
   z-index: 10;
   color: #222;
-  font-size: 16px;
+  font-size: var(--fs-16px);
   text-align: left;
   vertical-align: middle;
   cursor: pointer;
@@ -5215,7 +5259,7 @@ select {
   top: 50%;
   z-index: 1;
   margin-top: -5px;
-  font-size: 15px;
+  font-size: var(--fs-15px);
   color: inherit;
   line-height: 1
 }
@@ -5304,7 +5348,7 @@ select {
       padding: 4px 40px 4px 20px;
       color: #444;
       border: 2px solid #222;
-      font-size: 15px;
+      font-size: var(--fs-15px);
       line-height: 1.1;
       font-weight: 400;
       text-align: left;
@@ -5351,7 +5395,7 @@ select {
       border: 2px solid #0464b3;
       background-color: #fff;
       color: #707070;
-      font-size: 15px;
+      font-size: var(--fs-15px);
       outline: 0;
       margin-top: -2px
   }
@@ -5411,7 +5455,7 @@ select {
   position: relative;
   display: block;
   margin: 10px 0;
-  font-size: 16px;
+  font-size: var(--fs-16px);
   line-height: 21px
 }
 
@@ -5674,7 +5718,7 @@ select {
       padding: 20px 2px;
       border-bottom: 4px solid transparent;
       color: #999;
-      font-size: 16px;
+      font-size: var(--fs-16px);
       line-height: 1.3;
       text-decoration: none
   }
@@ -5923,21 +5967,21 @@ select {
 }
 
 .carousel .slide-h {
-  font-size: 16px;
+  font-size: var(--fs-16px);
   font-weight: 500;
   line-height: 1.4;
   margin-bottom: 15px
 }
 
 .carousel .slide-sub {
-  font-size: 1.4em;
+  font-size: var(--fs-1_4em);
   font-weight: 400;
   color: #5b6a7e;
   margin-bottom: 5px
 }
 
 .carousel .slide-desc {
-  font-size: 1.3em;
+  font-size: var(--fs-1_3em);
   line-height: 1.7;
   margin: 0
 }
@@ -5971,8 +6015,7 @@ select {
 
 .carousel .slide-desc button {
   padding: 0;
-  font-size: 14px
-}
+  font-size: var(--fs-14px)}
 
 @media (min-width: 37.5em) {
   .carousel .slick-arrow {
@@ -6000,8 +6043,7 @@ select {
 
 @media (min-width: 48em) {
   .carousel .slide-h {
-      font-size:18px
-  }
+      font-size: var(--fs-18px)}
 }
 
 @media (min-width: 70em) {
@@ -6023,7 +6065,7 @@ select {
   }
 
   .carousel .slide-desc {
-      font-size: 1.6em;
+      font-size: var(--fs-1_6em);
       line-height: 1.6
   }
 
@@ -6100,7 +6142,7 @@ select {
 }
 
 .carousel-half .slide-h {
-  font-size: 1.6em;
+  font-size: var(--fs-1_6em);
   line-height: 1.4;
   font-weight: 500;
   margin-bottom: 10px
@@ -6108,14 +6150,14 @@ select {
 
 .carousel-half .slide-sub {
   display: inline-block;
-  font-size: 1.4em;
+  font-size: var(--fs-1_4em);
   font-weight: 400;
   color: #5b6a7e;
   margin-bottom: 10px
 }
 
 .carousel-half .slide-desc {
-  font-size: 1.3em;
+  font-size: var(--fs-1_3em);
   line-height: 1.6
 }
 
@@ -6198,13 +6240,12 @@ select {
   }
 
   .carousel-half .slide-h {
-      font-size: 1.8em;
+      font-size: var(--fs-1_8em);
       margin-bottom: 20px
   }
 
   .carousel-half .slide-desc {
-      font-size: 1.6em
-  }
+      font-size: var(--fs-1_6em)}
 }
 
 @media (min-width: 80em) {
@@ -6247,17 +6288,16 @@ select {
 
 .carousel-history .slide-year {
   color: #005295;
-  font-size: 4em;
+  font-size: var(--fs-4em);
   line-height: 1
 }
 
 .carousel-history .slide-cont {
-  font-size: 1.5em
-}
+  font-size: var(--fs-1_5em)}
 
 .carousel-history .slide-h {
   color: #222;
-  font-size: 1.5em;
+  font-size: var(--fs-1_5em);
   line-height: 1.3
 }
 
@@ -6305,12 +6345,11 @@ select {
       width: 18.75%;
       margin-left: 6.25%;
       margin-right: 6.25%;
-      font-size: 6.4em
-  }
+      font-size: var(--fs-6_4em)}
 
   .carousel-history .slide-cont {
       float: left;
-      font-size: 1.6em;
+      font-size: var(--fs-1_6em);
       width: 62.5%;
       margin-top: 0;
       margin-right: 6.25%
@@ -6407,8 +6446,7 @@ select {
       left: 0;
       right: 0;
       top: 0;
-      font-size: 1.4em
-  }
+      font-size: var(--fs-1_4em)}
 
   .carousel-history .slider-pager-btn:hover {
       outline: 0
@@ -6478,27 +6516,27 @@ select {
   z-index: 2;
   color: #fff;
   line-height: 1;
-  font-size: 50px;
+  font-size: var(--fs-50px);
   margin: -27px 0 0 -25px
 }
 
 @media (min-width: 37.5em) {
   .player .icon,.yt-player .icon {
-      font-size:60px;
+      font-size: var(--fs-60px);
       margin: -32px 0 0 -30px
   }
 }
 
 @media (min-width: 48em) {
   .player .icon,.yt-player .icon {
-      font-size:75px;
+      font-size: var(--fs-75px);
       margin: -40px 0 0 -38px
   }
 }
 
 @media (min-width: 70em) {
   .player .icon,.yt-player .icon {
-      font-size:90px;
+      font-size: var(--fs-90px);
       margin: -47px 0 0 -45px
   }
 }
@@ -6675,8 +6713,7 @@ select {
   top: -1.6em;
   width: 50%;
   margin-top: 30%;
-  font-size: 13px
-}
+  font-size: var(--fs-13px)}
 
 .round-item--top+.round-item {
   clear: left
@@ -6748,8 +6785,7 @@ select {
   left: 5%;
   width: 90%;
   height: 100%;
-  font-size: 12px
-}
+  font-size: var(--fs-12px)}
 
 .round-border-cell {
   display: inline-block;
@@ -6768,8 +6804,7 @@ select {
   left: 50%;
   width: 100px;
   margin: -40px 0 0 -50px;
-  font-size: 11px
-}
+  font-size: var(--fs-11px)}
 
 .round--both {
   margin: 0
@@ -6790,14 +6825,12 @@ select {
   }
 
   .round-border {
-      font-size: 16px
-  }
+      font-size: var(--fs-16px)}
 
   .round-title {
       width: 200px;
       margin: -25px 0 0 -100px;
-      font-size: 14px
-  }
+      font-size: var(--fs-14px)}
 }
 
 @media (min-width: 48em) {
@@ -6817,8 +6850,7 @@ select {
   }
 
   .round-border {
-      font-size: 20px
-  }
+      font-size: var(--fs-20px)}
 
   .round--both {
       margin-top: -200px;
@@ -6830,8 +6862,7 @@ select {
   }
 
   .round--both .round-item .round-border {
-      font-size: 19px
-  }
+      font-size: var(--fs-19px)}
 }
 
 /*! jQuery UI - v1.11.4 - 2016-02-11
@@ -6882,7 +6913,7 @@ select {
   outline: 0;
   line-height: 1.3;
   text-decoration: none;
-  font-size: 100%;
+  font-size: var(--fs-100pct);
   list-style: none
 }
 
@@ -6920,7 +6951,7 @@ select {
   height: 300px;
   padding: 0;
   background-color: #fff;
-  font-size: 14px;
+  font-size: var(--fs-14px);
   letter-spacing: 0;
   border: 1px solid #ccc
 }
@@ -6984,7 +7015,7 @@ select {
   text-indent: 0;
   text-decoration: inherit;
   font-variant: normal;
-  font-size: 14px;
+  font-size: var(--fs-14px);
   line-height: 30px;
   text-transform: none;
   -webkit-font-smoothing: antialiased;
@@ -7043,15 +7074,14 @@ select {
 
 .ui-datepicker .ui-datepicker-title {
   color: #222;
-  font-size: 20px;
+  font-size: var(--fs-20px);
   line-height: 1.6;
   text-align: center
 }
 
 @media (min-width: 70em) {
   .ui-datepicker .ui-datepicker-title {
-      font-size:18px
-  }
+      font-size: var(--fs-18px)}
 }
 
 .ui-datepicker .ui-datepicker-title span.ui-datepicker-year:after {
@@ -7059,7 +7089,7 @@ select {
 }
 
 .ui-datepicker .ui-datepicker-title select {
-  font-size: 1em;
+  font-size: var(--fs-1em);
   margin: 1px 0
 }
 
@@ -7070,8 +7100,7 @@ select {
 .ui-datepicker table {
   width: 250px;
   margin: 0 auto;
-  font-size: 1em
-}
+  font-size: var(--fs-1em)}
 
 .ui-datepicker td,.ui-datepicker th {
   padding: 1px 2px;
@@ -7080,7 +7109,7 @@ select {
 
 .ui-datepicker th {
   color: #687687;
-  font-size: 14px;
+  font-size: var(--fs-14px);
   font-weight: 400;
   text-transform: uppercase
 }
@@ -7091,8 +7120,7 @@ select {
 }
 
 .ui-datepicker td {
-  font-size: 14px
-}
+  font-size: var(--fs-14px)}
 
 .ui-datepicker td a,.ui-datepicker td span {
   display: block;
@@ -7160,8 +7188,7 @@ select {
 .ui-datepicker-row-break {
   clear: both;
   width: 100%;
-  font-size: 0
-}
+  font-size: var(--fs-0)}
 
 .ui-datepicker-current-day .ui-state-default {
   background-color: #0464b3;
@@ -7216,8 +7243,7 @@ select {
 
 .cover-deco {
   position: relative;
-  font-size: 16px
-}
+  font-size: var(--fs-16px)}
 
 .cover-deco:after,.cover-deco:before {
   content: '';
@@ -7241,14 +7267,14 @@ select {
 
 .cover-h {
   text-align: center;
-  font-size: 4.2em;
+  font-size: var(--fs-4_2em);
   -webkit-text-shadow: 0 0 50px rgba(0,0,0,.5);
   -moz-text-shadow: 0 0 50px rgba(0,0,0,.5);
   text-shadow: 0 0 50px rgba(0,0,0,.5)
 }
 
 .cover-desc {
-  font-size: 1.5em;
+  font-size: var(--fs-1_5em);
   white-space: normal;
   margin-top: 1em;
   text-align: center;
@@ -7271,8 +7297,7 @@ select {
 }
 
 .brands-header .cover .cover-h {
-  font-size: 0
-}
+  font-size: var(--fs-0)}
 
 .brands-header .cover .cover-h img {
   max-width: 90%
@@ -7280,19 +7305,17 @@ select {
 
 @media (min-width: 48em) {
   .cover-deco {
-      font-size:18px
-  }
+      font-size: var(--fs-18px)}
 
   .cover-deco:after,.cover-deco:before {
       width: 80px
   }
 
   .cover-h {
-      font-size: 6.8em
-  }
+      font-size: var(--fs-6_8em)}
 
   .cover-desc {
-      font-size: 1.8em;
+      font-size: var(--fs-1_8em);
       padding: 0 4.16667%
   }
 
@@ -7321,13 +7344,13 @@ select {
 
 .overview-header .h {
   color: #222;
-  font-size: 1.6em;
+  font-size: var(--fs-1_6em);
   line-height: 1.2;
   text-align: center
 }
 
 .overview-article {
-  font-size: 1.5em;
+  font-size: var(--fs-1_5em);
   letter-spacing: -.03em
 }
 
@@ -7345,16 +7368,14 @@ select {
 }
 
 .overview-section {
-  font-size: 1.5em
-}
+  font-size: var(--fs-1_5em)}
 
 .overview-section .thumb {
   margin-bottom: 4.29688%
 }
 
 .overview-section .thumb-h {
-  font-size: 1.2em
-}
+  font-size: var(--fs-1_2em)}
 
 .overview-section .thumb-hover {
   margin: 25px 0 60px
@@ -7447,8 +7468,7 @@ select {
 .overview-info .h2 {
   color: #222;
   line-height: 1.2;
-  font-size: 22px
-}
+  font-size: var(--fs-22px)}
 
 .overview-cover .overview-info .h2 {
   color: #fff
@@ -7525,11 +7545,10 @@ select {
 
 @media (min-width: 48em) {
   .overview-section {
-      font-size:1.6em
-  }
+      font-size: var(--fs-1_6em)}
 
   .overview-section .thumb-h {
-      font-size: 1.75em;
+      font-size: var(--fs-1_75em);
       line-height: 1.4
   }
 
@@ -7545,8 +7564,7 @@ select {
 
   .overview-header .h {
       margin-bottom: .6em;
-      font-size: 2em
-  }
+      font-size: var(--fs-2em)}
 
   .overview-header .h br {
       display: none
@@ -7557,8 +7575,7 @@ select {
   }
 
   .overview-article {
-      font-size: 1.6em
-  }
+      font-size: var(--fs-1_6em)}
 
   .overview-achieve {
       padding: 3.125em 3em 1.875em
@@ -7609,8 +7626,7 @@ select {
   color: #222;
   text-align: center;
   margin-bottom: .8em;
-  font-size: 1.4em
-}
+  font-size: var(--fs-1_4em)}
 
 .section-banner-box {
   text-align: center
@@ -7647,8 +7663,7 @@ select {
   }
 
   .section-banner h2 {
-      font-size: 1.75em
-  }
+      font-size: var(--fs-1_75em)}
 
   .section-banner-box .item {
       padding: 3em 0
@@ -7702,7 +7717,7 @@ select {
   top: 0;
   right: 10px;
   color: #005295;
-  font-size: 2.66667em;
+  font-size: var(--fs-2_66667em);
   line-height: 1.2;
   text-align: right
 }
@@ -7721,8 +7736,7 @@ select {
   padding: 6px 5px;
   border-top: 2px solid #444;
   color: #5b6a7e;
-  font-size: .86667em
-}
+  font-size: var(--fs-_86667em)}
 
 .cssanimations .achieve-item .h2 {
   position: relative;
@@ -7758,14 +7772,13 @@ select {
 
 .achieve-note {
   display: inline-block;
-  font-size: .86667em;
+  font-size: var(--fs-_86667em);
   margin-top: 2.66667em;
   color: #707070
 }
 
 .achieve .unit {
-  font-size: .5em
-}
+  font-size: var(--fs-_5em)}
 
 .row-wrap .achieve .unit {
   display: block
@@ -7813,8 +7826,7 @@ select {
 
 @media (min-width: 70em) {
   .achieve {
-      font-size:2.625em
-  }
+      font-size: var(--fs-2_625em)}
 
   .achieve-list {
       margin-left: -30px
@@ -7830,16 +7842,14 @@ select {
 
   .achieve-item .h2 {
       padding: 15px;
-      font-size: .875em
-  }
+      font-size: var(--fs-_875em)}
 
   .row-wrap .achieve-item {
       padding-top: 6.25em
   }
 
   .achieve-note {
-      font-size: .875em
-  }
+      font-size: var(--fs-_875em)}
 }
 
 .content-header {
@@ -7895,7 +7905,7 @@ select {
 
 .content-header.is-merged .h {
   font-weight: 700;
-  font-size: 3.8em;
+  font-size: var(--fs-3_8em);
   -webkit-text-shadow: 0 0 50px rgba(0,0,0,.5);
   -moz-text-shadow: 0 0 50px rgba(0,0,0,.5);
   text-shadow: 0 0 50px rgba(0,0,0,.5)
@@ -7912,7 +7922,7 @@ select {
 
 .content-header.is-merged .p {
   color: #f5f5f5;
-  font-size: 1.5em;
+  font-size: var(--fs-1_5em);
   margin-top: 2em;
   -webkit-text-shadow: 0 0 50px rgba(0,0,0,.1);
   -moz-text-shadow: 0 0 50px rgba(0,0,0,.1);
@@ -7925,7 +7935,7 @@ select {
 
 .content-header .sub {
   overflow: hidden;
-  font-size: 1.6em;
+  font-size: var(--fs-1_6em);
   line-height: 1.2;
   text-align: center;
   color: #687687;
@@ -7965,7 +7975,7 @@ select {
 
 .content-header .h {
   color: #222;
-  font-size: 2.6em;
+  font-size: var(--fs-2_6em);
   line-height: 1.2;
   text-align: center
 }
@@ -7997,12 +8007,10 @@ select {
   }
 
   .content-header .sub {
-      font-size: 1.8em
-  }
+      font-size: var(--fs-1_8em)}
 
   .content-header .h {
-      font-size: 4.6em
-  }
+      font-size: var(--fs-4_6em)}
 
   .content-header .h br {
       display: block
@@ -8046,12 +8054,10 @@ select {
   }
 
   .content-header.is-merged .h {
-      font-size: 5.2em
-  }
+      font-size: var(--fs-5_2em)}
 
   .content-header.is-merged .p {
-      font-size: 1.8em
-  }
+      font-size: var(--fs-1_8em)}
 
   .content-header.is-merged .p br {
       display: block
@@ -8063,13 +8069,13 @@ select {
 }
 
 .detail-head h2 {
-  font-size: 2em;
+  font-size: var(--fs-2em);
   color: #222
 }
 
 .detail-head .date {
   display: inline-block;
-  font-size: 1.4em;
+  font-size: var(--fs-1_4em);
   color: #707070;
   padding-top: 10px
 }
@@ -8081,7 +8087,7 @@ select {
 }
 
 .detail-head .sub {
-  font-size: 1.6em;
+  font-size: var(--fs-1_6em);
   margin-top: 30px
 }
 
@@ -8103,16 +8109,14 @@ select {
   }
 
   .detail-head h2 {
-      font-size: 2.6em
-  }
+      font-size: var(--fs-2_6em)}
 
   .detail-head .sub {
-      font-size: 1.8em
-  }
+      font-size: var(--fs-1_8em)}
 }
 
 .detail-contents {
-  zoom:1;font-size: 1.5em;
+  zoom:1;font-size: var(--fs-1_5em);
   margin-bottom: 30px
 }
 
@@ -8128,18 +8132,17 @@ select {
 }
 
 .detail-contents .h1 {
-  font-size: 1.33333em;
+  font-size: var(--fs-1_33333em);
   line-height: 1.2;
   text-align: center;
   margin-bottom: 20px
 }
 
 .detail-contents .h1--en {
-  font-size: 1.6em
-}
+  font-size: var(--fs-1_6em)}
 
 .detail-contents .h2 {
-  font-size: 1.06667em;
+  font-size: var(--fs-1_06667em);
   margin-top: 2em;
   margin-bottom: 1em;
   text-align: left
@@ -8239,7 +8242,7 @@ select {
   vertical-align: middle;
   white-space: normal;
   color: #2C0A3E;
-  font-size: 18px;
+  font-size: var(--fs-18px);
   text-align: center
 }
 
@@ -8277,8 +8280,7 @@ select {
 
 @media (min-width: 37.5em) {
   .detail-contents .banner-txt-cell {
-      font-size:24px
-  }
+      font-size: var(--fs-24px)}
 
   .detail-contents .banner-txt .mark {
       width: 55px
@@ -8287,21 +8289,20 @@ select {
 
 @media (min-width: 48em) {
   .detail-contents {
-      font-size:1.6em;
+      font-size: var(--fs-1_6em);
       margin-bottom: 80px
   }
 
   .detail-contents .h1 {
-      font-size: 1.625em;
+      font-size: var(--fs-1_625em);
       margin-bottom: 40px
   }
 
   .detail-contents .h1--en {
-      font-size: 2em
-  }
+      font-size: var(--fs-2em)}
 
   .detail-contents .h2 {
-      font-size: 1.125em;
+      font-size: var(--fs-1_125em);
       margin-top: 3em
   }
 
@@ -8326,8 +8327,7 @@ select {
   }
 
   .detail-contents .banner-txt-cell {
-      font-size: 30px
-  }
+      font-size: var(--fs-30px)}
 
   .detail-contents .banner-txt .mark {
       width: auto
@@ -8345,7 +8345,7 @@ select {
 }
 
 .post {
-  font-size: 1.6em;
+  font-size: var(--fs-1_6em);
   padding-bottom: 60px
 }
 
@@ -8358,7 +8358,7 @@ select {
 }
 
 .post-header .h {
-  font-size: 1.25em;
+  font-size: var(--fs-1_25em);
   color: #222;
   letter-spacing: -.03em;
   font-weight: 500
@@ -8399,8 +8399,7 @@ select {
   }
 
   .post-header .h {
-      font-size: 1.625em
-  }
+      font-size: var(--fs-1_625em)}
 
   .post-header .more {
       position: absolute;
@@ -8450,15 +8449,14 @@ select {
 }
 
 .product-list .item-h {
-  font-size: 1.06667em;
+  font-size: var(--fs-1_06667em);
   color: #222;
   font-weight: 500
 }
 
 .product-list .item p {
   margin: 10px 0 0;
-  font-size: .9em
-}
+  font-size: var(--fs-_9em)}
 
 @media (min-width: 37.5em) {
   .product-list {
@@ -8497,8 +8495,7 @@ select {
 
 @media (min-width: 48em) {
   .product-list .item-h {
-      font-size:1.125em
-  }
+      font-size: var(--fs-1_125em)}
 }
 
 @media (min-width: 70em) {
@@ -8525,7 +8522,7 @@ select {
 
 .ascend-list .item-h {
   color: #fff;
-  font-size: 1.375em;
+  font-size: var(--fs-1_375em);
   padding: 20px;
   margin: -1px -1px 0;
   letter-spacing: -.03em
@@ -8533,7 +8530,7 @@ select {
 
 .ascend-list .item-sub {
   color: #222;
-  font-size: 1.0625em;
+  font-size: var(--fs-1_0625em);
   padding: 20px;
   background-color: #f5f5f5;
   font-weight: 500
@@ -8608,14 +8605,13 @@ select {
 
 .different-box .item-h {
   color: #222;
-  font-size: 16px;
+  font-size: var(--fs-16px);
   letter-spacing: -.03em;
   font-weight: 500
 }
 
 .different-box .item p {
-  font-size: .9em
-}
+  font-size: var(--fs-_9em)}
 
 @media (min-width: 48em) {
   .different-box {
@@ -8636,8 +8632,7 @@ select {
   }
 
   .different-box .item-h {
-      font-size: 18px
-  }
+      font-size: var(--fs-18px)}
 }
 
 .rseries-list {
@@ -8651,7 +8646,7 @@ select {
 
 .rseries-list .item-h {
   color: #005295;
-  font-size: 1.4em;
+  font-size: var(--fs-1_4em);
   line-height: 1.4;
   font-family: Buri,serif;
   margin-bottom: .2em
@@ -8659,12 +8654,11 @@ select {
 
 .rseries-list .item-h span {
   display: block;
-  font-size: .75em
-}
+  font-size: var(--fs-_75em)}
 
 .rseries-list .item-p {
   color: #222;
-  font-size: 1.2em;
+  font-size: var(--fs-1_2em);
   font-weight: 500;
   margin: 1em 0 .5em
 }
@@ -8703,8 +8697,7 @@ select {
   }
 
   .rseries-list .item-h {
-      font-size: 1.73333em
-  }
+      font-size: var(--fs-1_73333em)}
 }
 
 .accordion-list .item,.board-list .item {
@@ -8716,8 +8709,7 @@ select {
 }
 
 .board-list {
-  font-size: 1.4em
-}
+  font-size: var(--fs-1_4em)}
 
 .board-list .item {
   zoom:1;padding: 10px 0
@@ -8745,7 +8737,7 @@ select {
 
 .board-list .item-title {
   display: block;
-  font-size: 1.3em;
+  font-size: var(--fs-1_3em);
   margin: 10px 0;
   letter-spacing: -.03em
 }
@@ -8834,8 +8826,7 @@ select {
 }
 
 .accordion-list {
-  font-size: 1.6em
-}
+  font-size: var(--fs-1_6em)}
 
 .accordion-list .item-q {
   position: relative;
@@ -8865,8 +8856,7 @@ select {
   top: 50%;
   left: 0;
   margin-top: -10px;
-  font-size: .85em
-}
+  font-size: var(--fs-_85em)}
 
 .accordion-list .item-category {
   color: #666;
@@ -8878,7 +8868,7 @@ select {
 .accordion-list .item-p {
   color: #222;
   display: inline-block;
-  font-size: 18px;
+  font-size: var(--fs-18px);
   margin: 0
 }
 
@@ -8920,8 +8910,7 @@ select {
 }
 
 .accordion-list.faq .item-q {
-  font-size: 1.05882em
-}
+  font-size: var(--fs-1_05882em)}
 
 @media (min-width: 70em) {
   .accordion-list.govern-bod .l-narrow {
@@ -8989,7 +8978,7 @@ select {
 
 .news-list {
   zoom:1;position: relative;
-  font-size: 1.5em;
+  font-size: var(--fs-1_5em);
   line-height: 1.4
 }
 
@@ -9021,7 +9010,7 @@ select {
 }
 
 .news-list .thumb .h {
-  font-size: 16px;
+  font-size: var(--fs-16px);
   word-break: keep-all;
   word-wrap: break-word;
   letter-spacing: -.03em;
@@ -9038,7 +9027,7 @@ select {
 }
 
 .news-list .thumb .date {
-  font-size: .95em;
+  font-size: var(--fs-_95em);
   color: #707070
 }
 
@@ -9104,7 +9093,7 @@ select {
   }
 
   .news-list .thumb .h {
-      font-size: 18px;
+      font-size: var(--fs-18px);
       height: 52px
   }
 
@@ -9236,44 +9225,38 @@ select {
 
 .sitemap .h {
   font-family: Buri,serif;
-  font-size: 1.84615em
-}
+  font-size: var(--fs-1_84615em)}
 
 @media (min-width: 48em) {
   .sitemap .h {
-      font-size:2.46154em
-  }
+      font-size: var(--fs-2_46154em)}
 }
 
 .misc-title {
   margin: 15px 0 20px;
-  font-size: 1.5em
-}
+  font-size: var(--fs-1_5em)}
 
 .misc-notice {
   display: inline-block;
   margin-top: 25px;
-  font-size: 14px;
+  font-size: var(--fs-14px);
   color: #666
 }
 
 @media (max-width: 47.99em) {
   .misc-notice {
-      font-size:12px
-  }
+      font-size: var(--fs-12px)}
 }
 
 .misc-table {
   border: 1px solid #ccc;
   margin: 0;
-  font-size: 14px
-}
+  font-size: var(--fs-14px)}
 
 @media (max-width: 47.99em) {
   .misc-table {
       padding:10px;
-      font-size: 12px
-  }
+      font-size: var(--fs-12px)}
 
   .misc-table thead th {
       display: none
@@ -9286,7 +9269,7 @@ select {
 
   .misc-table tbody th {
       position: relative;
-      font-size: 1.2em;
+      font-size: var(--fs-1_2em);
       font-weight: 500;
       padding: 5px 0 10px
   }
@@ -9341,8 +9324,7 @@ select {
   }
 
   .misc-table-title {
-      font-size: 20px
-  }
+      font-size: var(--fs-20px)}
 
   .misc-table thead th {
       padding: 12px 0;
@@ -9406,8 +9388,7 @@ select {
   top: 0;
   bottom: 0;
   right: 0;
-  font-size: 2.5em
-}
+  font-size: var(--fs-2_5em)}
 
 .search-section {
   margin-top: 60px;
@@ -9424,7 +9405,7 @@ select {
 
 .search-section .h2 {
   font-weight: 500;
-  font-size: 1.8em;
+  font-size: var(--fs-1_8em);
   margin-bottom: 15px
 }
 
@@ -9439,15 +9420,14 @@ select {
 }
 
 .search-section .item-line h3 {
-  font-size: 16px;
+  font-size: var(--fs-16px);
   font-weight: 500
 }
 
 .search-section .item-line p {
   color: #666;
   margin-bottom: 0;
-  font-size: 1.3em
-}
+  font-size: var(--fs-1_3em)}
 
 .search-section .item-line>a {
   display: block;
@@ -9475,7 +9455,7 @@ select {
   }
 
   .search-section .h2 {
-      font-size: 2.2em;
+      font-size: var(--fs-2_2em);
       margin-bottom: 20px
   }
 
@@ -9484,8 +9464,7 @@ select {
   }
 
   .search-section .item-line p {
-      font-size: 1.6em
-  }
+      font-size: var(--fs-1_6em)}
 
   .search-section .item-line .func {
       display: inline-block;
@@ -9517,8 +9496,7 @@ select {
   }
 
   .search-result {
-      font-size: 1.8em
-  }
+      font-size: var(--fs-1_8em)}
 
   .search-result span {
       color: #707070
@@ -9527,8 +9505,7 @@ select {
   .search-form-item input[type=search] {
       padding: 25px 85px 25px 30px;
       border-width: 7px;
-      font-size: 1.8em
-  }
+      font-size: var(--fs-1_8em)}
 
   .search-form-item .go-search {
       padding-left: 30px;
@@ -9540,8 +9517,7 @@ select {
   }
 
   .search-section .item h3 {
-      font-size: 18px
-  }
+      font-size: var(--fs-18px)}
 }
 
 .report-list:after,.report-list:before {
@@ -9574,7 +9550,7 @@ select {
 }
 
 .report-h {
-  font-size: 1.5em;
+  font-size: var(--fs-1_5em);
   margin-top: 20px;
   margin-bottom: 15px;
   line-height: 1.5;
@@ -9647,7 +9623,7 @@ select {
   }
 
   .report-h {
-      font-size: 1.8em;
+      font-size: var(--fs-1_8em);
       height: 55px
   }
 }
@@ -9661,14 +9637,13 @@ select {
 
 @media (min-width: 70em) {
   .guide-note {
-      font-size:.875em
-  }
+      font-size: var(--fs-_875em)}
 }
 
 .guide-note {
   padding: 20px 6.25% 0;
   margin-bottom: 20px;
-  font-size: .86667em;
+  font-size: var(--fs-_86667em);
   margin-top: 2.66667em;
   color: #444;
   display: inline-block;
@@ -9686,7 +9661,7 @@ select {
   top: 1px;
   width: 5px;
   height: 5px;
-  font-size: 10px;
+  font-size: var(--fs-10px);
   color: #707070
 }
 
@@ -9720,7 +9695,7 @@ select {
   position: absolute;
   left: 0;
   top: -6px;
-  font-size: 1.5em;
+  font-size: var(--fs-1_5em);
   content: "·";
   color: #929295
 }
@@ -9735,7 +9710,7 @@ select {
 }
 
 .thumb .thumb-list .date {
-  font-size: .95em;
+  font-size: var(--fs-_95em);
   color: #707070;
   display: block
 }
@@ -9772,7 +9747,7 @@ select {
 
 .accordion-list.year .item-a {
   padding-bottom: 30px;
-  font-size: 14px;
+  font-size: var(--fs-14px);
   background: #f9f9f9
 }
 
@@ -9832,8 +9807,7 @@ select {
 }
 
 .accordion-list.year .tit {
-  font-size: 14px
-}
+  font-size: var(--fs-14px)}
 
 .accordion-list.year .txt {
   position: relative;
@@ -9857,12 +9831,10 @@ select {
   }
 
   .accordion-list.year .line-table thead th {
-      font-size: 15px
-  }
+      font-size: var(--fs-15px)}
 
   .accordion-list.year .line-table tbody th {
-      font-size: 14px
-  }
+      font-size: var(--fs-14px)}
 }
 
 /* 오픈 이노베이션 180413  */
@@ -9900,7 +9872,7 @@ select {
   width: 10px;
   height: 22px;
   line-height: 1;
-  font-size: 21px;
+  font-size: var(--fs-21px);
   content: ">";
   transform: rotate(90deg)
 }
@@ -9959,7 +9931,7 @@ select {
 /*SUSTAINABILITY 2018-05-08*/
 .our-commitments .h {
   padding-bottom: 12px;
-  font-size: 1.4em;
+  font-size: var(--fs-1_4em);
   color: #fff
 }
 
@@ -9967,7 +9939,7 @@ select {
   padding: 3px 0;
   color: #fff;
   text-align: center;
-  font-size: 1.125em;
+  font-size: var(--fs-1_125em);
   border-top: 1px solid rgba(255, 255, 255, 0.3);
   background: rgba(34, 34, 34, 0.4)
 }
@@ -9991,12 +9963,10 @@ select {
 
 @media (min-width: 70em) {
   .our-commitments .h {
-      font-size:1.6em
-  }
+      font-size: var(--fs-1_6em)}
 
   .our-commitments .commitment-list {
-      font-size: 1.071em
-  }
+      font-size: var(--fs-1_071em)}
 
   .our-commitments .commitment-list li {
       margin: 0 5%
@@ -10010,14 +9980,14 @@ select {
 
 @media (min-width: 48em) {
   .our-commitments .h {
-      font-size:2em;
+      font-size: var(--fs-2em);
       border-bottom: 1px solid rgba(255, 255, 255, 0.3)
   }
 
   .our-commitments .commitment-list {
       margin-top: 25px;
       padding: 0;
-      font-size: 1em;
+      font-size: var(--fs-1em);
       border: 0;
       background: none
   }
@@ -10042,8 +10012,7 @@ select {
 
   .our-commitments .commitment-list {
       margin-top: 39px;
-      font-size: 1.25em
-  }
+      font-size: var(--fs-1_25em)}
 
   .our-commitments .commitment-list .pBr {
       display: block
@@ -10194,7 +10163,7 @@ select {
 
 .layer_popup .ip_scroll {
   width: 100%;
-  font-size: 13px;
+  font-size: var(--fs-13px);
   color: #444;
   box-sizing: border-box;
   overflow-y: auto;
@@ -10316,7 +10285,7 @@ select {
 .header-sns {
   display: inline-block;
   padding: 7px 0;
-  font-size: 0;
+  font-size: var(--fs-0);
   line-height: normal;
   vertical-align: top;
 }
@@ -10328,7 +10297,7 @@ select {
 
 .header-sns li .name {
   display: inline-block;
-  font-size: 14px;
+  font-size: var(--fs-22px);
   line-height: 1;
   font-weight: 400;
   color: #fff;
@@ -10471,8 +10440,7 @@ select {
   right: -10px;
   margin-top: -11px;
   color: inherit;
-  font-size: .8em
-}
+  font-size: var(--fs-_8em)}
 
 .header .search-a:before {
   position: static
@@ -10505,7 +10473,7 @@ select {
   font-weight: 500;
   width: 65%;
   word-break: keep-all;
-  font-size: 22px;
+  font-size: var(--fs-22px);
   z-index: 1
 }
 
@@ -10522,20 +10490,19 @@ select {
 }
 
 .overview-article.new .section-overview .title-area {
-  font-size: 15px;
+  font-size: var(--fs-15px);
   text-align: center;
   word-break: keep-all
 }
 
 .overview-article.new .section-overview .title-area h2 {
-  font-size: 36px;
+  font-size: var(--fs-60px);
   font-weight: bold;
   color: #222222
 }
 
 .overview-article.new .section-overview .title-area h2+sub-section-desc {
-  font-size: 18px
-}
+  font-size: var(--fs-18px)}
 
 .overview-article.new .section-overview .thumb-block .bg {
   background: linear-gradient(180deg, rgba(0, 0, 0, 0.001) 51%, rgba(0, 0, 0, 0) 36%, rgba(0, 0, 0, 0.6) 105%) no-repeat;
@@ -10559,8 +10526,7 @@ select {
 }
 
 .overview-article.new .section-overview .title-area h2 {
-  font-size: 28px
-}
+  font-size: var(--fs-48px)}
 
 .overview-article.new .thumb-hover p {
   margin-top: 25px;
@@ -10573,8 +10539,7 @@ select {
   }
 
   .overview-article.new .section-overview .title-area h2 {
-      font-size: 36px
-  }
+      font-size: var(--fs-60px)}
 }
 
 @media (min-width: 48em) {
@@ -10583,8 +10548,7 @@ select {
   }
 
   .overview-article.new .section-overview .title-area {
-      font-size: 18px
-  }
+      font-size: var(--fs-18px)}
 
   .overview-article.new .thumb-hover p {
       margin-top: 0
@@ -10688,7 +10652,7 @@ select {
 
 .gnb-draw.renew_gnb .d2_ls .tit {
   padding-bottom: 14px;
-  font-size: 1.125em;
+  font-size: var(--fs-1_125em);
   color: #222
 }
 
@@ -10710,7 +10674,7 @@ select {
 
 .gnb-draw.renew_gnb .d2cont_depth02 li a {
   padding-bottom: 14px;
-  font-size: 1.063em;
+  font-size: var(--fs-1_063em);
   color: #444
 }
 
@@ -10730,7 +10694,7 @@ select {
   padding-right: 15px;
   padding-bottom: 12px;
   width: 220px;
-  font-size: 1.125em;
+  font-size: var(--fs-1_125em);
   font-weight: 500;
   color: #ccc;
   cursor: default
@@ -10786,7 +10750,7 @@ select {
 
 .gnb-draw.renew_gnb .d2lswrap .tbl_ls li {
   float: left;
-  font-size: 0;
+  font-size: var(--fs-0);
   margin: -1px 0 0 -1px;
   width: 33%;
   height: 121px;
@@ -10794,7 +10758,7 @@ select {
   box-sizing: border-box
 }
 .gnb-draw.renew_gnb .d2lswrap .tbl_ls li:has(.all) {
-  font-size: 1em;
+  font-size: var(--fs-1em);
 }
 .gnb-draw.renew_gnb .d2lswrap .tbl_ls li a {
   position: relative;
@@ -10838,12 +10802,12 @@ select {
 
 .gnb-draw.renew_gnb .l-draw.INVESTORS .stock-h {
   margin-top: 0;
-  font-size: 1.125em;
+  font-size: var(--fs-1_125em);
 }
 
 .gnb-draw.renew_gnb .d2dep02_ls li a {
   padding-bottom: 13px;
-  font-size: 1.063em;
+  font-size: var(--fs-1_063em);
   color: #444
 }
 
@@ -10880,7 +10844,7 @@ select {
 .gnb-draw.renew_gnb .l-draw.Commitments .depth01 strong.gnb_title {
   display: block;
   padding-bottom: 19px;
-  font-size: 1.125em;
+  font-size: var(--fs-1_125em);
   color: #222;
 }
 
@@ -10986,7 +10950,7 @@ select {
 }
 
 .publications-new .post-header .h {
-  font-size: 18px;
+  font-size: var(--fs-18px);
   font-weight: 500;
   width: 71%;
 }
@@ -11065,22 +11029,21 @@ select {
 #nav li:nth-child(4) .d2-box .nav-dl dd:nth-child(2) .d3-box .nav-dl dd:last-child a{position:relative;}
 
 #nav .small-title {
-font-size: 12px;
+font-size: var(--fs-12px);
 font-weight: 700;
 margin-top: 23px;
 margin-bottom: 6px;
 padding-left: 4px;
 }
 #nav .small-title2 {
-font-size: 12px;
+font-size: var(--fs-12px);
 font-weight: 700;
 margin-top: 30px;
 margin-bottom: 6px;
 padding-left: 4px;
 }
 .sidenav .nav {
-font-size: 1.5em
-}
+font-size: var(--fs-1_5em)}
 #nav .icon-newwindow {
 display: inline-block;
 width: 14px;
@@ -11118,18 +11081,15 @@ pointer-events:all;
 .members .position {
   font-family: NanumSquareAc, sans-serif, 'Buri';
   font-weight: bold;
-  font-size: 2.6rem
-}
+  font-size: var(--fs-2_6rem)}
 .members .name {
   font-family: NanumSquareAc, sans-serif, 'Buri';
   font-weight: bold;
-  font-size: 2.4rem
-}
+  font-size: var(--fs-2_4rem)}
 .members .major {
   font-family: NanumSquareAc, sans-serif, 'Buri';
   font-weight: normal;
-  font-size: 2.0rem
-}
+  font-size: var(--fs-2_0rem)}
 .members .info{
   text-align: center;
 }
@@ -11137,7 +11097,7 @@ pointer-events:all;
 .title-area > .contact {
   text-align: center;
   font-weight: bold;
-  font-size: 2.5em;
+  font-size: var(--fs-2_5em);
 }
 
 .subpage-banner{
@@ -11173,7 +11133,7 @@ pointer-events:all;
   
 .title-area.connect-with-elka {
   font-family: NanumSquare, sans-serif;
-  font-size: xx-large;
+  font-size: var(--fs-xx_large);
   font-weight: 600;
   text-align: center;
 }
@@ -11186,7 +11146,7 @@ pointer-events:all;
 .material-symbols-outlined {
   font-variation-settings: 'wght' 200, 'opsz' 48; 
   transition: opacity 0.3s ease;
-  font-size: 48px;
+  font-size: var(--fs-48px);
 }
 
 .open-sidenav:hover .material-symbols-outlined,
