@@ -7865,6 +7865,10 @@ select {
   background-position: 50% 50%
 }
 
+body[data-page] .content-header-cover {
+  background-color: #ccc;
+}
+
 .is-merged .content-header-cover {
   height: 370px
 }
