@@ -84,7 +84,7 @@ define(['jquery', 'underscore', 'ua-parser-js', 'functions'], function($, _, UAP
         }
 
         // 터치 이벤트 미지원 시
-        if(!Modernizr.touchevents) {
+        if(!('ontouchstart' in window)) {
             return false;
         }
 

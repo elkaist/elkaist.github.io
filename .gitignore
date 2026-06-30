@@ -1,7 +1,10 @@
 .venv/
 
 tmp.py
+secu.pdf
 
 layout.html
 
 .gitmessage.txt
+
+WORK_SUMMARY.md

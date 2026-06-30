@@ -40,14 +40,14 @@
       content="https://elkaist.github.io/photos.html"
     />
 
-    <script>
-      document
-        .getElementById("canonical")
-        .setAttribute("href", window.location.href);
-      document
-        .getElementById("og:url")
-        .setAttribute("content", window.location.href);
-    </script>
+    <meta http-equiv="Content-Security-Policy"
+      content="default-src 'self';
+               script-src 'self';
+               style-src 'self' 'unsafe-inline' https://fonts.googleapis.com;
+               img-src 'self' data:;
+               font-src 'self' https://fonts.gstatic.com data:;
+               base-uri 'self';
+               form-action 'self';">
 
     <link rel="icon" type="image/png" href="./assets/img/black_favicon_20px.png">
     <link rel="shortcut icon" type="image/x-icon" href="./assets/img/favicon.ico">
@@ -56,7 +56,6 @@
       rel="stylesheet"
       href="./css/fonts.css"
       media="all"
-      onload="this.media='all'"
     />
     <!-- ./css/fonts.css -->
     <link
@@ -72,13 +71,11 @@
       rel="stylesheet"
       href="./css/swiper-bundle.min.css"
       media="all"
-      onload="this.media='all'"
     />
     <link
       rel="stylesheet"
       href="./css/global.css"
       media="all"
-      onload="this.media='all'"
     />
     <!-- <link
       rel="stylesheet"
@@ -102,41 +99,11 @@
       defer=""
     ></script>
     <!-- ./js/lib/jquery-1.11.2.min.js GA 태깅용 Jquery -->
-    <script
-      type="text/javascript"
-      src="./js/modernizr.custom.min.js"
-      defer=""
-    ></script>
-    <!-- ./js/lib/modernizr.custom.min.js -->
     <script src="./js/split-type"></script>
   </head>
 
   <body>
     <div id="bp"></div>
-
-    <script>
-      var mobileArr = new Array(
-        "iPhone",
-        "iPod",
-        "iPad",
-        "BlackBerry",
-        "Android",
-        "Windows CE",
-        "LG",
-        "MOT",
-        "SAMSUNG",
-        "SonyEricsson",
-      );
-      var mobileChk = "PC";
-
-      for (var mi in mobileArr) {
-        if (navigator.userAgent.match(mobileArr[mi]) != null) {
-          mobileChk = "MOBILE";
-        }
-      }
-
-      var dataLayer = dataLayer || [];
-    </script>
 
     <div id="wrap">
       <header id="header" class="header">

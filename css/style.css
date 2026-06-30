@@ -11157,3 +11157,92 @@ pointer-events:all;
 .open-sidenav .material-symbols-outlined {
   color: #ffffff;
 }
+
+/* About page styles */
+.about-section-spacing {
+  padding: 80px 0 10px;
+}
+
+.about-intro-text-center {
+  text-align: center;
+}
+
+.about-intro-text {
+  font-size: 2.5rem;
+  color: #222;
+  font-weight: 700;
+  line-height: 1.8;
+  word-break: keep-all;
+}
+
+.about-intro-highlight {
+  color: var(--elka-color);
+}
+
+.about-intro-divider {
+  width: 100%;
+  border: 0;
+  border-top: 1px solid #ddd;
+  margin: 40px 0;
+}
+
+.about-professor-card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+
+.about-professor-image-wrapper {
+  max-width: 240px;
+}
+
+.about-professor-image {
+  width: 100%;
+  border-radius: 4px;
+}
+
+.about-professor-label {
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+.about-professor-name {
+  font-size: 4.0rem;
+  color: var(--elka-color);
+  font-weight: 800;
+  margin-top: 15px;
+  line-height: 1.3;
+}
+
+.about-footer-margin {
+  margin-top: 1vh;
+}
+
+/* About page responsive styles */
+@media (min-width: 80em) {
+  .l-narrow {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
+@media screen and (max-width: 37.5em) {
+  .section-intro p {
+    font-size: 16px !important;
+    padding: 0 20px;
+  }
+
+  .about-professor-card {
+    flex-direction: column !important;
+    text-align: center;
+  }
+
+  .about-professor-image-wrapper {
+    margin: 0 auto 20px;
+  }
+
+  .about-professor-name {
+    font-size: 24px !important;
+  }
+}

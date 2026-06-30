@@ -40,14 +40,14 @@
       content="https://elkaist.github.io/about.html"
     />
 
-    <script>
-      document
-        .getElementById("canonical")
-        .setAttribute("href", window.location.href);
-      document
-        .getElementById("og:url")
-        .setAttribute("content", window.location.href);
-    </script>
+    <meta http-equiv="Content-Security-Policy"
+      content="default-src 'self';
+               script-src 'self';
+               style-src 'self' 'unsafe-inline' https://fonts.googleapis.com;
+               img-src 'self' data:;
+               font-src 'self' https://fonts.gstatic.com data:;
+               base-uri 'self';
+               form-action 'self';">
 
     <link rel="icon" type="image/png" href="./assets/img/black_favicon_20px.png">
     <link rel="shortcut icon" type="image/x-icon" href="./assets/img/favicon.ico">
@@ -56,7 +56,6 @@
       rel="stylesheet"
       href="./css/fonts.css"
       media="all"
-      onload="this.media='all'"
     />
     <!-- ./css/fonts.css -->
     <link
@@ -72,13 +71,11 @@
       rel="stylesheet"
       href="./css/swiper-bundle.min.css"
       media="all"
-      onload="this.media='all'"
     />
     <link
       rel="stylesheet"
       href="./css/global.css"
       media="all"
-      onload="this.media='all'"
     />
     <!-- <link
       rel="stylesheet"
@@ -102,41 +99,11 @@
       defer=""
     ></script>
     <!-- ./js/lib/jquery-1.11.2.min.js GA 태깅용 Jquery -->
-    <script
-      type="text/javascript"
-      src="./js/modernizr.custom.min.js"
-      defer=""
-    ></script>
-    <!-- ./js/lib/modernizr.custom.min.js -->
     <script src="./js/split-type"></script>
   </head>
 
   <body>
     <div id="bp"></div>
-
-    <script>
-      var mobileArr = new Array(
-        "iPhone",
-        "iPod",
-        "iPad",
-        "BlackBerry",
-        "Android",
-        "Windows CE",
-        "LG",
-        "MOT",
-        "SAMSUNG",
-        "SonyEricsson",
-      );
-      var mobileChk = "PC";
-
-      for (var mi in mobileArr) {
-        if (navigator.userAgent.match(mobileArr[mi]) != null) {
-          mobileChk = "MOBILE";
-        }
-      }
-
-      var dataLayer = dataLayer || [];
-    </script>
 
     <div id="wrap">
       <header id="header" class="header">
@@ -197,15 +164,15 @@
           <section class="section-overview">
             <h1 class="blind">응원단 소개 ABOUT</h1>
 
-            <div class="section section2" style="padding: 80px 0 10px;">
+            <div class="section section2 about-section-spacing">
               <div class="l-wrap">
-                <div class="l-wide" style="text-align: center;">
-                  <p style="font-size: 2.5rem; color: #222; font-weight: 700; line-height: 1.8; word-break: keep-all;">
-                    ELKA는 <span style="color: var(--elka-color);">Encouraging Leaders of KAIST</span>의 약자로,<br>
+                <div class="l-wide about-intro-text-center">
+                  <p class="about-intro-text">
+                    ELKA는 <span class="about-intro-highlight">Encouraging Leaders of KAIST</span>의 약자로,<br>
                     카이스트 사천 학우를 학교에 대한 사랑과 자부심으로 단결시키는<br>
                     카이스트의 공식 응원단입니다.
                   </p>
-                  <hr style="width: 100%; border: 0; border-top: 1px solid #ddd; margin: 40px 0;">
+                  <hr class="about-intro-divider">
                 </div>
               </div>
             </div>
@@ -213,19 +180,19 @@
             <div class="section section2">
               <div class="l-wrap">
                 <div class="l-wide">
-                  <div class="professor-card row" style="display: flex; align-items: center; justify-content: center; gap: 30px;">
-                    
-                    <div class="col-s-12 col-l-3" style="max-width: 240px;">
+                  <div class="professor-card row about-professor-card">
+
+                    <div class="col-s-12 col-l-3 about-professor-image-wrapper">
                       <div class="thumb-block">
                         <div class="thumb-img">
-                          <img src="./assets/img/members/professor.webp" alt="이도헌 교수님" style="width: 100%; border-radius: 4px;">
+                          <img src="./assets/img/members/professor.webp" alt="이도헌 교수님" class="about-professor-image">
                         </div>
                       </div>
                     </div>
 
                     <div class="col-s-12 col-l-5">
-                      <span style="font-size: 2.5rem; font-weight: 700;">지도교수님</span>
-                      <h2 style="font-size: 4.0rem; color: var(--elka-color); font-weight: 800; margin-top: 15px; line-height: 1.3;">
+                      <span class="about-professor-label">지도교수님</span>
+                      <h2 class="about-professor-name">
                         Doheon Lee (이도헌)
                       </h2>
                     </div>
@@ -238,7 +205,7 @@
         </article>
       </main>
 
-      <footer id="footer" class="footer" style="margin-top: 1vh;">
+      <footer id="footer" class="footer about-footer-margin">
         <div class="l-wrap">
           <a
             id="go-to-top"
@@ -339,35 +306,5 @@
       data-main="./main"
     ></script>
 
-    <style>
-      @media (min-width: 80em) {
-        .l-narrow {
-          margin-left: 0;
-          margin-right: 0;
-        }
-      }
-      @media screen and (max-width: 37.5em) {
-        .section-intro p {
-          font-size: 16px !important;
-          padding: 0 20px;
-        }
-        
-        .professor-card {
-          flex-direction: column !important;
-          text-align: center;
-        }
-        
-        .professor-card .col-l-3 {
-          margin: 0 auto 20px;
-        }
-        
-        .professor-card h2 {
-          font-size: 24px !important;
-        }
-      }
-      .overview-article.new .section-overview .section{
-        padding-top: 0;
-      }
-    </style>
   </body>
 </html>
