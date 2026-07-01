@@ -3,7 +3,7 @@
     "name": "입학식",
     "name_en": "Entrance Ceremony",
     "content": "KAIST에 새로 입학한 신입생들이 모두 모여 입학을 축하받는 자리입니다. ELKA의 활기찬 축하 공연을 통해 새내기들의 앞날을 응원합니다.",
-    "image": "assets/img/photos/event1.webp"
+    "image": "assets/img/photos/event_entrance.webp"
   },
   {
     "name": "새내기 응원대제전",
@@ -15,7 +15,7 @@
     "name": "석림태울제 (태울석림제)",
     "name_en": "Seoklim Taeul Festival (Taeul Seoklim Festival)",
     "content": "석림태울제(태울석림제)는 매년 봄 열리는 KAIST의 축제로, 다양한 동아리 공연과 부스, 연예인 공연 등이 진행됩니다.",
-    "image": "assets/img/photos/event3.webp"
+    "image": "assets/img/photos/event_taeul.webp"
   },
   {
     "name": "응원제",
